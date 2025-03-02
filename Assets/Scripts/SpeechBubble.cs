@@ -6,13 +6,16 @@ public class SpeechBubble : MonoBehaviour
     public TMP_Text speechBubbleText;
     public string dialogue;
     public float displayRate;
+    private float nextTick;
+    private int i;
 
-    private DialogueState currentState;
+    public DialogueState currentState;
+
 
     public enum DialogueState
     {
-        progress,
-        finished
+        PROGRESSING,
+        FINISHED
     }
 
     // Update is called once per frame
@@ -20,10 +23,23 @@ public class SpeechBubble : MonoBehaviour
     {
         switch (currentState)
         {
-            case DialogueState.progress:
+            case DialogueState.PROGRESSING:
+                if (i == dialogue.Length)
+                {
+                    currentState = DialogueState.FINISHED;
+                    break;
+                }
+
+                if (Time.time >= nextTick)
+                {
+                    speechBubbleText.text += dialogue[i];
+                    nextTick = Time.time + displayRate;
+                    i++;
+                }
+
                 Debug.Log("Progressing");
                 break;
-            case DialogueState.finished:
+            case DialogueState.FINISHED:
                 Debug.Log("Finished");
                 break;
         }
@@ -32,6 +48,6 @@ public class SpeechBubble : MonoBehaviour
     public void SkipDialogue()
     {
         speechBubbleText.text = dialogue;
-        currentState = DialogueState.finished;
+        currentState = DialogueState.FINISHED;
     }
 }
