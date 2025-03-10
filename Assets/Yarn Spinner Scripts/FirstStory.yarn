@@ -1,0 +1,9 @@
+﻿title: Start
+---
+Test Character: This is the test dialogue for character one
+Test Character: Are you in Unity?
+    -> Yes
+        Test Character: Correct
+    -> No
+        Test Character: What
+===
