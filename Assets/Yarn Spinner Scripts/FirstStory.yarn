@@ -1,9 +1,5 @@
 ﻿title: Start
 ---
-Test Character: This is the test dialogue for character one
-Test Character: Are you in Unity?
-    -> Yes
-        Test Character: Correct
-    -> No
-        Test Character: What
+Patient: This is the test dialogue for the Patient
+Patient: Are you in Unity?
 ===
