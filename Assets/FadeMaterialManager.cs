@@ -11,7 +11,7 @@ public class FadeMaterialManager : MonoBehaviour
     void Start()
     {
         _rawImage = GetComponent<RawImage>();
-        _renderMat = _rawImage.materialForRendering;
+        _renderMat = _rawImage.material;
     }
 
     public void FadeMaterialIn()

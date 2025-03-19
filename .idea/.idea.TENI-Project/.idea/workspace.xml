@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="2810c339-f8fc-40a9-bc37-b1f77b0a4750" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/Speech Bubbles for Yarn Spinner/Examples/2D Sidescroller/Dialogue/Sidescroller.yarn.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Speech Bubbles for Yarn Spinner/Examples/2D Sidescroller/Dialogue/Sidescroller.yarn.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/Speech Bubbles for Yarn Spinner/Examples/2D Sidescroller/Dialogue/SidescrollerProject.yarnproject.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Speech Bubbles for Yarn Spinner/Examples/2D Sidescroller/Dialogue/SidescrollerProject.yarnproject.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/Speech Bubbles for Yarn Spinner/Examples/3D Top-Down/Dialogue/3DTopDown.yarn.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Speech Bubbles for Yarn Spinner/Examples/3D Top-Down/Dialogue/3DTopDown.yarn.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/Speech Bubbles for Yarn Spinner/Examples/3D Top-Down/Dialogue/3DTopDown.yarnproject.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Speech Bubbles for Yarn Spinner/Examples/3D Top-Down/Dialogue/3DTopDown.yarnproject.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/YarnSpinner/Runtime/SampleRenderDetector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/YarnSpinner/Runtime/SampleRenderDetector.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TENI-Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TENI-Project/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FadeMaterialManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FadeMaterialManager.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,14 +24,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Animation-Imports&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "Animation-Imports",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.0.23f1\Editor\Unity.exe" />
@@ -80,7 +83,7 @@
       <option name="presentableId" value="Default" />
       <updated>1742408964365</updated>
       <workItem from="1742408966416" duration="188000" />
-      <workItem from="1742409371259" duration="345000" />
+      <workItem from="1742409371259" duration="1766000" />
     </task>
     <servers />
   </component>
