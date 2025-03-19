@@ -3,12 +3,26 @@ using UnityEngine.Audio;
 
 public class AudioManager : MonoBehaviour
 {
+    public static AudioManager instance;
+
     public AudioMixer audioMixer;
 
     public AudioMixerGroup[] audioMixerGroups {
         get
         {
             return audioMixer.FindMatchingGroups("Master");
+        }
+    }
+
+    private void Awake()
+    {
+        if (instance != null && instance != this)
+        {
+            Destroy(this);
+        }
+        else
+        {
+            instance = this;
         }
     }
 
