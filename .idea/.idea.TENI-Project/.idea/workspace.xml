@@ -5,36 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2810c339-f8fc-40a9-bc37-b1f77b0a4750" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TENI-Project/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TENI-Project/.idea/projectSettingsUpdater.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TENI-Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TENI-Project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Transitions/TransitionMat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Animations/Transitions/TransitionMat.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Waiting Room/IDLE/WaitingRoom_IDLE_0000.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Animations/Waiting Room/IDLE/WaitingRoom_IDLE_0000.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Waiting Room/IDLE/WaitingRoom_IDLE_0001.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Animations/Waiting Room/IDLE/WaitingRoom_IDLE_0001.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Waiting Room/IDLE/WaitingRoom_v2_0000.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Animations/Waiting Room/IDLE/WaitingRoom_v2_0000.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Waiting Room/IDLE/WaitingRoom_v2_0001.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Animations/Waiting Room/IDLE/WaitingRoom_v2_0001.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Waiting Room/LOOK/WaitingRoom_Look_0000.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Animations/Waiting Room/LOOK/WaitingRoom_Look_0000.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Waiting Room/LOOK/WaitingRoom_Look_0001.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Animations/Waiting Room/LOOK/WaitingRoom_Look_0001.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Waiting Room/LOOK/WaitingRoom_Look_0002.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Animations/Waiting Room/LOOK/WaitingRoom_Look_0002.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Waiting Room/LOOK/WaitingRoom_Look_0003.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Animations/Waiting Room/LOOK/WaitingRoom_Look_0003.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Waiting Room/LOOK/WaitingRoom_Look_0004.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Animations/Waiting Room/LOOK/WaitingRoom_Look_0004.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Waiting Room/LOOK/WaitingRoom_Look_0005.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Animations/Waiting Room/LOOK/WaitingRoom_Look_0005.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Waiting Room/LOOK/WaitingRoom_Look_0006.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Animations/Waiting Room/LOOK/WaitingRoom_Look_0006.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Waiting Room/LOOK/WaitingRoom_Look_0007.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Animations/Waiting Room/LOOK/WaitingRoom_Look_0007.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Waiting Room/LOOK/WaitingRoom_Look_0008.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Animations/Waiting Room/LOOK/WaitingRoom_Look_0008.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Waiting Room/LOOK/WaitingRoom_Look_0009.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Animations/Waiting Room/LOOK/WaitingRoom_Look_0009.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Waiting Room/LOOK/WaitingRoom_Look_0010.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Animations/Waiting Room/LOOK/WaitingRoom_Look_0010.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Waiting Room/LOOK/WaitingRoom_Look_0011.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Animations/Waiting Room/LOOK/WaitingRoom_Look_0011.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Waiting Room/LOOK/WaitingRoom_Look_0012.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Animations/Waiting Room/LOOK/WaitingRoom_Look_0012.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Waiting Room/LOOK/WaitingRoom_Look_0013.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Animations/Waiting Room/LOOK/WaitingRoom_Look_0013.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Waiting Room/LOOK/WaitingRoom_Look_0014.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Animations/Waiting Room/LOOK/WaitingRoom_Look_0014.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Fonts/BungeeHairline-Regular SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Fonts/BungeeHairline-Regular SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Fonts/OpenDyslexic-Regular SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Fonts/OpenDyslexic-Regular SDF.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/FadeMaterialManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FadeMaterialManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/Speech Bubbles for Yarn Spinner/Examples/2D Sidescroller/Fonts/AmaticSC-Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Speech Bubbles for Yarn Spinner/Examples/2D Sidescroller/Fonts/AmaticSC-Bold SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/Speech Bubbles for Yarn Spinner/Examples/2D Sidescroller/Fonts/EBGaramond-Medium SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Speech Bubbles for Yarn Spinner/Examples/2D Sidescroller/Fonts/EBGaramond-Medium SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/AnimationImport.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/AnimationImport.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI Toolkit/PanelSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI Toolkit/PanelSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/AnimationImport.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/AnimationImport.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Office.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Office.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +18,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/SceneChanger.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
@@ -119,7 +97,7 @@
       <updated>1742408964365</updated>
       <workItem from="1742408966416" duration="188000" />
       <workItem from="1742409371259" duration="1766000" />
-      <workItem from="1742826059256" duration="1425000" />
+      <workItem from="1742826059256" duration="3270000" />
     </task>
     <servers />
   </component>

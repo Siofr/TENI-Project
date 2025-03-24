@@ -8,11 +8,16 @@ public class FadeMaterialManager : MonoBehaviour
     private Material _renderMat;
     public float updateSpeed;
     public float delayBeforeFadeIn;
+    public bool fadeOutOnAwake;
 
     void Start()
     {
         _rawImage = GetComponent<RawImage>();
         _renderMat = _rawImage.material;
+        if (fadeOutOnAwake)
+        {
+            FadeMaterialOut();
+        }
     }
 
     public void FadeMaterialIn()
