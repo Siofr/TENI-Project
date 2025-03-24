@@ -7,6 +7,7 @@ public class FadeMaterialManager : MonoBehaviour
     private RawImage _rawImage;
     private Material _renderMat;
     public float updateSpeed;
+    public float delayBeforeFadeIn;
 
     void Start()
     {
@@ -16,7 +17,7 @@ public class FadeMaterialManager : MonoBehaviour
 
     public void FadeMaterialIn()
     {
-        StartCoroutine(FadeIn());
+        StartCoroutine(FadeIn(delayBeforeFadeIn));
     }
 
     public void FadeMaterialOut()
@@ -24,8 +25,10 @@ public class FadeMaterialManager : MonoBehaviour
         StartCoroutine(FadeOut());
     }
 
-    private IEnumerator FadeIn()
+    private IEnumerator FadeIn(float delayTime)
     {
+        yield return new WaitForSeconds(delayTime);
+        
         for (float i = 0f; i <= 1f; i += updateSpeed)
         {
             _renderMat.SetFloat("_Alpha", i);

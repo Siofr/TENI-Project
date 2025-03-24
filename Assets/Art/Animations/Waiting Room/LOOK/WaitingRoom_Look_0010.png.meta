@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      WaitingRoom_Look_0010_0: -2088997150933491619
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
