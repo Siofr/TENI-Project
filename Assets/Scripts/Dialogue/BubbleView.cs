@@ -16,6 +16,8 @@ public class BubbleView : DialogueViewBase
         GameObject newBubble = Instantiate(bubblePrefab, this.transform);
         BubbleObject newBubbleScript = newBubble.GetComponent<BubbleObject>();
 
+
+
         newBubbleScript.bubbleText.text = dialogueLine.Text.Text;
         onDialogueLineFinished();
     }
