@@ -91,7 +91,7 @@ PrefabInstance:
     - target: {fileID: 4251580279270557294, guid: e24bcf9ee65e241c394bd2e9e2012938, type: 3}
       propertyPath: m_fontAsset
       value: 
-      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+      objectReference: {fileID: 11400000, guid: fa112df044555124d800ee6b5ef1632f, type: 2}
     - target: {fileID: 4251580279270557294, guid: e24bcf9ee65e241c394bd2e9e2012938, type: 3}
       propertyPath: m_fontSizeBase
       value: 64
@@ -99,7 +99,7 @@ PrefabInstance:
     - target: {fileID: 4251580279270557294, guid: e24bcf9ee65e241c394bd2e9e2012938, type: 3}
       propertyPath: m_sharedMaterial
       value: 
-      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+      objectReference: {fileID: -2897107165107739865, guid: fa112df044555124d800ee6b5ef1632f, type: 2}
     - target: {fileID: 4251580279270557294, guid: e24bcf9ee65e241c394bd2e9e2012938, type: 3}
       propertyPath: m_hasFontAssetChanged
       value: 0
@@ -146,7 +146,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5883760576658661533, guid: e24bcf9ee65e241c394bd2e9e2012938, type: 3}
       propertyPath: pointInTime
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6338619140419686963, guid: e24bcf9ee65e241c394bd2e9e2012938, type: 3}
       propertyPath: m_Pivot.x
@@ -244,6 +244,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6756496052342188153, guid: e24bcf9ee65e241c394bd2e9e2012938, type: 3}
+      propertyPath: wibble
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7260786462009290414, guid: e24bcf9ee65e241c394bd2e9e2012938, type: 3}
       propertyPath: m_SizeDelta.x
       value: 0
@@ -254,15 +258,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7260786462009290414, guid: e24bcf9ee65e241c394bd2e9e2012938, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0
+      value: 0.9882075
       objectReference: {fileID: 0}
     - target: {fileID: 7260786462009290414, guid: e24bcf9ee65e241c394bd2e9e2012938, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0
+      value: 0.9882075
       objectReference: {fileID: 0}
     - target: {fileID: 7260786462009290414, guid: e24bcf9ee65e241c394bd2e9e2012938, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0
+      value: 0.9882075
       objectReference: {fileID: 0}
     - target: {fileID: 7556409973367715260, guid: e24bcf9ee65e241c394bd2e9e2012938, type: 3}
       propertyPath: m_Interactable
