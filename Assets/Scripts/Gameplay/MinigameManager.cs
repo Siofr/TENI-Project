@@ -6,6 +6,7 @@ public class MinigameManager : MonoBehaviour
 {
     public int vignetteCount;
     public int currentMinigameState;
+    public SceneHandler sceneHandler;
 
     public ObjectiveInteractable[] objectiveInteractables;
 
@@ -30,11 +31,11 @@ public class MinigameManager : MonoBehaviour
 
     private void Start()
     {
-        StartMinigame();
         foreach (Transform vignette in transform)
         {
             vignetteCount += 1;
         }
+        sceneHandler = GameObject.FindGameObjectWithTag("Manager").GetComponent<SceneHandler>();
     }
 
     public void StartMinigame()
@@ -53,6 +54,6 @@ public class MinigameManager : MonoBehaviour
     {
         transform.GetChild(currentMinigameState).gameObject.SetActive(false);
         currentMinigameState += 1;
-        StartMinigame();
+        sceneHandler.ChangeState(SceneHandler.GameState.DIALOGUE);
     }
 }
