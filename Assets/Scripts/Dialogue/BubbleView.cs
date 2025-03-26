@@ -16,9 +16,16 @@ public class BubbleView : DialogueViewBase
         GameObject newBubble = Instantiate(bubblePrefab, this.transform);
         BubbleObject newBubbleScript = newBubble.GetComponent<BubbleObject>();
 
+        StartCoroutine(PerformBubble());
 
+        IEnumerator PerformBubble()
+        {
+            yield return newBubbleScript.StartCoroutine(newBubbleScript.ShowText(dialogueLine.TextWithoutCharacterName.Text));
+        }
+    }
 
-        newBubbleScript.bubbleText.text = dialogueLine.Text.Text;
+    public override void InterruptLine(LocalizedLine dialogueLine, Action onDialogueLineFinished)
+    {
         onDialogueLineFinished();
     }
 }
