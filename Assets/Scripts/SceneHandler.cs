@@ -1,16 +1,19 @@
 using UnityEngine;
+using Yarn.Unity;
 using System.Collections;
 using System.Collections.Generic;
 
 public class SceneHandler : MonoBehaviour
 {
-    public GameObject vignetteContainer;
-    public FadeMaterialManager fadeMaterialManager;
+    public int currentVignetteNumber;
+    [SerializeField] private GameObject _vignetteContainer;
+    [SerializeField] private GameObject _dialogueUI;
+    [SerializeField] private Transform _bubbleContainer;
+    [SerializeField] private FadeMaterialManager _fadeMaterialManager;
     private MinigameManager _minigameManager;
     private int _chapterCount;
-    public int currentVignetteNumber;
 
-    public Camera mainCam;
+    private Camera _mainCam;
     public Transform dialogueCamera;
     public Transform vignetteCamera;
 
@@ -24,30 +27,36 @@ public class SceneHandler : MonoBehaviour
 
     private void Start()
     {
-        mainCam = Camera.main;
-        _minigameManager = vignetteContainer.GetComponent<MinigameManager>();
-        mainCam.transform.position = dialogueCamera.position;
+        _mainCam = Camera.main;
+        _minigameManager = _vignetteContainer.GetComponent<MinigameManager>();
+        _mainCam.transform.position = dialogueCamera.position;
     }
 
-    public void ChangeState(GameState newState)
+    [YarnCommand("start_vignette")]
+    public void ChangeState()
     {
-        currentGameState = newState;
-        fadeMaterialManager.FadeMaterialIn();
-
         switch (currentGameState)
         {
-            case GameState.DIALOGUE:
-                mainCam.transform.position = dialogueCamera.position;
-                break;
             case GameState.VIGNETTE:
-                mainCam.transform.position = vignetteCamera.position;
+                currentGameState = GameState.DIALOGUE;
+                _dialogueUI.SetActive(true);
+                _mainCam.transform.position = dialogueCamera.position;
+                break;
+            case GameState.DIALOGUE:
+                currentGameState = GameState.VIGNETTE;
+                ClearDialogue();
+                _dialogueUI.SetActive(false);
+                _mainCam.transform.position = vignetteCamera.position;
                 _minigameManager.StartMinigame();
                 break;
         }
     }
 
-    public void ChangeToMinigameTest()
+    private void ClearDialogue()
     {
-        ChangeState(GameState.VIGNETTE);
+        foreach (Transform bubble in _bubbleContainer)
+        {
+            Destroy(bubble.gameObject);
+        }
     }
 }

@@ -1,4 +1,5 @@
 using UnityEngine;
+using Yarn.Unity;
 using System.Collections;
 using System.Collections.Generic;
 
@@ -54,6 +55,6 @@ public class MinigameManager : MonoBehaviour
     {
         transform.GetChild(currentMinigameState).gameObject.SetActive(false);
         currentMinigameState += 1;
-        sceneHandler.ChangeState(SceneHandler.GameState.DIALOGUE);
+        sceneHandler.ChangeState();
     }
 }

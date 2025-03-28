@@ -30,7 +30,7 @@ public class FadeMaterialManager : MonoBehaviour
         StartCoroutine(FadeOut());
     }
 
-    private IEnumerator FadeIn(float delayTime)
+    public IEnumerator FadeIn(float delayTime)
     {
         yield return new WaitForSeconds(delayTime);
         
@@ -42,7 +42,7 @@ public class FadeMaterialManager : MonoBehaviour
         _renderMat.SetFloat("_Alpha", 1f);
     }
     
-    private IEnumerator FadeOut()
+    public IEnumerator FadeOut()
     {
         for (float i = 1f; i >= 0f; i -= updateSpeed)
         {
