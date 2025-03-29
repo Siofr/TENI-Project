@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bbbd975b9fcd0f42b2106552e53658a, type: 3}
   m_Name: SecondDialogue
   m_EditorClassIdentifier: 
-  isDialogue: 1
+  currentSceneType: 0
   yarnNodeName: PlantChapterTwo
+  character: {fileID: 3353223794448822619, guid: beba82d668429c643a8253cd4e1f5f60, type: 3}
   scenePrefab: {fileID: 0}

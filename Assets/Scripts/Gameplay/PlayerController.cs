@@ -38,7 +38,6 @@ public class PlayerController : MonoBehaviour
         switch (_sceneHandler.currentGameState)
         {
             case SceneHandler.GameState.DIALOGUE:
-
                 _bubbleView.requestInterrupt();
                 break;
             case SceneHandler.GameState.VIGNETTE:

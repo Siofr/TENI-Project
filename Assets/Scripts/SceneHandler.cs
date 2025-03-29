@@ -11,19 +11,20 @@ public class SceneHandler : MonoBehaviour
     [SerializeField] private DialogueRunner _dialogueRunner;
 
     [SerializeField] private GameObject _vignetteContainer;
+    [SerializeField] private GameObject _extraContainer;
     [SerializeField] private GameObject _dialogueUI;
     [SerializeField] private Transform _bubbleContainer;
 
     [SerializeField] private FadeMaterialManager _fadeMaterialManager;
 
-    public Dictionary<SceneData, GameObject> vignetteDatabase = new Dictionary<SceneData, GameObject>();
+    public Dictionary<SceneData, GameObject> sceneDatabase = new Dictionary<SceneData, GameObject>();
 
     private MinigameManager _minigameManager;
 
     private Camera _mainCam;
     public Transform dialogueCamera;
     public Transform vignetteCamera;
-    // public Transform extraCamera;
+    public Transform extraCamera;
 
     public enum GameState
     {
@@ -36,7 +37,7 @@ public class SceneHandler : MonoBehaviour
 
     private void Start()
     {
-        InstantiateVignettes();
+        InstantiateAssets();
         _mainCam = Camera.main;
         _minigameManager = _vignetteContainer.GetComponent<MinigameManager>();
         _mainCam.transform.position = dialogueCamera.position;
@@ -44,8 +45,9 @@ public class SceneHandler : MonoBehaviour
 
     public void ChangeScene()
     {
+        // sceneDatabase[sceneList[sceneListIndex]].SetActive(false);
         sceneListIndex += 1;
-
+        
         switch (sceneList[sceneListIndex].currentSceneType)
         {
             case SceneData.SceneType.DIALOGUE:
@@ -63,6 +65,10 @@ public class SceneHandler : MonoBehaviour
                 _minigameManager.StartMinigame(sceneList[sceneListIndex]);
                 break;
             case SceneData.SceneType.EXTRA:
+                currentGameState = GameState.EXTRA;
+                ClearDialogue();
+                _dialogueUI.SetActive(false);
+                sceneDatabase[sceneList[sceneListIndex]].SetActive(true);
                 break;
         }
     }
@@ -75,15 +81,27 @@ public class SceneHandler : MonoBehaviour
         }
     }
 
-    private void InstantiateVignettes()
+    private void InstantiateAssets()
     {
-        Vector3 spawnPosition = new Vector3(vignetteCamera.transform.position.x, vignetteCamera.transform.position.y, vignetteCamera.transform.position.z + 10);
+        
         foreach (SceneData sceneData in sceneList)
         {
-            if (sceneData.currentSceneType == SceneData.SceneType.VIGNETTE)
+            switch(sceneData.currentSceneType)
             {
-                GameObject newVignette = Instantiate(sceneData.scenePrefab, spawnPosition, Quaternion.identity);
-                vignetteDatabase.Add(sceneData, newVignette);
+                case SceneData.SceneType.DIALOGUE:
+                    // Vector3 characterSpawnPosition = new Vector3(vignetteCamera.transform.position.x, vignetteCamera.transform.position.y, dialogueCamera.transform.position.z + 10);
+                    // GameObject newCharacter = Instantiate(sceneData.character, characterSpawnPosition, Quaternion.identity);
+                    // sceneDatabase.Add(sceneData, newCharacter);
+                    break;
+                case SceneData.SceneType.VIGNETTE:
+                    Vector3 sceneSpawnPosition = new Vector3(vignetteCamera.transform.position.x, vignetteCamera.transform.position.y, vignetteCamera.transform.position.z + 10);
+                    GameObject newVignette = Instantiate(sceneData.scenePrefab, sceneSpawnPosition, Quaternion.identity);
+                    sceneDatabase.Add(sceneData, newVignette);
+                    break;
+                case SceneData.SceneType.EXTRA:
+                    GameObject newScene = Instantiate(sceneData.scenePrefab, _extraContainer.transform);
+                    sceneDatabase.Add(sceneData, newScene);
+                    break;
             }
         }
     }
@@ -95,7 +113,9 @@ public class SceneHandler : MonoBehaviour
 
         IEnumerator Fade()
         {
-            yield return _fadeMaterialManager.StartCoroutine(_fadeMaterialManager.FadeIn(1.5f));
+            yield return _fadeMaterialManager.StartCoroutine(_fadeMaterialManager.FadeIn(0.5f));
+
+            yield return new WaitForSeconds(1.5f);
 
             ChangeScene();
 

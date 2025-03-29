@@ -42,7 +42,7 @@ public class MinigameManager : MonoBehaviour
 
     public void StartMinigame(SceneData minigameData)
     {
-        _currentMinigame = sceneHandler.vignetteDatabase[minigameData];
+        _currentMinigame = sceneHandler.sceneDatabase[minigameData];
         _currentMinigame.gameObject.SetActive(true);
         objectiveInteractables = _currentMinigame.GetComponentsInChildren<ObjectiveInteractable>();
 

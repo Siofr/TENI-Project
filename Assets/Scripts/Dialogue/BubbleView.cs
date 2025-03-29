@@ -22,14 +22,20 @@ public class BubbleView : DialogueViewBase
 
     public override void RunLine(LocalizedLine dialogueLine, Action onDialogueLineFinished)
     {
+        
         float rectTransformPreviousHeight = _rectTransform.sizeDelta.y;
         GameObject newBubble = Instantiate(_bubblePrefab, this.transform);
         _newBubbleScript = newBubble.GetComponent<BubbleObject>();
 
-        if (rectTransformPreviousHeight != 0)
+        if (dialogueLine.CharacterName != "Doctor")
         {
-            _rectTransform.anchoredPosition = new Vector2(_rectTransform.anchoredPosition.x, _startPosition + (_rectTransform.sizeDelta.y - rectTransformPreviousHeight / 2));
+
         }
+
+        // if (rectTransformPreviousHeight != 0)
+        //{
+        //    _rectTransform.anchoredPosition = new Vector2(_rectTransform.anchoredPosition.x, _startPosition + (_rectTransform.sizeDelta.y - rectTransformPreviousHeight / 2));
+        //}
 
         _newBubbleScript.StartSpeechBubble(dialogueLine.TextWithoutCharacterName.Text);
     }
@@ -42,11 +48,5 @@ public class BubbleView : DialogueViewBase
         }
 
         onDialogueLineFinished();
-    }
-
-    IEnumerator PerformBubble(string dialogueLine)
-    {
-        yield return _newBubbleScript.StartCoroutine(_newBubbleScript.ShowText(dialogueLine));
-        // onDialogueLineFinished();
     }
 }

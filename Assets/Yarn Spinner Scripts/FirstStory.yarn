@@ -17,4 +17,12 @@ title: PlantChapterThree
 ---
 Patient: This is the patient's dialogue in Chapter Three
 Doctor: This is the doctor's dialogue in Chapter Three
+<<change_scene Managers>>
+===
+
+title: PlantChapterFour
+---
+Patient: This is the patient's dialogue in Chapter Four
+Doctor: This is the doctor's dialogue in Chapter Four
+<<change_scene Managers>>
 ===

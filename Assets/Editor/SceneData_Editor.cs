@@ -24,6 +24,7 @@ public class SceneData_Editor : Editor
         {
             case 0:
                 EditorGUILayout.PropertyField(yarnNodeName);
+                EditorGUILayout.PropertyField(scenePrefab);
                 break;
             case 1:
                 EditorGUILayout.PropertyField(scenePrefab);

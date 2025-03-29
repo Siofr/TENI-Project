@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4bbbd975b9fcd0f42b2106552e53658a, type: 3}
-  m_Name: ThirdDialgoue
+  m_Name: FourthDialogue
   m_EditorClassIdentifier: 
   currentSceneType: 0
-  yarnNodeName: PlantChapterThree
-  character: {fileID: 3353223794448822619, guid: beba82d668429c643a8253cd4e1f5f60, type: 3}
+  yarnNodeName: PlantChapterFour
+  character: {fileID: 0}
   scenePrefab: {fileID: 0}
