@@ -1,11 +1,12 @@
 using UnityEngine;
+using Yarn.Unity;
 using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
     public Camera sceneCamera;
-    public SceneHandler sceneHandler;
-    public BubbleView bubbleView;
+    [SerializeField] private SceneHandler _sceneHandler;
+    [SerializeField] private BubbleView _bubbleView;
 
     private InputSystem_Actions _inputActions;
     private InputAction _interact;
@@ -34,9 +35,11 @@ public class PlayerController : MonoBehaviour
 
     void Interact(InputAction.CallbackContext content)
     {
-        switch (sceneHandler.currentGameState)
+        switch (_sceneHandler.currentGameState)
         {
             case SceneHandler.GameState.DIALOGUE:
+
+                _bubbleView.requestInterrupt();
                 break;
             case SceneHandler.GameState.VIGNETTE:
                 RaycastHit2D hit = Physics2D.Raycast(sceneCamera.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
@@ -45,6 +48,9 @@ public class PlayerController : MonoBehaviour
                 {
                     interactable.Activate();
                 }
+                break;
+            case SceneHandler.GameState.EXTRA:
+                _sceneHandler.SwapSceneAnimation();
                 break;
         }
     }

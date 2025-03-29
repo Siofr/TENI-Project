@@ -5,6 +5,7 @@ using System.Collections.Generic;
 
 public class MinigameManager : MonoBehaviour
 {
+    public GameObject _currentMinigame;
     public int vignetteCount;
     public int currentMinigameState;
     public SceneHandler sceneHandler;
@@ -39,10 +40,11 @@ public class MinigameManager : MonoBehaviour
         sceneHandler = GameObject.FindGameObjectWithTag("Manager").GetComponent<SceneHandler>();
     }
 
-    public void StartMinigame()
+    public void StartMinigame(SceneData minigameData)
     {
-        transform.GetChild(currentMinigameState).gameObject.SetActive(true);
-        objectiveInteractables = transform.GetChild(currentMinigameState).GetComponentsInChildren<ObjectiveInteractable>();
+        _currentMinigame = sceneHandler.vignetteDatabase[minigameData];
+        _currentMinigame.gameObject.SetActive(true);
+        objectiveInteractables = _currentMinigame.GetComponentsInChildren<ObjectiveInteractable>();
 
         foreach (ObjectiveInteractable objective in objectiveInteractables)
         {
@@ -53,8 +55,7 @@ public class MinigameManager : MonoBehaviour
 
     void ObjectiveComplete()
     {
-        transform.GetChild(currentMinigameState).gameObject.SetActive(false);
-        currentMinigameState += 1;
-        sceneHandler.ChangeState();
+        // _currentMinigame.gameObject.SetActive(false);
+        sceneHandler.SwapSceneAnimation();
     }
 }

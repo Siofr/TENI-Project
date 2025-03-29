@@ -11,6 +11,9 @@ public class BubbleView : DialogueViewBase
     [SerializeField] private GameObject _bubblePrefab;
     [SerializeField] private float _textAppearanceTime;
     private float _startPosition;
+    private BubbleObject _newBubbleScript;
+
+    private IEnumerator coroutine;
 
     private void Start()
     {
@@ -21,25 +24,29 @@ public class BubbleView : DialogueViewBase
     {
         float rectTransformPreviousHeight = _rectTransform.sizeDelta.y;
         GameObject newBubble = Instantiate(_bubblePrefab, this.transform);
-        BubbleObject newBubbleScript = newBubble.GetComponent<BubbleObject>();
+        _newBubbleScript = newBubble.GetComponent<BubbleObject>();
 
         if (rectTransformPreviousHeight != 0)
         {
             _rectTransform.anchoredPosition = new Vector2(_rectTransform.anchoredPosition.x, _startPosition + (_rectTransform.sizeDelta.y - rectTransformPreviousHeight / 2));
         }
 
-        StartCoroutine(PerformBubble());
-
-        IEnumerator PerformBubble()
-        {
-            yield return newBubbleScript.StartCoroutine(newBubbleScript.ShowText(dialogueLine.TextWithoutCharacterName.Text));
-
-            onDialogueLineFinished();
-        }
+        _newBubbleScript.StartSpeechBubble(dialogueLine.TextWithoutCharacterName.Text);
     }
 
     public override void InterruptLine(LocalizedLine dialogueLine, Action onDialogueLineFinished)
     {
+        if (_newBubbleScript != null)
+        {
+            _newBubbleScript.SkipText(dialogueLine.TextWithoutCharacterName.Text);
+        }
+
         onDialogueLineFinished();
+    }
+
+    IEnumerator PerformBubble(string dialogueLine)
+    {
+        yield return _newBubbleScript.StartCoroutine(_newBubbleScript.ShowText(dialogueLine));
+        // onDialogueLineFinished();
     }
 }
