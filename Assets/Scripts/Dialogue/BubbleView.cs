@@ -57,6 +57,8 @@ public class BubbleView : DialogueViewBase
 
     private void FlipSpeechBubble(Image speechBubble, TextMeshProUGUI text)
     {
+        // make doctor bubble darker
+        speechBubble.color = new Color(0.863f, 0.898f, 0.922f);
         speechBubble.rectTransform.localScale = new Vector3(speechBubble.rectTransform.localScale.x * -1, speechBubble.rectTransform.localScale.y, speechBubble.rectTransform.localScale.y);
         text.rectTransform.localScale = new Vector3(text.rectTransform.localScale.x * -1, text.rectTransform.localScale.y, text.rectTransform.localScale.z);
     }

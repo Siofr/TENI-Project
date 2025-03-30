@@ -707,7 +707,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5815261237922556593}
   m_Layer: 0
-  m_Name: FourthVignette
+  m_Name: Vignette3
   m_TagString: Vignette
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

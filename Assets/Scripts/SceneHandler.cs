@@ -21,6 +21,7 @@ public class SceneHandler : MonoBehaviour
     [SerializeField] private Transform _bubbleContainer;
 
     [SerializeField] private FadeMaterialManager _fadeMaterialManager;
+    private bool isSceneChangeActive = false;
 
     private MinigameManager _minigameManager;
 
@@ -125,10 +126,13 @@ public class SceneHandler : MonoBehaviour
     [YarnCommand("change_scene")]
     public void SwapSceneAnimation()
     {
-        StartCoroutine(Fade());
+        if(!isSceneChangeActive)
+            StartCoroutine(Fade());
+        
 
         IEnumerator Fade()
         {
+            isSceneChangeActive = true;
             yield return _fadeMaterialManager.StartCoroutine(_fadeMaterialManager.FadeIn(0.5f));
 
             yield return new WaitForSeconds(1.5f);
@@ -136,6 +140,7 @@ public class SceneHandler : MonoBehaviour
             ChangeScene();
 
             yield return _fadeMaterialManager.StartCoroutine(_fadeMaterialManager.FadeOut());
+            isSceneChangeActive = false;
         }
     }
 }

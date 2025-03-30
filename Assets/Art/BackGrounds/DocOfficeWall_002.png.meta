@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      DocOfficeWall_002_0: 1416834477192319340
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
