@@ -2,6 +2,7 @@ using UnityEngine;
 using Yarn.Unity;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 
 public class SceneHandler : MonoBehaviour
 {
@@ -25,6 +26,7 @@ public class SceneHandler : MonoBehaviour
     public Transform dialogueCamera;
     public Transform vignetteCamera;
     public Transform extraCamera;
+    public Transform characterPosition;
 
     public enum GameState
     {
@@ -45,7 +47,17 @@ public class SceneHandler : MonoBehaviour
 
     public void ChangeScene()
     {
-        // sceneDatabase[sceneList[sceneListIndex]].SetActive(false);
+        if (sceneDatabase.ContainsKey(sceneList[sceneListIndex]))
+        {
+            sceneDatabase[sceneList[sceneListIndex]].SetActive(false);
+        }
+
+        if (sceneListIndex + 1 > sceneList.Length - 1)
+        {
+            ReturnToMenu();
+            return;
+        }
+
         sceneListIndex += 1;
         
         switch (sceneList[sceneListIndex].currentSceneType)
@@ -89,9 +101,8 @@ public class SceneHandler : MonoBehaviour
             switch(sceneData.currentSceneType)
             {
                 case SceneData.SceneType.DIALOGUE:
-                    // Vector3 characterSpawnPosition = new Vector3(vignetteCamera.transform.position.x, vignetteCamera.transform.position.y, dialogueCamera.transform.position.z + 10);
-                    // GameObject newCharacter = Instantiate(sceneData.character, characterSpawnPosition, Quaternion.identity);
-                    // sceneDatabase.Add(sceneData, newCharacter);
+                    // Vector3 characterSpawnPosition = characterPosition.position;
+                    // GameObject newCharacter = Instantiate(sceneData.scenePrefab, characterSpawnPosition, Quaternion.identity);
                     break;
                 case SceneData.SceneType.VIGNETTE:
                     Vector3 sceneSpawnPosition = new Vector3(vignetteCamera.transform.position.x, vignetteCamera.transform.position.y, vignetteCamera.transform.position.z + 10);
@@ -104,6 +115,11 @@ public class SceneHandler : MonoBehaviour
                     break;
             }
         }
+    }
+
+    public void ReturnToMenu()
+    {
+        SceneManager.LoadScene("MainMenu");
     }
 
     [YarnCommand("change_scene")]
