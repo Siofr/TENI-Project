@@ -42,14 +42,11 @@ position: -1,280
 Doctor:Okay...and what about kids? Do you want to have children?
 Roisin:I don't think I want to have children.
 Doctor:Are you sure? Don't you want to preserve your fertility? Do you want surgery?
-//CUT TO VIGNETTE THREE
-<<change_scene Managers>>
 Doctor:It sounds like you're not sure what you want.
 Roisin:I am sure, I just didn't know there'd be so many personal questions.
 Roisin:I'm not sure what any of this has to do with my decision to transition.
 Doctor:I'm just not comfortable prescribing you this medication today.
-
-//CUT TO INFORMATION BREAK
+//CUT TO VIGNETTE THREE
 <<change_scene Managers>>
 ===
 title: ChapterOne_Segment_Four
@@ -61,17 +58,13 @@ Roisin:Yes.
 Doctor:Excellent, so what can I do for you?
 Roisin:I've decided I want to medically transition.
 Doctor:Okay...let's get a blood test done and talk about your options. 
-//CUT TO VIGNETTE FOUR
-<<change_scene Managers>>
 Doctor:Are you aware of the potential side effects of the hormones?
 Roisin:Yes, and I'm happy to proceed.
 Doctor:Okay that's great. Do you have any questions about this treatment?
-//CUT TO VIGNETTE FIVE
-<<change_scene Managers>>
 Doctor:The bloods look fine, I'll write you a prescription.
 Doctor:Come back to me if you need anything else. 
 Roisin:Thank you, I will!
-//CUT TO VIGNETTE SIX
+//CUT TO VIGNETTE FOUR
 <<change_scene Managers>>
 
 

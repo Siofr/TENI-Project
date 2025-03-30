@@ -10,9 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4bbbd975b9fcd0f42b2106552e53658a, type: 3}
-  m_Name: Information
+  m_Name: Credits
   m_EditorClassIdentifier: 
   currentSceneType: 2
   yarnNodeName: 
-  character: {fileID: 0}
-  scenePrefab: {fileID: 6686380885594115232, guid: f7629a86c8eb1c94694c5b4a50af0865, type: 3}
+  scenePrefab: {fileID: 6686380885594115232, guid: 7c0f7b35bd828fd44a4237f280b45947, type: 3}

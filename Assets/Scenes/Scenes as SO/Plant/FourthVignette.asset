@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4bbbd975b9fcd0f42b2106552e53658a, type: 3}
-  m_Name: Information
+  m_Name: FourthVignette
   m_EditorClassIdentifier: 
-  currentSceneType: 2
+  currentSceneType: 1
   yarnNodeName: 
-  scenePrefab: {fileID: 6686380885594115232, guid: f7629a86c8eb1c94694c5b4a50af0865, type: 3}
+  scenePrefab: {fileID: 7309184093622547006, guid: ca4ad4744c7d93c44b9f1d4d3b3f5686, type: 3}
