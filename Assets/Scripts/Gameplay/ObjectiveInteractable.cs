@@ -5,15 +5,15 @@ using System.Collections.Generic;
 public class ObjectiveInteractable : BaseInteractable
 {
     public MinigameManager minigameManager;
-    private float updateSpeed = 0.15f;
+    private float updateSpeed = 0.10f;
     private Collider2D _coll;
     private float _rotateSpeed;
-    private Color _spriteColor;
+    private SpriteRenderer _spriteRenderer;
 
     public void Awake()
     {
         _coll = GetComponent<Collider2D>();
-        _spriteColor = GetComponent<SpriteRenderer>().color;
+        _spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     public override void Activate()
@@ -30,11 +30,16 @@ public class ObjectiveInteractable : BaseInteractable
 
     IEnumerator FadeAnimation()
     {
+        Color tempColor = _spriteRenderer.color;
+
         for (float i = 1.0f; i >= 0f; i -= updateSpeed)
         {
-            _spriteColor.a = i;
+            tempColor.a = i;
+            _spriteRenderer.color = tempColor;
             yield return new WaitForFixedUpdate();
         }
+
+        _spriteRenderer.color = new Color(tempColor.r, tempColor.g, tempColor.b, 0);
     }
 
     IEnumerator FallAnimation()

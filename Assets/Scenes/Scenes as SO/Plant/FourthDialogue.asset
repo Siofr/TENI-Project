@@ -13,6 +13,5 @@ MonoBehaviour:
   m_Name: FourthDialogue
   m_EditorClassIdentifier: 
   currentSceneType: 0
-  yarnNodeName: PlantChapterFour
-  character: {fileID: 0}
+  yarnNodeName: ChapterOne_Segment_Four
   scenePrefab: {fileID: 0}

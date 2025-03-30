@@ -10,14 +10,14 @@ public class BubbleView : DialogueViewBase
     [SerializeField] private RectTransform _rectTransform;
     [SerializeField] private GameObject _bubblePrefab;
     [SerializeField] private float _textAppearanceTime;
-    private float _startPosition;
+    [SerializeField] private GameObject _speaker;
+    private Image _bubbleSprite;
+    private Animator _speakerAnim;
     private BubbleObject _newBubbleScript;
-
-    private IEnumerator coroutine;
 
     private void Start()
     {
-        _startPosition = _rectTransform.anchoredPosition.y;
+        _speakerAnim = _speaker.GetComponent<Animator>();
     }
 
     public override void RunLine(LocalizedLine dialogueLine, Action onDialogueLineFinished)
@@ -29,13 +29,13 @@ public class BubbleView : DialogueViewBase
 
         if (dialogueLine.CharacterName != "Doctor")
         {
-
+            _speakerAnim.SetBool("isTalking", true);
         }
-
-        // if (rectTransformPreviousHeight != 0)
-        //{
-        //    _rectTransform.anchoredPosition = new Vector2(_rectTransform.anchoredPosition.x, _startPosition + (_rectTransform.sizeDelta.y - rectTransformPreviousHeight / 2));
-        //}
+        else
+        {
+            _bubbleSprite = newBubble.GetComponent<Image>();
+            FlipSpeechBubble(_bubbleSprite, _newBubbleScript.bubbleText);
+        }
 
         _newBubbleScript.StartSpeechBubble(dialogueLine.TextWithoutCharacterName.Text);
     }
@@ -47,6 +47,17 @@ public class BubbleView : DialogueViewBase
             _newBubbleScript.SkipText(dialogueLine.TextWithoutCharacterName.Text);
         }
 
+        if (dialogueLine.CharacterName != "Doctor")
+        {
+            _speakerAnim.SetBool("isTalking", false);
+        }
+
         onDialogueLineFinished();
+    }
+
+    private void FlipSpeechBubble(Image speechBubble, TextMeshProUGUI text)
+    {
+        speechBubble.rectTransform.localScale = new Vector3(speechBubble.rectTransform.localScale.x * -1, speechBubble.rectTransform.localScale.y, speechBubble.rectTransform.localScale.y);
+        text.rectTransform.localScale = new Vector3(text.rectTransform.localScale.x * -1, text.rectTransform.localScale.y, text.rectTransform.localScale.z);
     }
 }

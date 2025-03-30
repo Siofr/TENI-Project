@@ -6,11 +6,15 @@ using UnityEngine.SceneManagement;
 
 public class SceneHandler : MonoBehaviour
 {
+    public GameState currentGameState = GameState.DIALOGUE;
+    public Dictionary<SceneData, GameObject> sceneDatabase = new Dictionary<SceneData, GameObject>();
+
+    [Header("Scene Scriptable Object List")]
     [SerializeField] private SceneData[] sceneList;
     private int sceneListIndex;
 
+    [Header("UI Variables")]
     [SerializeField] private DialogueRunner _dialogueRunner;
-
     [SerializeField] private GameObject _vignetteContainer;
     [SerializeField] private GameObject _extraContainer;
     [SerializeField] private GameObject _dialogueUI;
@@ -18,15 +22,12 @@ public class SceneHandler : MonoBehaviour
 
     [SerializeField] private FadeMaterialManager _fadeMaterialManager;
 
-    public Dictionary<SceneData, GameObject> sceneDatabase = new Dictionary<SceneData, GameObject>();
-
     private MinigameManager _minigameManager;
 
+    [Header("Camera Positions")]
     private Camera _mainCam;
     public Transform dialogueCamera;
     public Transform vignetteCamera;
-    public Transform extraCamera;
-    public Transform characterPosition;
 
     public enum GameState
     {
@@ -35,7 +36,6 @@ public class SceneHandler : MonoBehaviour
         EXTRA
     }
 
-    public GameState currentGameState = GameState.DIALOGUE;
 
     private void Start()
     {

@@ -13,6 +13,5 @@ MonoBehaviour:
   m_Name: ThirdDialgoue
   m_EditorClassIdentifier: 
   currentSceneType: 0
-  yarnNodeName: PlantChapterThree
-  character: {fileID: 3353223794448822619, guid: beba82d668429c643a8253cd4e1f5f60, type: 3}
+  yarnNodeName: ChapterOne_Segment_Three
   scenePrefab: {fileID: 0}
