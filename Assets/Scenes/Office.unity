@@ -631,6 +631,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Transition Handler
       objectReference: {fileID: 0}
+    - target: {fileID: 5715739817951524191, guid: d09308f8a8c532f40a0c3f36d4c488ab, type: 3}
+      propertyPath: delayBeforeFadeIn
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8358060443590112648, guid: d09308f8a8c532f40a0c3f36d4c488ab, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
