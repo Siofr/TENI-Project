@@ -6,16 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="2810c339-f8fc-40a9-bc37-b1f77b0a4750" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TENI-Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TENI-Project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/BackGrounds/DocOfficeWall_002.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/BackGrounds/DocOfficeWall_002.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Ch1Vignette/D Flowers/Base/D_Flower_Base_0000.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Ch1Vignette/D Flowers/Base/D_Flower_Base_0000.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Ch1Vignette/D Flowers/Base/D_Flower_Base_0001.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Ch1Vignette/D Flowers/Base/D_Flower_Base_0001.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Ch1Vignette/D Flowers/Heads/D_Flower_Head_0000.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Ch1Vignette/D Flowers/Heads/D_Flower_Head_0000.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Ch1Vignette/D Flowers/Heads/D_Flower_Head_0001.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Ch1Vignette/D Flowers/Heads/D_Flower_Head_0001.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Ch1Vignette/Flowers/Flowers_0000.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Ch1Vignette/Flowers/Flowers_0000.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Ch1Vignette/Flowers/Flowers_0001.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Ch1Vignette/Flowers/Flowers_0001.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Ch1Vignette/mg1_bg/mg_1_bg_001.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Ch1Vignette/mg1_bg/mg_1_bg_001.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Ch1Vignette/mg1_bg/mg_1_bg_002.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Ch1Vignette/mg1_bg/mg_1_bg_002.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SceneHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SceneHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Fonts/BungeeHairline-Regular SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Fonts/BungeeHairline-Regular SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Fonts/OpenDyslexic-Regular SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Fonts/OpenDyslexic-Regular SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dialogue/BubbleObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dialogue/BubbleObject.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/UniversalRP.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/UniversalRP.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UniversalRenderPipelineGlobalSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UniversalRenderPipelineGlobalSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +56,14 @@
   }
 }</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Build\TENI Project.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\J Kelly\Documents\Unity\Projects\TENI-Project\Build" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.0.23f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-projectPath C:\Users\every\OneDrive\Documents\GitHub\TENI-Project -debugCodeOptimization" />
@@ -106,7 +112,7 @@
       <workItem from="1742408966416" duration="188000" />
       <workItem from="1742409371259" duration="1766000" />
       <workItem from="1742826059256" duration="3869000" />
-      <workItem from="1743367303211" duration="3579000" />
+      <workItem from="1743367303211" duration="5273000" />
     </task>
     <servers />
   </component>

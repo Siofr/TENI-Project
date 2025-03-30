@@ -16,9 +16,9 @@ public class BubbleObject : MonoBehaviour
 
     public IEnumerator ShowText(string textToShow)
     {
-        foreach (char c in textToShow)
+        for (int i = 0; i <= textToShow.Length; i++)
         {
-            bubbleText.text += c;
+            bubbleText.text = textToShow.Insert(i, "<alpha=#00>");
             yield return new WaitForSeconds(0.05f);
         }
 
