@@ -1,6 +1,6 @@
 using UnityEngine;
 
-[RequireComponent(typeof(BoxCollider2D))]
+[RequireComponent(typeof(Collider2D))]
 public abstract class BaseInteractable : MonoBehaviour
 {
     private Collider2D col;

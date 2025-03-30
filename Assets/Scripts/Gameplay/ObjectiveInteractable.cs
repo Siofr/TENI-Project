@@ -2,10 +2,11 @@ using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 
+
 public class ObjectiveInteractable : BaseInteractable
 {
     public MinigameManager minigameManager;
-    private float updateSpeed = 0.10f;
+    private float updateSpeed = 0.03f;
     private Collider2D _coll;
     private float _rotateSpeed;
     private SpriteRenderer _spriteRenderer;
@@ -23,9 +24,15 @@ public class ObjectiveInteractable : BaseInteractable
 
         // Turn off collider
         _coll.enabled = false;
-
-        // Also activate an animation when we have it
+        
         StartCoroutine(FadeAnimation());
+        DropHead();
+    }
+
+    private void DropHead()
+    {
+        var newRb = gameObject.AddComponent<Rigidbody2D>();
+        newRb.AddForce( new Vector2( Random.Range(-1f, 1f),  1f ) * 100);
     }
 
     IEnumerator FadeAnimation()

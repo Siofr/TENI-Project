@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentSceneType: 1
   yarnNodeName: 
-  scenePrefab: {fileID: 3829181713980175844, guid: 629c799bd1c074a4bbccbe401ed0c8d9, type: 3}
+  scenePrefab: {fileID: 2718852428947000606, guid: 02bfade9677eeb644a4a8e0400f0a37f, type: 3}
