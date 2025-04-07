@@ -12,7 +12,7 @@ public class BubbleView : DialogueViewBase
     [SerializeField] private float _textAppearanceTime;
     [SerializeField] private GameObject _speaker;
     private Image _bubbleSprite;
-    private Animator _speakerAnim;
+    public Animator _speakerAnim;
     private BubbleObject _newBubbleScript;
 
     private void Start()
