@@ -8,6 +8,7 @@ public class SceneHandler : MonoBehaviour
 {
     public GameState currentGameState = GameState.DIALOGUE;
     public Dictionary<SceneData, GameObject> sceneDatabase = new Dictionary<SceneData, GameObject>();
+    public GameObject[] officeScenes;
 
     [Header("Scene Scriptable Object List")]
     [SerializeField] private SceneData[] sceneList;
@@ -19,7 +20,6 @@ public class SceneHandler : MonoBehaviour
     [SerializeField] private GameObject _extraContainer;
     [SerializeField] private GameObject _dialogueUI;
     [SerializeField] private Transform _bubbleContainer;
-
     [SerializeField] private FadeMaterialManager _fadeMaterialManager;
     private bool isSceneChangeActive = false;
 
@@ -104,6 +104,7 @@ public class SceneHandler : MonoBehaviour
                 case SceneData.SceneType.DIALOGUE:
                     // Vector3 characterSpawnPosition = characterPosition.position;
                     // GameObject newCharacter = Instantiate(sceneData.scenePrefab, characterSpawnPosition, Quaternion.identity);
+                    sceneDatabase.Add(sceneData, officeScenes[sceneData.chapterNumber]);
                     break;
                 case SceneData.SceneType.VIGNETTE:
                     Vector3 sceneSpawnPosition = new Vector3(vignetteCamera.transform.position.x, vignetteCamera.transform.position.y, vignetteCamera.transform.position.z + 10);

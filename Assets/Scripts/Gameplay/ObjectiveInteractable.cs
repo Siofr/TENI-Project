@@ -8,7 +8,6 @@ public class ObjectiveInteractable : BaseInteractable
     public MinigameManager minigameManager;
     private float updateSpeed = 0.03f;
     private Collider2D _coll;
-    private float _rotateSpeed;
     private SpriteRenderer _spriteRenderer;
 
     public void Awake()
@@ -47,12 +46,5 @@ public class ObjectiveInteractable : BaseInteractable
         }
 
         _spriteRenderer.color = new Color(tempColor.r, tempColor.g, tempColor.b, 0);
-    }
-
-    IEnumerator FallAnimation()
-    {
-        transform.Rotate(Vector3.forward * updateSpeed);
-
-        yield return null;
     }
 }

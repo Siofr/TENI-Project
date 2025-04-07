@@ -7,12 +7,14 @@ public class SceneData_Editor : Editor
     SerializedProperty currentSceneType;
     SerializedProperty scenePrefab;
     SerializedProperty yarnNodeName;
+    SerializedProperty chapterNumber;
 
     private void OnEnable()
     {
         currentSceneType = serializedObject.FindProperty(nameof(SceneData.currentSceneType));
         scenePrefab = serializedObject.FindProperty(nameof(SceneData.scenePrefab));
         yarnNodeName = serializedObject.FindProperty(nameof(SceneData.yarnNodeName));
+        chapterNumber = serializedObject.FindProperty(nameof(SceneData.chapterNumber));
     }
 
     public override void OnInspectorGUI()
@@ -24,7 +26,7 @@ public class SceneData_Editor : Editor
         {
             case 0:
                 EditorGUILayout.PropertyField(yarnNodeName);
-                EditorGUILayout.PropertyField(scenePrefab);
+                EditorGUILayout.PropertyField(chapterNumber);
                 break;
             case 1:
                 EditorGUILayout.PropertyField(scenePrefab);
