@@ -396,6 +396,7 @@ GameObject:
   m_Component:
   - component: {fileID: 270560364}
   - component: {fileID: 270560363}
+  - component: {fileID: 270560365}
   m_Layer: 0
   m_Name: Character
   m_TagString: Character
@@ -441,6 +442,19 @@ Transform:
   - {fileID: 1152909178}
   m_Father: {fileID: 1272709648}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &270560365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 270560362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4abba3d67490bf41b0ec6f5fe76f28a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anim: {fileID: 270560363}
 --- !u!1 &293173582
 GameObject:
   m_ObjectHideFlags: 0
@@ -845,6 +859,7 @@ MonoBehaviour:
   _extraContainer: {fileID: 193365764}
   _dialogueUI: {fileID: 1213451954}
   _bubbleContainer: {fileID: 867918905}
+  _bubbleView: {fileID: 867918900}
   _fadeMaterialManager: {fileID: 498290107}
   vignetteCamera: {fileID: 718019742}
 --- !u!4 &826376564
@@ -898,7 +913,7 @@ MonoBehaviour:
   _rectTransform: {fileID: 867918905}
   _bubblePrefab: {fileID: 1471233458366858695, guid: c72de6c51fad9364c82dadb5a7526f3e, type: 3}
   _textAppearanceTime: 0
-  _speaker: {fileID: 270560362}
+  activeCharacter: {fileID: 0}
 --- !u!114 &867918901
 MonoBehaviour:
   m_ObjectHideFlags: 0

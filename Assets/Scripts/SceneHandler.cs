@@ -43,6 +43,7 @@ public class SceneHandler : MonoBehaviour
     {
         InstantiateAssets();
         _mainCam = Camera.main;
+        _bubbleView.activeCharacter = sceneDatabase[sceneList[sceneListIndex]].GetComponentInChildren<CharacterBase>();
         _minigameManager = _vignetteContainer.GetComponent<MinigameManager>();
         // _mainCam.transform.position = dialogueCamera.position;
     }
@@ -66,14 +67,20 @@ public class SceneHandler : MonoBehaviour
         {
             case SceneData.SceneType.DIALOGUE:
                 currentGameState = GameState.DIALOGUE;
+
                 _dialogueUI.SetActive(true);
                 _minigameManager._currentMinigame.gameObject.SetActive(false);
                 _dialogueRunner.StartDialogue(sceneList[sceneListIndex].yarnNodeName);
+
+                _bubbleView.activeCharacter = sceneDatabase[sceneList[sceneListIndex]].GetComponentInChildren<CharacterBase>();
+
                 Vector3 newCamPosition = sceneDatabase[sceneList[sceneListIndex]].transform.position;
                 _mainCam.transform.position = new Vector3(newCamPosition.x, newCamPosition.y, newCamPosition.z - 10);
+
                 break;
             case SceneData.SceneType.VIGNETTE:
                 currentGameState = GameState.VIGNETTE;
+
                 ClearDialogue();
                 _dialogueUI.SetActive(false);
                 _mainCam.transform.position = vignetteCamera.position;
@@ -81,6 +88,7 @@ public class SceneHandler : MonoBehaviour
                 break;
             case SceneData.SceneType.EXTRA:
                 currentGameState = GameState.EXTRA;
+
                 ClearDialogue();
                 _dialogueUI.SetActive(false);
                 sceneDatabase[sceneList[sceneListIndex]].SetActive(true);
