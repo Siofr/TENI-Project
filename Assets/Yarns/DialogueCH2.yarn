@@ -61,18 +61,19 @@ title: ChapterTwo_Segment_Four
 position: -2,143
 ---
 Doctor: Hello again. 
-CharacterName: Hi, doc.
+CharacterName: Hi there.
 Doctor: How is the job going?
 CharacterName: It's great, lots of new customers since the old sabatoir closed. 
 Doctor: Glad to hear it! 
-Doctor: So, I understand you want to begin your transition is that right?
+Doctor: I understand you want to begin your transition, is that right?
 CharacterName: Yep. That's right. 
 Doctor: You probably already know this, but undergoing this treatment will affect your fertility. 
 Doctor: Have you given any thought to having children in the future?
 CharacterName: Yes, and I've decided that I defintely don't want to have kids. 
-Doctor: Okay, it does sound like you've made up your mind.
-Doctor: If you do decide that you want to explore other options, such as freezing your eggs, let me know, okay?
+Doctor: As long as you're happy with that decision, that's all that matters. 
+Doctor: But if you do decide that you want to explore other options, such as freezing your eggs, let me know, okay?
 CharacterName: I will. Thank you. 
+CharacterName: If I do decide that I want to have kids, what are my options?
 Doctor: Great! If you're ready to get started, let's get a blood test and look at precription options. 
 
 
