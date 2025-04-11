@@ -7,6 +7,7 @@ TagManager:
   - Objective
   - Manager
   - Vignette
+  - Character
   layers:
   - Default
   - TransparentFX

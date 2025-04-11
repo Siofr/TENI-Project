@@ -10,28 +10,20 @@ public class BubbleView : DialogueViewBase
     [SerializeField] private RectTransform _rectTransform;
     [SerializeField] private GameObject _bubblePrefab;
     [SerializeField] private float _textAppearanceTime;
-    [SerializeField] private GameObject _speaker;
     private Image _bubbleSprite;
-    private Animator _speakerAnim;
+    public CharacterBase activeCharacter;
     private BubbleObject _newBubbleScript;
-
-    private void Start()
-    {
-        _speakerAnim = _speaker.GetComponent<Animator>();
-    }
 
     public override void RunLine(LocalizedLine dialogueLine, Action onDialogueLineFinished)
     {
-        
-        float rectTransformPreviousHeight = _rectTransform.sizeDelta.y;
         GameObject newBubble = Instantiate(_bubblePrefab, this.transform);
         _newBubbleScript = newBubble.GetComponent<BubbleObject>();
 
-        if (dialogueLine.CharacterName != "Doctor")
-        {
-            _speakerAnim.SetBool("isTalking", true);
-        }
-        else
+        //if (dialogueLine.CharacterName != "Doctor")
+        //{
+        //    _speakerAnim.SetBool("isTalking", true);
+        //}
+        if (dialogueLine.CharacterName == "Doctor")
         {
             _bubbleSprite = newBubble.GetComponent<Image>();
             FlipSpeechBubble(_bubbleSprite, _newBubbleScript.bubbleText);
@@ -47,12 +39,18 @@ public class BubbleView : DialogueViewBase
             _newBubbleScript.SkipText(dialogueLine.TextWithoutCharacterName.Text);
         }
 
-        if (dialogueLine.CharacterName != "Doctor")
-        {
-            _speakerAnim.SetBool("isTalking", false);
-        }
+        //if (dialogueLine.CharacterName != "Doctor")
+        //{
+        //    _speakerAnim.SetBool("isTalking", false);
+        //}
 
         onDialogueLineFinished();
+    }
+
+    [YarnCommand("play_animation")]
+    public void PlayAnimation(string animName)
+    {
+        activeCharacter.PlayAnimation(animName);
     }
 
     private void FlipSpeechBubble(Image speechBubble, TextMeshProUGUI text)

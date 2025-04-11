@@ -1,9 +1,12 @@
 title: Start
 position: 0,0
 ---
+<<play_animation BubbleWindow talk>>
 Rosin:Hello
+<<play_animation BubbleWindow idle>>
 Doctor:What can I do for you?
 Roisin:I've decided I want to medically transition.
+<<play_animation BubbleWindow blink>>
 Doctor:I see. Have we met before or is this your first visit?
 Roisin:This is my first time here.
 Doctor:Okay… 
