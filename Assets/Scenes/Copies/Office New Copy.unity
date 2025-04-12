@@ -1495,7 +1495,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1220084249}
-  - component: {fileID: 1220084248}
+  - component: {fileID: 1220084250}
   m_Layer: 0
   m_Name: VignetteContainer
   m_TagString: Untagged
@@ -1503,23 +1503,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1220084248
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1220084247}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee7f4105869d846479197620ea4468bd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _currentMinigame: {fileID: 0}
-  vignetteCount: 0
-  currentMinigameState: 0
-  sceneHandler: {fileID: 0}
-  objectiveInteractables: []
 --- !u!4 &1220084249
 Transform:
   m_ObjectHideFlags: 0
@@ -1535,6 +1518,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1220084250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1220084247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a53cdd3957ea5247a7b5a26cb9e6005, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneHandler: {fileID: 0}
+  _currentMinigame: {fileID: 0}
+  vignetteCount: 0
+  objectiveInteractables: []
+  objectiveInteractableIndex: 0
 --- !u!1 &1272709647
 GameObject:
   m_ObjectHideFlags: 0

@@ -189,6 +189,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   minigameManager: {fileID: 0}
+  col: {fileID: 0}
 --- !u!60 &1033981245829550894
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -820,6 +821,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   minigameManager: {fileID: 0}
+  col: {fileID: 0}
 --- !u!60 &3706567797611927252
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -1257,6 +1259,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   minigameManager: {fileID: 0}
+  col: {fileID: 0}
 --- !u!60 &6893785158527996133
 PolygonCollider2D:
   m_ObjectHideFlags: 0

@@ -1,10 +1,12 @@
 using UnityEngine;
 
-public abstract class VignetteBase : MonoBehaviour
+public class VignetteBase : MonoBehaviour
 {
     public SceneHandler sceneHandler;
+    public GameObject _currentMinigame;
     public int vignetteCount;
-    public ObjectiveInteractable[] objectiveInteractables;
+    public BaseInteractable[] objectiveInteractables;
+    public int objectiveInteractableIndex;
 
     public int ObjectiveCount
     {
@@ -35,16 +37,22 @@ public abstract class VignetteBase : MonoBehaviour
         sceneHandler = GameObject.FindGameObjectWithTag("Manager").GetComponent<SceneHandler>();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void StartMinigame(SceneData minigameData)
     {
-        
-    }
+        _currentMinigame = sceneHandler.sceneDatabase[minigameData];
+        _currentMinigame.gameObject.SetActive(true);
+        objectiveInteractables = _currentMinigame.GetComponentsInChildren<BaseInteractable>();
 
-    public abstract void StartMinigame();
+        foreach (BaseInteractable objective in objectiveInteractables)
+        {
+            objective.minigameManager = this;
+            objectiveCount += 1;
+        }
+    }
 
     public void ObjectiveComplete()
     {
+        sceneHandler.minigameIndex += 1;
         sceneHandler.SwapSceneAnimation();
     }
 }

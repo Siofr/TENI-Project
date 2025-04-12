@@ -10,7 +10,7 @@ public class MinigameManager : MonoBehaviour
     public int currentMinigameState;
     public SceneHandler sceneHandler;
 
-    public ObjectiveInteractable[] objectiveInteractables;
+    public BaseInteractable[] objectiveInteractables;
 
     public int ObjectiveCount
     {
@@ -20,6 +20,7 @@ public class MinigameManager : MonoBehaviour
         }
         set
         {
+
             objectiveCount = value;
 
             if (objectiveCount <= 0)
@@ -46,9 +47,9 @@ public class MinigameManager : MonoBehaviour
         _currentMinigame.gameObject.SetActive(true);
         objectiveInteractables = _currentMinigame.GetComponentsInChildren<ObjectiveInteractable>();
 
-        foreach (ObjectiveInteractable objective in objectiveInteractables)
+        foreach (BaseInteractable objective in objectiveInteractables)
         {
-            objective.minigameManager = this;
+            // objective.minigameManager = this;
             objectiveCount += 1;
         }
     }

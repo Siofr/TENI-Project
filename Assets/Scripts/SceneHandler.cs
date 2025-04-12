@@ -13,6 +13,7 @@ public class SceneHandler : MonoBehaviour
     [Header("Scene Scriptable Object List")]
     [SerializeField] private SceneData[] sceneList;
     private int sceneListIndex;
+    public int minigameIndex;
 
     [Header("UI Variables")]
     [SerializeField] private DialogueRunner _dialogueRunner;
@@ -24,7 +25,7 @@ public class SceneHandler : MonoBehaviour
     [SerializeField] private FadeMaterialManager _fadeMaterialManager;
     private bool isSceneChangeActive = false;
 
-    private MinigameManager _minigameManager;
+    private VignetteBase _minigameManager;
 
     [Header("Camera Positions")]
     private Camera _mainCam;
@@ -44,7 +45,7 @@ public class SceneHandler : MonoBehaviour
         InstantiateAssets();
         _mainCam = Camera.main;
         _bubbleView.activeCharacter = sceneDatabase[sceneList[sceneListIndex]].GetComponentInChildren<CharacterBase>();
-        _minigameManager = _vignetteContainer.GetComponent<MinigameManager>();
+        _minigameManager = _vignetteContainer.GetComponent<VignetteBase>();
         // _mainCam.transform.position = dialogueCamera.position;
     }
 
@@ -118,7 +119,7 @@ public class SceneHandler : MonoBehaviour
                     break;
                 case SceneData.SceneType.VIGNETTE:
                     Vector3 sceneSpawnPosition = new Vector3(vignetteCamera.transform.position.x, vignetteCamera.transform.position.y, vignetteCamera.transform.position.z + 10);
-                    GameObject newVignette = Instantiate(sceneData.scenePrefab, sceneSpawnPosition, Quaternion.identity);
+                    GameObject newVignette = Instantiate(sceneData.scenePrefab, _vignetteContainer.transform);
                     sceneDatabase.Add(sceneData, newVignette);
                     break;
                 case SceneData.SceneType.EXTRA:
