@@ -24,6 +24,7 @@ public class SceneHandler : MonoBehaviour
     [SerializeField] private BubbleView _bubbleView;
     [SerializeField] private FadeMaterialManager _fadeMaterialManager;
     private bool isSceneChangeActive = false;
+    private Transform currentScene;
 
     private VignetteBase _minigameManager;
 
@@ -72,7 +73,7 @@ public class SceneHandler : MonoBehaviour
                 _dialogueUI.SetActive(true);
                 _vignetteContainer.transform.GetChild(minigameIndex).gameObject.SetActive(false);
                 _dialogueRunner.StartDialogue(sceneList[sceneListIndex].yarnNodeName);
-
+                currentScene.gameObject.SetActive(false);
                 _bubbleView.activeCharacter = sceneDatabase[sceneList[sceneListIndex]].GetComponentInChildren<CharacterBase>();
 
                 Vector3 newCamPosition = sceneDatabase[sceneList[sceneListIndex]].transform.position;
@@ -85,6 +86,7 @@ public class SceneHandler : MonoBehaviour
                 ClearDialogue();
                 _dialogueUI.SetActive(false);
                 _mainCam.transform.position = vignetteCamera.position;
+                currentScene = _vignetteContainer.transform.GetChild(minigameIndex);
                 _vignetteContainer.transform.GetChild(minigameIndex).GetComponent<VignetteBase>().StartMinigame(sceneList[sceneListIndex]);
                 break;
             case SceneData.SceneType.EXTRA:
@@ -92,6 +94,7 @@ public class SceneHandler : MonoBehaviour
 
                 ClearDialogue();
                 _dialogueUI.SetActive(false);
+                currentScene = sceneDatabase[sceneList[sceneListIndex]].transform;
                 sceneDatabase[sceneList[sceneListIndex]].SetActive(true);
                 break;
         }
