@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class ButcherCharacter : MonoBehaviour
+public class ButcherCharacter : CharacterBase
 {
     public override void PlayAnimation(string animName)
     {
