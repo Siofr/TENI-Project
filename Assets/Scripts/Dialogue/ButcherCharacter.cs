@@ -2,15 +2,14 @@ using UnityEngine;
 
 public class ButcherCharacter : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public override void PlayAnimation(string animName)
     {
-        
-    }
+        if (!CheckAnimationParameter(animName))
+        {
+            Debug.Log(string.Format("{0} is not a valid animation", animName));
+            return;
+        }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        anim.SetTrigger(animName);
     }
 }
