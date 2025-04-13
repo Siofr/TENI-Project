@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public abstract class CharacterBase : MonoBehaviour
@@ -9,7 +10,11 @@ public abstract class CharacterBase : MonoBehaviour
         anim = GetComponent<Animator>();
     }
 
+    protected List<string> emotionStates = new List<string> {"neutral", "uncomfortable", "angry"};
+
     public abstract void PlayAnimation(string animName);
+
+    public abstract void SetEmotionState(string stateName);
 
     public AnimationClip FindAnimationClip(string animClipName)
     {

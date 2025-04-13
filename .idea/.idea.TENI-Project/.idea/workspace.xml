@@ -7,13 +7,79 @@
     <list default="true" id="2810c339-f8fc-40a9-bc37-b1f77b0a4750" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TENI-Project/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TENI-Project/.idea/projectSettingsUpdater.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TENI-Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TENI-Project/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Dialogue/BLINK.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Dialogue/BLINK/BLINK_0000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Dialogue/BLINK/BLINK_0000.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Dialogue/BLINK/BLINK_0001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Dialogue/BLINK/BLINK_0001.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Dialogue/BLINK/BLINK_0002.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Dialogue/BLINK/BLINK_0002.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Dialogue/BLINK/BLINK_0003.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Dialogue/BLINK/BLINK_0003.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Dialogue/BLINK/BLINK_0004.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Dialogue/BLINK/BLINK_0004.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Dialogue/BLINK/BLINK_0005.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Dialogue/BLINK/BLINK_0005.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Dialogue/BLINK/BLINK_0006.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Dialogue/BLINK/BLINK_0006.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Dialogue/BLINK/BLINK_0007.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Dialogue/BLINK/BLINK_0007.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Dialogue/BLINK_anim.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Dialogue/BLINK_anim.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Dialogue/Character.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Dialogue/Character.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Dialogue/IDLE.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Dialogue/IDLE/IDLE_0000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Dialogue/IDLE/IDLE_0000.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Dialogue/IDLE/IDLE_0001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Dialogue/IDLE/IDLE_0001.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Dialogue/IDLE_anim.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Dialogue/IDLE_anim.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Dialogue/TALK.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Dialogue/TALK/TALK_0000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Dialogue/TALK/TALK_0000.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Dialogue/TALK/TALK_0001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Dialogue/TALK/TALK_0001.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Dialogue/TALK/TALK_0002.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Dialogue/TALK/TALK_0002.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Dialogue/TALK/TALK_0003.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Dialogue/TALK/TALK_0003.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Dialogue/TALK/TALK_0004.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Dialogue/TALK/TALK_0004.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Dialogue/TALK/TALK_0005.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Dialogue/TALK/TALK_0005.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Dialogue/TALK/TALK_0006.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Dialogue/TALK/TALK_0006.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Dialogue/TALK/TALK_0007.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Dialogue/TALK/TALK_0007.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Dialogue/TALK/TALK_0009.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Dialogue/TALK/TALK_0009.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Dialogue/TALK/TALK_0010.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Dialogue/TALK/TALK_0010.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Dialogue/TALK/TALK_0011.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Dialogue/TALK/TALK_0011.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Dialogue/TALK/TALK_0012.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Dialogue/TALK/TALK_0012.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Dialogue/TALK/TALK_0013.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Dialogue/TALK/TALK_0013.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Dialogue/TALK/TALK_0014.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Dialogue/TALK/TALK_0014.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Dialogue/TALK/TALK_0015.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Dialogue/TALK/TALK_0015.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Dialogue/TALK/TALK_0016.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Dialogue/TALK/TALK_0016.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Dialogue/TALK_anim.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Dialogue/TALK_anim.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Transitions/TransitionMat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Animations/Transitions/TransitionMat.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Art/Fonts/BungeeHairline-Regular SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Fonts/BungeeHairline-Regular SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Vignettes/Vignette1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Vignettes/Vignette1.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Vignettes/Vignette2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Vignettes/Vignette2.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Vignettes/Vignette3.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Vignettes/Vignette3.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Vignettes/Vignette4.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Vignettes/Vignette4.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dialogue/BubbleObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dialogue/BubbleObject.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Vignettes/Vignette5.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Vignettes/Vignette5.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/DOTweenSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/DOTweenSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Copies/Office New Copy.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Copies/Office New Copy.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dialogue/BubbleView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dialogue/BubbleView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dialogue/ButcherCharacter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dialogue/ButcherCharacter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dialogue/CharacterBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dialogue/CharacterBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dialogue/PlantCharacter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dialogue/PlantCharacter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yarns/DialogueCH2.yarn" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Yarns/DialogueCH2.yarn" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +112,13 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\J Kelly\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\DecompilerCache",
+      "C:\\Users\\J Kelly\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\SourcesCache",
+      "C:\\Users\\J Kelly\\AppData\\Local\\Symbols\\src"
+    ]
   }
 }]]></component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -107,6 +180,7 @@
       <workItem from="1742826059256" duration="3869000" />
       <workItem from="1743367303211" duration="5273000" />
       <workItem from="1743428046477" duration="1114000" />
+      <workItem from="1744561103110" duration="2780000" />
     </task>
     <servers />
   </component>
@@ -121,7 +195,6 @@
   </component>
   <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
   <component name="VcsManagerConfiguration">
-    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
 </project>

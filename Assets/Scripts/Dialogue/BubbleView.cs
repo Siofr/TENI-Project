@@ -52,6 +52,12 @@ public class BubbleView : DialogueViewBase
     {
         activeCharacter.PlayAnimation(animName);
     }
+    
+    [YarnCommand("set_emotion_state")]
+    public void SetEmotionState(string stateName)
+    {
+        activeCharacter.SetEmotionState(stateName);
+    }
 
     private void FlipSpeechBubble(Image speechBubble, TextMeshProUGUI text)
     {
