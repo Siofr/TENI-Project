@@ -2,6 +2,13 @@ using UnityEngine;
 
 public class ButcherInteractable : BaseInteractable
 {
+    public VignetteButcher vignetteButcher;
+
+    public void Awake()
+    {
+        vignetteButcher = GetComponentInParent<VignetteButcher>();
+    }
+
     public override void Activate()
     {
         if (base.minigameManager.objectiveInteractables[base.minigameManager.objectiveInteractableIndex] == this)
@@ -15,8 +22,9 @@ public class ButcherInteractable : BaseInteractable
 
             StartCoroutine(base.FadeAnimation());
             base.DropHead();
-        }
+            vignetteButcher.butcherBubble.HideBubble();
 
-        Debug.Log("Not correct");
+            vignetteButcher.ShowNextItem();
+        }
     }
 }

@@ -70,7 +70,7 @@ public class SceneHandler : MonoBehaviour
                 currentGameState = GameState.DIALOGUE;
 
                 _dialogueUI.SetActive(true);
-                _minigameManager._currentMinigame.gameObject.SetActive(false);
+                _vignetteContainer.transform.GetChild(minigameIndex).gameObject.SetActive(false);
                 _dialogueRunner.StartDialogue(sceneList[sceneListIndex].yarnNodeName);
 
                 _bubbleView.activeCharacter = sceneDatabase[sceneList[sceneListIndex]].GetComponentInChildren<CharacterBase>();
@@ -85,7 +85,7 @@ public class SceneHandler : MonoBehaviour
                 ClearDialogue();
                 _dialogueUI.SetActive(false);
                 _mainCam.transform.position = vignetteCamera.position;
-                _minigameManager.StartMinigame(sceneList[sceneListIndex]);
+                _vignetteContainer.transform.GetChild(minigameIndex).GetComponent<VignetteBase>().StartMinigame(sceneList[sceneListIndex]);
                 break;
             case SceneData.SceneType.EXTRA:
                 currentGameState = GameState.EXTRA;
@@ -118,7 +118,7 @@ public class SceneHandler : MonoBehaviour
                     sceneDatabase.Add(sceneData, officeScenes[sceneData.chapterNumber]);
                     break;
                 case SceneData.SceneType.VIGNETTE:
-                    Vector3 sceneSpawnPosition = new Vector3(vignetteCamera.transform.position.x, vignetteCamera.transform.position.y, vignetteCamera.transform.position.z + 10);
+                    // Vector3 sceneSpawnPosition = new Vector3(vignetteCamera.transform.position.x, vignetteCamera.transform.position.y, vignetteCamera.transform.position.z + 10);
                     GameObject newVignette = Instantiate(sceneData.scenePrefab, _vignetteContainer.transform);
                     sceneDatabase.Add(sceneData, newVignette);
                     break;

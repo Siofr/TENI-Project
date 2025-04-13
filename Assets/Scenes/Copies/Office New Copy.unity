@@ -845,7 +845,7 @@ MonoBehaviour:
   - {fileID: 540198714}
   sceneList:
   - {fileID: 11400000, guid: cd143b61a94e74a46b00566af9e61271, type: 2}
-  - {fileID: 11400000, guid: 810babe24b331c5418ecd5b2ac96f181, type: 2}
+  - {fileID: 11400000, guid: e100b897052bcad4192588133380132b, type: 2}
   - {fileID: 11400000, guid: edea69fbd49a13645bc9d50cf0df55bc, type: 2}
   - {fileID: 11400000, guid: f643552ece4ba3641a8bc2cb9391fa79, type: 2}
   - {fileID: 11400000, guid: af6274861d7e7eb40acff48e76bd3789, type: 2}
@@ -854,6 +854,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: aca1b0233e931694eba3ca5b29897ea1, type: 2}
   - {fileID: 11400000, guid: 5387c14325fba2943b179ee7d367981c, type: 2}
   - {fileID: 11400000, guid: b2e75dcf1d2e2cd4ba9c33900f0bba70, type: 2}
+  minigameIndex: 0
   _dialogueRunner: {fileID: 1213451956}
   _vignetteContainer: {fileID: 1220084247}
   _extraContainer: {fileID: 193365764}
@@ -1495,7 +1496,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1220084249}
-  - component: {fileID: 1220084250}
   m_Layer: 0
   m_Name: VignetteContainer
   m_TagString: Untagged
@@ -1518,23 +1518,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1220084250
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1220084247}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2a53cdd3957ea5247a7b5a26cb9e6005, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sceneHandler: {fileID: 0}
-  _currentMinigame: {fileID: 0}
-  vignetteCount: 0
-  objectiveInteractables: []
-  objectiveInteractableIndex: 0
 --- !u!1 &1272709647
 GameObject:
   m_ObjectHideFlags: 0

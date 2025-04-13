@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class VignetteBase : MonoBehaviour
+public abstract class VignetteBase : MonoBehaviour
 {
     public SceneHandler sceneHandler;
     public GameObject _currentMinigame;
@@ -28,7 +28,7 @@ public class VignetteBase : MonoBehaviour
     private int objectiveCount;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public virtual void Start()
     {
         foreach (Transform vignette in transform)
         {
@@ -37,11 +37,11 @@ public class VignetteBase : MonoBehaviour
         sceneHandler = GameObject.FindGameObjectWithTag("Manager").GetComponent<SceneHandler>();
     }
 
-    public void StartMinigame(SceneData minigameData)
+    public virtual void StartMinigame(SceneData minigameData)
     {
-        _currentMinigame = sceneHandler.sceneDatabase[minigameData];
-        _currentMinigame.gameObject.SetActive(true);
-        objectiveInteractables = _currentMinigame.GetComponentsInChildren<BaseInteractable>();
+        // _currentMinigame = sceneHandler.sceneDatabase[minigameData];
+        this.gameObject.SetActive(true);
+        objectiveInteractables = this.transform.GetComponentsInChildren<BaseInteractable>();
 
         foreach (BaseInteractable objective in objectiveInteractables)
         {

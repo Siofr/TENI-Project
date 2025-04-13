@@ -461,6 +461,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5815261237922556593}
+  - component: {fileID: 6085829828707214727}
   m_Layer: 0
   m_Name: Vignette2
   m_TagString: Vignette
@@ -486,6 +487,23 @@ Transform:
   - {fileID: 5593525951337950004}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6085829828707214727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2718852428947000606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 765cb7e22f2878f48aa8bf4a9cc67005, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneHandler: {fileID: 0}
+  _currentMinigame: {fileID: 0}
+  vignetteCount: 0
+  objectiveInteractables: []
+  objectiveInteractableIndex: 0
 --- !u!1 &2740799270168600050
 GameObject:
   m_ObjectHideFlags: 0
