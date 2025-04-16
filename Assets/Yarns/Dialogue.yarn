@@ -91,10 +91,92 @@ Doctor:But do come back to me if you need anything else.
 Roisin:Thank you, I will!
 //CUT TO VIGNETTE FOUR
 <<change_scene Managers>>
+===
 
+title: ChapterTwo_Segment_One
+position: 0,0
+---
+// Opening Dialogue Section
+<<set_emotion_state BubbleWindow neutral>>
+CharacterName: Hey, how's it going?
+Doctor: Welcome back. 
+CharacterName: I've been told I need to see you again before I can transition. 
+Doctor: Yes, are you ready to start the assessment?
+CharacterName: I suppose I am. I don't really have a choice do I?
+Doctor: Well, let's begin. What is your name?
+CharacterName:  Name.
+Doctor: Is that your birth name? 
+CharacterName: It's my name. 
+Doctor: I've got "deadname" on your records. 
+<<set_emotion_state BubbleWindow uncomfortable>>
+CharacterName: I don't use that anymore.
+Doctor: This is just a formality for the paperwork.
+CharacterName: Fine.
+Doctor: So, what is your home life like?
+<<set_emotion_state BubbleWindow neutral>>
+CharacterName: It's nice. I have my own place, and a little garden. Lots of peace and quiet when you live alone. 
+Doctor: Okay... so no children?
+CharacterName: Nope.
+Doctor: Do you plan on having any?
+CharacterName: Nope.
+<<set_emotion_state BubbleWindow uncomfortable>>
+Doctor: Are you sure? You know there's still time, and there's a lot of options for single wom-
+//CUT TO VIGNETTE ONE
+<<change_scene Managers>>
+===
+title: ChapterTwo_Segment_Two
+position: -2,143
+---
+<<set_emotion_state BubbleWindow uncomfortable>>
+CharacterName: I said I don't plan to have kids. I know what my options are.
+Doctor: Have you considered freezing your eggs, in case you change your mind in the future?
+CharacterName: What makes you think I'll change my mind in the future? I came here for a reason. 
+Doctor: A lot of women express regret later in life for not having children. 
+<<set_emotion_state BubbleWindow angry>>
+CharacterName: I'm not "a lot of women". I'm not a woman. 
+Doctor: Hmm...Do you feel dysphoric when you think of motherhood and what that entails?
+CharacterName: Sure. But I don't want to have children. That's all there is to it. 
+Doctor: Many of my patients say that children are a blessing. Here, let me show you a photo of my family...
+//CUT TO VIGNETTE TWO
+<<change_scene Managers>>
+===
+title: ChapterTwo_Segment_Three
+position: -2,143
+---
+<<set_emotion_state BubbleWindow angry>>
+Doctor: It's my job to make sure that your dysphoria isn't holding you back from living a normal life. 
+CharacterName: What's holding me back from living a normal life is everyone telling me I can't transition!
+CharacterName: How long do you expect me to wait? What do you need me to say?
+Doctor: I just need you to be honest with me. Are you getting upset?
+CharacterName: Of course I am. This is ridiculous. I'm asking you to help me medically transition.
+Doctor: I just don't think you've given this enough consideration. 
+<<set_emotion_state BubbleWindow uncomfortable>>
+CharacterName: I've considered this, over and over. Give me a break. 
+Doctor: Do you have a partner? 
+CharacterName: No. 
+Doctor: What if you meet someone, fall in love, and they want children? 
+Doctor: You need to really think about what transitioning means for your fertility, for your future.
 
-
-
-
+//CUT TO VIGNETTE THREE
+<<change_scene Managers>>
+===
+title: ChapterTwo_Segment_Four
+position: -2,143
+---
+Doctor: Hello again. 
+CharacterName: Hi there.
+Doctor: How is the job going?
+CharacterName: It's great, lots of new customers since the old sabatoir closed. 
+Doctor: Glad to hear it! 
+Doctor: I understand you want to begin your transition, is that right?
+CharacterName: Yep. That's right. 
+Doctor: You probably already know this, but undergoing this treatment will affect your fertility. 
+Doctor: Have you given any thought to having children in the future?
+CharacterName: Yes, and I've decided that I defintely don't want to have kids. 
+Doctor: As long as you're happy with that decision, that's all that matters. 
+Doctor: But if you do decide that you want to explore other options, such as freezing your eggs, let me know, okay?
+CharacterName: I will. Thank you. 
+CharacterName: If I do decide that I want to have kids, what are my options?
+Doctor: Great! If you're ready to get started, let's get a blood test and look at precription options. 
 
 ===

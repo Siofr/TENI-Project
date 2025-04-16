@@ -93,6 +93,7 @@ public class SceneHandler : MonoBehaviour
                 currentGameState = GameState.EXTRA;
 
                 ClearDialogue();
+                currentScene.gameObject.SetActive(false);
                 _dialogueUI.SetActive(false);
                 currentScene = sceneDatabase[sceneList[sceneListIndex]].transform;
                 sceneDatabase[sceneList[sceneListIndex]].SetActive(true);
