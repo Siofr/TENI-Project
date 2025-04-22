@@ -1,20 +1,39 @@
 using UnityEngine;
+using System.Collections.Generic;
 
 public class SculptorInteractable : BaseInteractable
 {
-    public int gridWidth;
-    public int gridHeight;
+    private int blockHealth = 3;
 
     public VignetteSculptor vignetteSculptor;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public List<List<int>> blockPositions = new List<List<int>>();
+
+    public void Awake()
     {
-        
+        vignetteSculptor = GetComponentInParent<VignetteSculptor>();
     }
 
     public override void Activate()
     {
-        throw new System.NotImplementedException();
+        if (vignetteSculptor.CheckNeighboringBlocks(blockPositions))
+        {
+            blockHealth -= 1;
+        }
+
+        if (blockHealth <= 0)
+        {
+            // Destroy Block
+            base.col.enabled = false;
+            StartCoroutine(base.FadeAnimation());
+            base.DropHead();
+
+            vignetteSculptor.UpdateSculptureBlocks(blockPositions);
+
+            if (!vignetteSculptor.CheckAllPositions())
+            {
+                minigameManager.ObjectiveComplete();
+            }
+        }
     }
 }
