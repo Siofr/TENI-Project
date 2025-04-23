@@ -17,9 +17,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Copies/Office Copy.unity
     guid: 4a2d9eacd67211748bae74fb7320bad3
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Office.unity
     guid: 5b7bcbb3209b8864f8e8fd7b82bf6564
+  - enabled: 1
+    path: Assets/Scenes/Copies/Office New Copy.unity
+    guid: b2ffa3f83a927054b86e58f407497b83
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

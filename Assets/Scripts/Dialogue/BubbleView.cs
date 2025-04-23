@@ -10,13 +10,20 @@ public class BubbleView : DialogueViewBase
     [SerializeField] private RectTransform _rectTransform;
     [SerializeField] private GameObject _bubblePrefab;
     [SerializeField] private float _textAppearanceTime;
+    private UIManager uiManager;
     private Image _bubbleSprite;
     public CharacterBase activeCharacter;
     private BubbleObject _newBubbleScript;
 
+    public void Start()
+    {
+        uiManager = GameObject.FindWithTag("UIManager").GetComponent<UIManager>();
+    }
+
     public override void RunLine(LocalizedLine dialogueLine, Action onDialogueLineFinished)
     {
         GameObject newBubble = Instantiate(_bubblePrefab, this.transform);
+        newBubble.GetComponentInChildren<TMP_Text>().font = uiManager.CurrentFont;
         _newBubbleScript = newBubble.GetComponent<BubbleObject>();
 
         //if (dialogueLine.CharacterName != "Doctor")

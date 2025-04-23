@@ -1,11 +1,11 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Events;
 using TMPro;
 
 public class UIManager : MonoBehaviour
 {
-    public static UIManager instance;
-    private TMP_Text[] textObjects;
+    [HideInInspector] public UnityEvent changeFont = new UnityEvent();
 
     public TMP_FontAsset CurrentFont {
         get {
@@ -14,37 +14,49 @@ public class UIManager : MonoBehaviour
         set
         {
             currentFont = value;
-            // textObjects = GameObject.FindObjectsOfType(typeof(TMP_Text));
-            foreach (TMP_Text textObject in textObjects) {
-                textObject.font = value;
+            changeFont.Invoke();
+            if (dyslexicMode)
+            {
+                dyslexicMode = false;
+                return;
             }
+            dyslexicMode = true;
         }
     }
 
+    public TMP_FontAsset defaultFont;
+    public TMP_FontAsset dyslexicFont;
     private TMP_FontAsset currentFont;
-    public bool dyslexicMode = false;
+
+    public bool DyslexicMode
+    {
+        get
+        {
+            return dyslexicMode;
+        }
+        set
+        {
+            dyslexicMode = value;
+
+            if (dyslexicMode)
+            {
+                CurrentFont = dyslexicFont;
+                return;
+            }
+
+            CurrentFont = defaultFont;
+        }
+    }
+
+    private bool dyslexicMode;
 
     private void Awake()
     {
-        if (instance != null && instance != this)
+        changeFont.Invoke();
+        if (!dyslexicMode)
         {
-            Destroy(this);
+            CurrentFont = defaultFont;
         }
-        else
-        {
-            instance = this;
-        }
-    }
-
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        DontDestroyOnLoad(this.gameObject);
     }
 }

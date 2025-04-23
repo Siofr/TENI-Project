@@ -8,6 +8,7 @@ TagManager:
   - Manager
   - Vignette
   - Character
+  - UIManager
   layers:
   - Default
   - TransparentFX

@@ -30,7 +30,6 @@ public class MainMenuUI : MonoBehaviour
 
         startGameButton.onClick.AddListener(StartGame);
         quitGameButton.onClick.AddListener(QuitGame);
-        dyslexicModeButton.onClick.AddListener(DyslexicMode);
     }
 
     void ShowHideMenuItem(GameObject go)
@@ -53,20 +52,5 @@ public class MainMenuUI : MonoBehaviour
     void QuitGame()
     {
         Application.Quit();
-    }
-
-    void DyslexicMode()
-    {
-        Debug.Log("Here");
-        if (UIManager.instance.dyslexicMode)
-        {
-            UIManager.instance.CurrentFont = defaultFont;
-            UIManager.instance.dyslexicMode = false;
-            dyslexicButtonText.text = "OFF";
-            return;
-        }
-        UIManager.instance.CurrentFont = readableFont;
-        UIManager.instance.dyslexicMode = true;
-        dyslexicButtonText.text = "ON";
     }
 }
