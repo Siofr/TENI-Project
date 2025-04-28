@@ -9,6 +9,7 @@ public class SceneHandler : MonoBehaviour
     public GameState currentGameState = GameState.DIALOGUE;
     public Dictionary<SceneData, GameObject> sceneDatabase = new Dictionary<SceneData, GameObject>();
     public GameObject[] officeScenes;
+    private CursorHandler cursorHandler;
 
     [Header("Scene Scriptable Object List")]
     [SerializeField] private SceneData[] sceneList;
@@ -50,6 +51,7 @@ public class SceneHandler : MonoBehaviour
         _mainCam = Camera.main;
         _bubbleView.activeCharacter = sceneDatabase[sceneList[sceneListIndex]].GetComponentInChildren<CharacterBase>();
         _minigameManager = _vignetteContainer.GetComponent<VignetteBase>();
+        cursorHandler = GameObject.FindWithTag("UIManager").GetComponent<CursorHandler>();
         // _mainCam.transform.position = dialogueCamera.position;
     }
 
@@ -67,6 +69,7 @@ public class SceneHandler : MonoBehaviour
         }
 
         sceneListIndex += 1;
+        SceneData sceneData = sceneList[sceneListIndex];
         
         switch (sceneList[sceneListIndex].currentSceneType)
         {

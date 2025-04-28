@@ -11,11 +11,22 @@ public class SceneData : ScriptableObject
         CUTSCENE
     }
 
+    public enum VignetteType
+    {
+        PLANT,
+        BUTCHER,
+        SCULPTOR
+    }
+
     public SceneType currentSceneType;
+    
 
     // If its dialogue
     [HideInInspector] public string yarnNodeName;
     [HideInInspector] public int chapterNumber;
+
+    // If its a vignette
+    [HideInInspector] public VignetteType currentVignetteType;
 
     // If its not dialogue
     [HideInInspector] public GameObject scenePrefab;

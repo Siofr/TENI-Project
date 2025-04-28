@@ -168,17 +168,20 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Another way is possible...\n\nThe World Health Organization (WHO) no longer
-    recommends psychiatric screening or\_ diagnosis for individuals seeking gender-affirming
-    care.\r\n\r\n\r\nInformed consent is how we prescribe most medications. Gender-affirming
-    healthcare for\_ transgender people is no different to HRT and other gender care
-    for cisgender people.\r\n\r\n\r\nTENI is advocating for locally available, high-quality
-    healthcare services in line\_ with international best practices. Such approaches
-    already function through Indigo\_ Gender Service in the U.K. and the Trans United
-    Clinic in the Netherlands.\_\r\n\r\nWe encourage you to write to your Senators
-    and TDs and ask that they engage with TENI and the\_ transgender community in
-    Ireland to reform transgender healthcare now. It can be\_ done \u2014 there is
-    another way!\_\r\n"
+  m_text: 'During National Gender Service appointments patients are subjected to
+    invasive, personal and sexual questioning.
+
+
+    Patients are asked the role
+    they take in sexual relationships.
+
+
+    This is NOT necessary.
+
+
+    If patients
+    fail to meet the stereotypes assigned to their gender, care is refused and patients
+    are removed from the service.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fa112df044555124d800ee6b5ef1632f, type: 2}
   m_sharedMaterial: {fileID: -2897107165107739865, guid: fa112df044555124d800ee6b5ef1632f, type: 2}
@@ -205,7 +208,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 35.05
+  m_fontSize: 55.5
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -271,7 +274,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1086346750501520172}
   m_Layer: 0
-  m_Name: Informational Message
+  m_Name: Chapter1Informational
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

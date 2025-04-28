@@ -96,7 +96,7 @@ AudioMixerGroupController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: DialogueMaster
+  m_Name: Dialogue
   m_AudioMixer: {fileID: 24100000}
   m_GroupID: 5109a369bd2afad4295d4404d157508f
   m_Children: []
@@ -129,7 +129,7 @@ AudioMixerGroupController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: AmbientMaster
+  m_Name: Ambient
   m_AudioMixer: {fileID: 24100000}
   m_GroupID: 5100ac9bbaa5eb241a3bbce94f1e5196
   m_Children: []

@@ -111,6 +111,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -259,7 +272,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Weeds_0001_highlight_thin_0: 1818667953998906834
+      Weeds_0001_highlight_thin_1: -1334701125035296417
+      Weeds_0001_highlight_thin_2: 8567609747834281312
+      Weeds_0001_highlight_thin_3: -2167636915904994181
+      Weeds_0001_highlight_thin_4: -2625964023772934623
+      Weeds_0001_highlight_thin_5: -2171221679866555705
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
