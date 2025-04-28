@@ -1,16 +1,25 @@
 using UnityEngine;
+using UnityEngine.Playables;
 
 public class ChapterStartCutscene : MonoBehaviour
 {
+    private SceneHandler sceneHandler;
+    private PlayableDirector director;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    void Awake()
     {
-        
+        sceneHandler = GameObject.FindWithTag("Manager").GetComponent<SceneHandler>();
+        director = GetComponent<PlayableDirector>();
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnEnable()
     {
-        
+        director.Play();
+    }
+
+    public void ChangeScene()
+    {
+        sceneHandler.SwapSceneAnimation();
     }
 }

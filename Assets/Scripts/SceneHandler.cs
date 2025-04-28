@@ -19,6 +19,7 @@ public class SceneHandler : MonoBehaviour
     [SerializeField] private DialogueRunner _dialogueRunner;
     [SerializeField] private GameObject _vignetteContainer;
     [SerializeField] private GameObject _extraContainer;
+    [SerializeField] private GameObject _cutsceneContainer;
     [SerializeField] private GameObject _dialogueUI;
     [SerializeField] private Transform _bubbleContainer;
     [SerializeField] private BubbleView _bubbleView;
@@ -32,12 +33,14 @@ public class SceneHandler : MonoBehaviour
     private Camera _mainCam;
     // public Transform dialogueCamera;
     public Transform vignetteCamera;
+    public Transform cutsceneCamera;
 
     public enum GameState
     {
         DIALOGUE,
         VIGNETTE,
-        EXTRA
+        EXTRA,
+        CUTSCENE
     }
 
 
@@ -98,6 +101,15 @@ public class SceneHandler : MonoBehaviour
                 currentScene = sceneDatabase[sceneList[sceneListIndex]].transform;
                 sceneDatabase[sceneList[sceneListIndex]].SetActive(true);
                 break;
+            case SceneData.SceneType.CUTSCENE:
+                currentGameState = GameState.CUTSCENE;
+
+                ClearDialogue();
+                _dialogueUI.SetActive(false);
+                currentScene = sceneDatabase[sceneList[sceneListIndex]].transform;
+                currentScene.gameObject.SetActive(true);
+                _mainCam.transform.position = _cutsceneContainer.transform.position;
+                break;
         }
     }
 
@@ -130,6 +142,11 @@ public class SceneHandler : MonoBehaviour
                     GameObject newScene = Instantiate(sceneData.scenePrefab, _extraContainer.transform);
                     sceneDatabase.Add(sceneData, newScene);
                     break;
+                case SceneData.SceneType.CUTSCENE:
+                    GameObject newCutscene = Instantiate(sceneData.scenePrefab, _cutsceneContainer.transform);
+                    sceneDatabase.Add(sceneData, newCutscene);
+                    break;
+
             }
         }
     }

@@ -34,6 +34,9 @@ public class SceneData_Editor : Editor
             case 2:
                 EditorGUILayout.PropertyField(scenePrefab);
                 break;
+            case 3:
+                EditorGUILayout.PropertyField(scenePrefab);
+                break;
         }
 
         serializedObject.ApplyModifiedProperties();

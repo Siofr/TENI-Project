@@ -7,7 +7,8 @@ public class SceneData : ScriptableObject
     {
         DIALOGUE,
         VIGNETTE,
-        EXTRA
+        EXTRA,
+        CUTSCENE
     }
 
     public SceneType currentSceneType;
