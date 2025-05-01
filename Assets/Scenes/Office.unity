@@ -563,6 +563,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentGameState: 0
+  officeScenes: []
   sceneList:
   - {fileID: 11400000, guid: cd143b61a94e74a46b00566af9e61271, type: 2}
   - {fileID: 11400000, guid: 810babe24b331c5418ecd5b2ac96f181, type: 2}
@@ -574,14 +575,17 @@ MonoBehaviour:
   - {fileID: 11400000, guid: aca1b0233e931694eba3ca5b29897ea1, type: 2}
   - {fileID: 11400000, guid: 5387c14325fba2943b179ee7d367981c, type: 2}
   - {fileID: 11400000, guid: b2e75dcf1d2e2cd4ba9c33900f0bba70, type: 2}
+  minigameIndex: 0
   _dialogueRunner: {fileID: 1213451956}
   _vignetteContainer: {fileID: 1220084247}
   _extraContainer: {fileID: 193365764}
+  _cutsceneContainer: {fileID: 0}
   _dialogueUI: {fileID: 1213451954}
   _bubbleContainer: {fileID: 867918905}
+  _bubbleView: {fileID: 0}
   _fadeMaterialManager: {fileID: 498290107}
-  dialogueCamera: {fileID: 892332351}
   vignetteCamera: {fileID: 718019742}
+  cutsceneCamera: {fileID: 0}
 --- !u!4 &826376564
 Transform:
   m_ObjectHideFlags: 0
@@ -633,7 +637,7 @@ MonoBehaviour:
   _rectTransform: {fileID: 867918905}
   _bubblePrefab: {fileID: 1471233458366858695, guid: c72de6c51fad9364c82dadb5a7526f3e, type: 3}
   _textAppearanceTime: 0
-  _speaker: {fileID: 270560362}
+  activeCharacter: {fileID: 0}
 --- !u!114 &867918901
 MonoBehaviour:
   m_ObjectHideFlags: 0
