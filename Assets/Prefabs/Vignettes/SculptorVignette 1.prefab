@@ -153,7 +153,7 @@ GameObject:
   - component: {fileID: 2266252508348099239}
   - component: {fileID: 2887076038487116213}
   m_Layer: 0
-  m_Name: SculptorVignette
+  m_Name: SculptorVignette 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -193,7 +193,18 @@ MonoBehaviour:
   vignetteCount: 0
   objectiveInteractables: []
   objectiveInteractableIndex: 0
-  sculptureBlocks: []
+  activeBlock: {fileID: 0}
+  sculptorBlocks:
+  - {fileID: 1062381888413823143}
+  - {fileID: 4386203608073143766}
+  - {fileID: 4596839130023705667}
+  - {fileID: 2440788833070669659}
+  - {fileID: 7152554840961981748}
+  - {fileID: 4533961826784497347}
+  - {fileID: 1893894000643877711}
+  - {fileID: 5685505428831337433}
+  - {fileID: 2859230071665497200}
+  - {fileID: 714908020888251097}
 --- !u!1 &7057330494719830855
 GameObject:
   m_ObjectHideFlags: 0

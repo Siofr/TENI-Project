@@ -3,20 +3,23 @@ using System.Collections.Generic;
 
 public class SculptorInteractable : BaseInteractable
 {
-    private int blockHealth = 3;
+    public bool isOutside;
+
+    private int blockHealth = 2;
 
     public VignetteSculptor vignetteSculptor;
 
     public List<List<int>> blockPositions = new List<List<int>>();
+    public List<SculptorInteractable> neighbouringPieces = new List<SculptorInteractable>();
 
     public void Awake()
     {
-        vignetteSculptor = GetComponentInParent<VignetteSculptor>();
+        // vignetteSculptor = GetComponentInParent<VignetteSculptor>();
     }
 
     public override void Activate()
     {
-        if (vignetteSculptor.CheckNeighboringBlocks(blockPositions))
+        if (vignetteSculptor.sculptorBlocks[vignetteSculptor.currentIndex] == this)
         {
             blockHealth -= 1;
         }
@@ -28,12 +31,41 @@ public class SculptorInteractable : BaseInteractable
             StartCoroutine(base.FadeAnimation());
             base.DropHead();
 
-            vignetteSculptor.UpdateSculptureBlocks(blockPositions);
+            minigameManager.ObjectiveCount -= 1;
+            vignetteSculptor.UpdateActiveBlock();
+            // UpdateNeighbouringPieces();
 
-            if (!vignetteSculptor.CheckAllPositions())
+            // vignetteSculptor.UpdateSculptureBlocks(blockPositions);
+
+            //if (!vignetteSculptor.CheckAllPositions())
+            //{
+            //    minigameManager.ObjectiveComplete();
+            //}
+        }
+    }
+
+    public void UpdateRockSprite()
+    {
+
+    }
+
+    public bool CheckNeighbouringPieces()
+    {
+        for (int i = 0; i < neighbouringPieces.Count; i++)
+        {
+            if (neighbouringPieces[i] == null)
             {
-                minigameManager.ObjectiveComplete();
+                return true;
             }
+        }
+        return false;
+    }
+
+    public void UpdateNeighbouringPieces()
+    {
+        for (int i = 0; i < neighbouringPieces.Count; i++)
+        {
+            neighbouringPieces[i].isOutside = true;
         }
     }
 }

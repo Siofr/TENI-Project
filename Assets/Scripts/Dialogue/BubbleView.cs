@@ -26,13 +26,15 @@ public class BubbleView : DialogueViewBase
         newBubble.GetComponentInChildren<TMP_Text>().font = uiManager.CurrentFont;
         _newBubbleScript = newBubble.GetComponent<BubbleObject>();
 
-        //if (dialogueLine.CharacterName != "Doctor")
-        //{
-        //    _speakerAnim.SetBool("isTalking", true);
-        //}
+        if (dialogueLine.CharacterName != "Doctor")
+        {
+            activeCharacter.gameObject.GetComponent<Animator>().SetTrigger("talk");
+        }
+
         if (dialogueLine.CharacterName == "Doctor")
         {
             _bubbleSprite = newBubble.GetComponent<Image>();
+            activeCharacter.gameObject.GetComponent<Animator>().SetTrigger("idle");
             FlipSpeechBubble(_bubbleSprite, _newBubbleScript.bubbleText);
         }
 
@@ -46,10 +48,10 @@ public class BubbleView : DialogueViewBase
             _newBubbleScript.SkipText(dialogueLine.TextWithoutCharacterName.Text);
         }
 
-        //if (dialogueLine.CharacterName != "Doctor")
-        //{
-        //    _speakerAnim.SetBool("isTalking", false);
-        //}
+        if (dialogueLine.CharacterName != "Doctor")
+        {
+            activeCharacter.gameObject.GetComponent<Animator>().SetTrigger("idle");
+        }
 
         onDialogueLineFinished();
     }
