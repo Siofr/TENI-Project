@@ -23,7 +23,8 @@ public class BubbleView : DialogueViewBase
     public override void RunLine(LocalizedLine dialogueLine, Action onDialogueLineFinished)
     {
         GameObject newBubble = Instantiate(_bubblePrefab, this.transform);
-        newBubble.GetComponentInChildren<TMP_Text>().font = uiManager.CurrentFont;
+        if (uiManager != null)
+            newBubble.GetComponentInChildren<TMP_Text>().font = uiManager.CurrentFont;
         _newBubbleScript = newBubble.GetComponent<BubbleObject>();
 
         if (dialogueLine.CharacterName != "Doctor")

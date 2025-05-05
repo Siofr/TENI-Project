@@ -13,9 +13,9 @@ public class VignetteButcher : VignetteBase
         base._currentMinigame = this.gameObject;
     }
 
-    public override void StartMinigame(SceneData minigameData)
+    public override void StartMinigame()
     {
-        base.StartMinigame(minigameData);
+        base.StartMinigame();
 
         ShowNextItem();
     }

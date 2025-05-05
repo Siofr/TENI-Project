@@ -37,7 +37,7 @@ public abstract class VignetteBase : MonoBehaviour
         sceneHandler = GameObject.FindGameObjectWithTag("Manager").GetComponent<SceneHandler>();
     }
 
-    public virtual void StartMinigame(SceneData minigameData)
+    public virtual void StartMinigame()
     {
         // _currentMinigame = sceneHandler.sceneDatabase[minigameData];
         this.gameObject.SetActive(true);

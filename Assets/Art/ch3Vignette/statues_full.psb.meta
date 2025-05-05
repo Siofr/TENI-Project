@@ -720,9 +720,9 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 4
-      width: 482
-      height: 783
+      y: 553
+      width: 184
+      height: 234
     spriteID: 317b87a2a49a5b640b34e58ef8a79bde
     spriteBone: []
     spriteOutline: []

@@ -1,0 +1,1053 @@
+fileFormatVersion: 2
+guid: b6c8ee22f0680d0419a42def4a6195c8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5506297391995874784
+    second: teni_logo_1_0
+  - first:
+      213: 5239229912141112716
+    second: teni_logo_1_1
+  - first:
+      213: 6453560151439776240
+    second: teni_logo_1_2
+  - first:
+      213: -7111772400732299094
+    second: teni_logo_1_3
+  - first:
+      213: -3971807059430123308
+    second: teni_logo_1_4
+  - first:
+      213: -3345610134775881081
+    second: teni_logo_1_5
+  - first:
+      213: 33841702086272554
+    second: teni_logo_1_6
+  - first:
+      213: 1740286223092984515
+    second: teni_logo_1_7
+  - first:
+      213: 4177824532994561187
+    second: teni_logo_1_8
+  - first:
+      213: 125176598029127691
+    second: teni_logo_1_9
+  - first:
+      213: -6732832107094284829
+    second: teni_logo_1_10
+  - first:
+      213: 6959449550730555982
+    second: teni_logo_1_11
+  - first:
+      213: 3940313824427894167
+    second: teni_logo_1_12
+  - first:
+      213: 4442762806550881708
+    second: teni_logo_1_13
+  - first:
+      213: 7842845030326523431
+    second: teni_logo_1_14
+  - first:
+      213: -7089900274945955924
+    second: teni_logo_1_15
+  - first:
+      213: -8634930928646059765
+    second: teni_logo_1_16
+  - first:
+      213: -7726424940494490417
+    second: teni_logo_1_17
+  - first:
+      213: -2456891687556891508
+    second: teni_logo_1_18
+  - first:
+      213: -8070804400369953090
+    second: teni_logo_1_19
+  - first:
+      213: -5611092473371170319
+    second: teni_logo_1_20
+  - first:
+      213: 3577124223781297791
+    second: teni_logo_1_21
+  - first:
+      213: 4778185170574358381
+    second: teni_logo_1_22
+  - first:
+      213: -6229454556988172477
+    second: teni_logo_1_23
+  - first:
+      213: 338759759461445166
+    second: teni_logo_1_24
+  - first:
+      213: 2155103816337863641
+    second: teni_logo_1_25
+  - first:
+      213: 6740787037288773940
+    second: teni_logo_1_26
+  - first:
+      213: 4019092951246658099
+    second: teni_logo_1_27
+  - first:
+      213: 5781635727123635535
+    second: teni_logo_1_28
+  - first:
+      213: -3312084459264752851
+    second: teni_logo_1_29
+  - first:
+      213: -7368881097722300942
+    second: teni_logo_1_30
+  - first:
+      213: 4121771863726944398
+    second: teni_logo_1_31
+  - first:
+      213: 9003103923953741953
+    second: teni_logo_1_32
+  - first:
+      213: 6040730427512136644
+    second: teni_logo_1_33
+  - first:
+      213: 859926343993232945
+    second: teni_logo_1_34
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Win64
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: teni_logo_1_0
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 36
+        width: 458
+        height: 457
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ede29ded4c4a6c40800000000000000
+      internalID: 5506297391995874784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teni_logo_1_1
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 341
+        width: 45
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c85a5c1b8db75b840800000000000000
+      internalID: 5239229912141112716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teni_logo_1_2
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 341
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f91f2be3c6af8950800000000000000
+      internalID: 6453560151439776240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teni_logo_1_3
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 340
+        width: 41
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa0acea6ea8ed4d90800000000000000
+      internalID: -7111772400732299094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teni_logo_1_4
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 341
+        width: 52
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d85742e58e41e8c0800000000000000
+      internalID: -3971807059430123308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teni_logo_1_5
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 340
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 782acb7ee410291d0800000000000000
+      internalID: -3345610134775881081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teni_logo_1_6
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 324
+        width: 38
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a26627749da387000800000000000000
+      internalID: 33841702086272554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teni_logo_1_7
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 340
+        width: 38
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3caa6f6791db62810800000000000000
+      internalID: 1740286223092984515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teni_logo_1_8
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 341
+        width: 51
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a49d07174d9af930800000000000000
+      internalID: 4177824532994561187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teni_logo_1_9
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 340
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b00d7b3e377bcb100800000000000000
+      internalID: 125176598029127691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teni_logo_1_10
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 340
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e5ec44eedc2092a0800000000000000
+      internalID: -6732832107094284829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teni_logo_1_11
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 341
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e42fb8f5e7ee49060800000000000000
+      internalID: 6959449550730555982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teni_logo_1_12
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 259
+        width: 42
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 795e590fb8ecea630800000000000000
+      internalID: 3940313824427894167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teni_logo_1_13
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 259
+        width: 25
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca568c9db3dd7ad30800000000000000
+      internalID: 4442762806550881708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teni_logo_1_14
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 306
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 726dc0d700267dc60800000000000000
+      internalID: 7842845030326523431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teni_logo_1_15
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 258
+        width: 27
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca7e6ea834d9b9d90800000000000000
+      internalID: -7089900274945955924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teni_logo_1_16
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 242
+        width: 45
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b09840af1109a2880800000000000000
+      internalID: -8634930928646059765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teni_logo_1_17
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 258
+        width: 51
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc47b16f37936c490800000000000000
+      internalID: -7726424940494490417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teni_logo_1_18
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 258
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8cbf8ff60e57edd0800000000000000
+      internalID: -2456891687556891508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teni_logo_1_19
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 259
+        width: 25
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb61a48a82ebeff80800000000000000
+      internalID: -8070804400369953090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teni_logo_1_20
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 241
+        width: 50
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f9e7d2df156122b0800000000000000
+      internalID: -5611092473371170319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teni_logo_1_21
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 176
+        width: 60
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7edde3778f74a130800000000000000
+      internalID: 3577124223781297791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teni_logo_1_22
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 175
+        width: 38
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d67bf13c8168f4240800000000000000
+      internalID: 4778185170574358381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teni_logo_1_23
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 175
+        width: 27
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3471842e5188c89a0800000000000000
+      internalID: -6229454556988172477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teni_logo_1_24
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 176
+        width: 72
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2e65e6d43483b400800000000000000
+      internalID: 338759759461445166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teni_logo_1_25
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 175
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d338e2b08778ed10800000000000000
+      internalID: 2155103816337863641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teni_logo_1_26
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 176
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 439b720a8161c8d50800000000000000
+      internalID: 6740787037288773940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teni_logo_1_27
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 176
+        width: 46
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33a555ebebfa6c730800000000000000
+      internalID: 4019092951246658099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teni_logo_1_28
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 93
+        width: 25
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4d59e7bf0f7c3050800000000000000
+      internalID: 5781635727123635535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teni_logo_1_29
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 93
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d23ce638bbc1902d0800000000000000
+      internalID: -3312084459264752851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teni_logo_1_30
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 92
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f5fb220fa97cb990800000000000000
+      internalID: -7368881097722300942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teni_logo_1_31
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 93
+        width: 25
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e80f4a60ca9733930800000000000000
+      internalID: 4121771863726944398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teni_logo_1_32
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 92
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 180303f715371fc70800000000000000
+      internalID: 9003103923953741953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teni_logo_1_33
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 93
+        width: 52
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c321c3915cf4d350800000000000000
+      internalID: 6040730427512136644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teni_logo_1_34
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 92
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13e87ba24721feb00800000000000000
+      internalID: 859926343993232945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      teni_logo_1_0: 5506297391995874784
+      teni_logo_1_1: 5239229912141112716
+      teni_logo_1_10: -6732832107094284829
+      teni_logo_1_11: 6959449550730555982
+      teni_logo_1_12: 3940313824427894167
+      teni_logo_1_13: 4442762806550881708
+      teni_logo_1_14: 7842845030326523431
+      teni_logo_1_15: -7089900274945955924
+      teni_logo_1_16: -8634930928646059765
+      teni_logo_1_17: -7726424940494490417
+      teni_logo_1_18: -2456891687556891508
+      teni_logo_1_19: -8070804400369953090
+      teni_logo_1_2: 6453560151439776240
+      teni_logo_1_20: -5611092473371170319
+      teni_logo_1_21: 3577124223781297791
+      teni_logo_1_22: 4778185170574358381
+      teni_logo_1_23: -6229454556988172477
+      teni_logo_1_24: 338759759461445166
+      teni_logo_1_25: 2155103816337863641
+      teni_logo_1_26: 6740787037288773940
+      teni_logo_1_27: 4019092951246658099
+      teni_logo_1_28: 5781635727123635535
+      teni_logo_1_29: -3312084459264752851
+      teni_logo_1_3: -7111772400732299094
+      teni_logo_1_30: -7368881097722300942
+      teni_logo_1_31: 4121771863726944398
+      teni_logo_1_32: 9003103923953741953
+      teni_logo_1_33: 6040730427512136644
+      teni_logo_1_34: 859926343993232945
+      teni_logo_1_4: -3971807059430123308
+      teni_logo_1_5: -3345610134775881081
+      teni_logo_1_6: 33841702086272554
+      teni_logo_1_7: 1740286223092984515
+      teni_logo_1_8: 4177824532994561187
+      teni_logo_1_9: 125176598029127691
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

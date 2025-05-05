@@ -10,9 +10,13 @@ public class UIText : MonoBehaviour
     void Awake()
     {
         uiManager = GameObject.FindWithTag("UIManager").GetComponent<UIManager>();
-        uiText = GetComponent<TMP_Text>();
-        uiManager.changeFont.AddListener(OnFontChanged);
-        uiText.font = uiManager.CurrentFont;
+
+        if (uiManager != null)
+        {
+            uiText = GetComponent<TMP_Text>();
+            uiManager.changeFont.AddListener(OnFontChanged);
+            uiText.font = uiManager.CurrentFont;
+        }
     }
 
     void OnFontChanged()

@@ -859,7 +859,7 @@ MonoBehaviour:
   - {fileID: 540198714}
   sceneList:
   - {fileID: 11400000, guid: cd143b61a94e74a46b00566af9e61271, type: 2}
-  - {fileID: 11400000, guid: 52faa19367e3b3c41a58021d2a9f7bdb, type: 2}
+  - {fileID: 11400000, guid: 810babe24b331c5418ecd5b2ac96f181, type: 2}
   - {fileID: 11400000, guid: edea69fbd49a13645bc9d50cf0df55bc, type: 2}
   - {fileID: 11400000, guid: f643552ece4ba3641a8bc2cb9391fa79, type: 2}
   - {fileID: 11400000, guid: af6274861d7e7eb40acff48e76bd3789, type: 2}
@@ -867,8 +867,25 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 99030fcbbd8e8184b9fcbbe98e4418f2, type: 2}
   - {fileID: 11400000, guid: aca1b0233e931694eba3ca5b29897ea1, type: 2}
   - {fileID: 11400000, guid: 5387c14325fba2943b179ee7d367981c, type: 2}
+  - {fileID: 11400000, guid: d5f9af90e661fed4e8617b949d6ad256, type: 2}
   - {fileID: 11400000, guid: 09a89f497f8ad3046be4e8709ffe9632, type: 2}
   - {fileID: 11400000, guid: e100b897052bcad4192588133380132b, type: 2}
+  - {fileID: 11400000, guid: 06d690f584cff4342a42869d3cc8531f, type: 2}
+  - {fileID: 11400000, guid: 415735934b428fa4b8cb74daaa49fa38, type: 2}
+  - {fileID: 11400000, guid: e6a25f8ddacd85140a0a994beca7165f, type: 2}
+  - {fileID: 11400000, guid: f592803e0d95623449fcc65324cf27df, type: 2}
+  - {fileID: 11400000, guid: 0292115da1e52b34392c835c6938e09e, type: 2}
+  - {fileID: 11400000, guid: 660d1c15c06968f4d911566d3ece4a1b, type: 2}
+  - {fileID: 11400000, guid: 7f84e96c7139d31468c520abced79092, type: 2}
+  - {fileID: 11400000, guid: 80e1c230ee06cc64d905e2c14e89f3fd, type: 2}
+  - {fileID: 11400000, guid: 52faa19367e3b3c41a58021d2a9f7bdb, type: 2}
+  - {fileID: 11400000, guid: dbcf7a80cdff5b44c84e731e21cf0e81, type: 2}
+  - {fileID: 11400000, guid: acd2ce05f699a264faeaeb31745a5634, type: 2}
+  - {fileID: 11400000, guid: 04efa62607fd22043a3305685c263363, type: 2}
+  - {fileID: 11400000, guid: 55e12bb3481ea484eb519006d0e66047, type: 2}
+  - {fileID: 11400000, guid: 9165a0399cb530d48824f211b7a33cc1, type: 2}
+  - {fileID: 11400000, guid: ae23bdcafc565a449a48861045798011, type: 2}
+  - {fileID: 11400000, guid: 1066b908d6d58c941abbbac1ce3fb1df, type: 2}
   - {fileID: 11400000, guid: b2e75dcf1d2e2cd4ba9c33900f0bba70, type: 2}
   minigameIndex: 0
   _dialogueRunner: {fileID: 1213451956}
@@ -1698,6 +1715,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1424049516}
   - component: {fileID: 1424049517}
+  - component: {fileID: 1424049518}
   m_Layer: 0
   m_Name: Character
   m_TagString: Character
@@ -1743,6 +1761,19 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1424049518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1424049515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f857e8d01963e474c87d79e78b091150, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anim: {fileID: 1424049517}
 --- !u!1 &1596380524
 GameObject:
   m_ObjectHideFlags: 0

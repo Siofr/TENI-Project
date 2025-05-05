@@ -93,7 +93,7 @@ public class SceneHandler : MonoBehaviour
                 _dialogueUI.SetActive(false);
                 _mainCam.transform.position = vignetteCamera.position;
                 currentScene = _vignetteContainer.transform.GetChild(minigameIndex);
-                _vignetteContainer.transform.GetChild(minigameIndex).GetComponent<VignetteBase>().StartMinigame(sceneList[sceneListIndex]);
+                _vignetteContainer.transform.GetChild(minigameIndex).GetComponent<VignetteBase>().StartMinigame();
                 break;
             case SceneData.SceneType.EXTRA:
                 currentGameState = GameState.EXTRA;
