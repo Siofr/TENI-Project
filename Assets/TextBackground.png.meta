@@ -1,19 +1,16 @@
 fileFormatVersion: 2
-guid: 742d761111d30794ebe90d68d88bd792
+guid: 50483f2cdb3d6a34cbbf5337b6d40623
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6816427312995690116
-    second: Cursor2-3_0
-  - first:
-      213: -2129393488635879981
-    second: Cursor2-3_1
+      213: -2018236264817288210
+    second: TextBackground_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
-    sRGBTexture: 0
+    sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
     borderMipMap: 0
@@ -40,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -77,7 +74,7 @@ TextureImporter:
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: 4
+    textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -103,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Cursor2-3_0
+      name: TextBackground_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 6
-        width: 36
-        height: 57
+        x: 482
+        y: 0
+        width: 1438
+        height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -118,30 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c791f9b497f2761a0800000000000000
-      internalID: -6816427312995690116
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Cursor2-3_1
-      rect:
-        serializedVersion: 2
-        x: 36
-        y: 19
-        width: 12
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3dd14d277efd272e0800000000000000
-      internalID: -2129393488635879981
+      spriteID: eeb11ca6fc8cdf3e0800000000000000
+      internalID: -2018236264817288210
       vertices: []
       indices: 
       edges: []
@@ -159,9 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Cursor2-3_0: -6816427312995690116
-      Cursor2-3_1: -2129393488635879981
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
