@@ -13,5 +13,8 @@ MonoBehaviour:
   m_Name: PlantDialogue4
   m_EditorClassIdentifier: 
   currentSceneType: 0
+  ambientAudioName: OfficeAmbient
   yarnNodeName: ChapterOne_Segment_Four
+  chapterNumber: 0
+  currentVignetteType: 0
   scenePrefab: {fileID: 0}

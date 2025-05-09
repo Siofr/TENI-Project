@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: ButcherDialogue1
   m_EditorClassIdentifier: 
   currentSceneType: 0
+  ambientAudioName: OfficeAmbient
   yarnNodeName: ChapterTwo_Segment_One
   chapterNumber: 1
+  currentVignetteType: 0
   scenePrefab: {fileID: 0}

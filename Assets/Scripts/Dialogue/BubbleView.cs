@@ -29,11 +29,17 @@ public class BubbleView : DialogueViewBase
 
         if (dialogueLine.CharacterName != "Doctor")
         {
+            if (AudioManager.instance != null)
+                AudioManager.instance.PlayAudioClip("SpeechPopup1");
+
             activeCharacter.gameObject.GetComponent<Animator>().SetTrigger("talk");
         }
 
         if (dialogueLine.CharacterName == "Doctor")
         {
+            if (AudioManager.instance != null)
+                AudioManager.instance.PlayAudioClip("SpeechPopup2");
+
             _bubbleSprite = newBubble.GetComponent<Image>();
             activeCharacter.gameObject.GetComponent<Animator>().SetTrigger("idle");
             FlipSpeechBubble(_bubbleSprite, _newBubbleScript.bubbleText);

@@ -27,6 +27,7 @@ public class SceneHandler : MonoBehaviour
     [SerializeField] private FadeMaterialManager _fadeMaterialManager;
     private bool isSceneChangeActive = false;
     private Transform currentScene;
+    private SceneData sceneData;
 
     private VignetteBase _minigameManager;
 
@@ -52,6 +53,8 @@ public class SceneHandler : MonoBehaviour
         _bubbleView.activeCharacter = sceneDatabase[sceneList[sceneListIndex]].GetComponentInChildren<CharacterBase>();
         _minigameManager = _vignetteContainer.GetComponent<VignetteBase>();
         cursorHandler = GameObject.FindWithTag("UIManager").GetComponent<CursorHandler>();
+        sceneData = sceneList[sceneListIndex];
+        ChangeAmbientAudio(sceneData);
         // _mainCam.transform.position = dialogueCamera.position;
     }
 
@@ -69,13 +72,14 @@ public class SceneHandler : MonoBehaviour
         }
 
         sceneListIndex += 1;
-        SceneData sceneData = sceneList[sceneListIndex];
-        
+        sceneData = sceneList[sceneListIndex];
+        ChangeCursorStyle(sceneData);
+        ChangeAmbientAudio(sceneData);
+
         switch (sceneList[sceneListIndex].currentSceneType)
         {
             case SceneData.SceneType.DIALOGUE:
                 currentGameState = GameState.DIALOGUE;
-
                 _dialogueUI.SetActive(true);
                 _vignetteContainer.transform.GetChild(minigameIndex).gameObject.SetActive(false);
                 _dialogueRunner.StartDialogue(sceneList[sceneListIndex].yarnNodeName);
@@ -88,7 +92,6 @@ public class SceneHandler : MonoBehaviour
                 break;
             case SceneData.SceneType.VIGNETTE:
                 currentGameState = GameState.VIGNETTE;
-
                 ClearDialogue();
                 _dialogueUI.SetActive(false);
                 _mainCam.transform.position = vignetteCamera.position;
@@ -97,7 +100,6 @@ public class SceneHandler : MonoBehaviour
                 break;
             case SceneData.SceneType.EXTRA:
                 currentGameState = GameState.EXTRA;
-
                 ClearDialogue();
                 currentScene.gameObject.SetActive(false);
                 _dialogueUI.SetActive(false);
@@ -154,6 +156,37 @@ public class SceneHandler : MonoBehaviour
         }
     }
 
+    public void ChangeAmbientAudio(SceneData sceneData)
+    {
+        if (AudioManager.instance != null)
+            AudioManager.instance.FadeIn(sceneData.ambientAudioName);
+    }
+
+    public void ChangeCursorStyle(SceneData currentSceneData)
+    {
+        if (currentSceneData.currentSceneType != SceneData.SceneType.VIGNETTE)
+        {
+            cursorHandler.CurrentStyle = CursorHandler.CursorStyle.DEFAULT;
+            return;
+        }
+
+        switch (currentSceneData.currentVignetteType)
+        {
+            case SceneData.VignetteType.PLANT:
+                cursorHandler.CurrentStyle = CursorHandler.CursorStyle.PLANT;
+                break;
+            case SceneData.VignetteType.BUTCHER:
+                cursorHandler.CurrentStyle = CursorHandler.CursorStyle.MEAT;
+                break;
+            case SceneData.VignetteType.SCULPTOR:
+                cursorHandler.CurrentStyle = CursorHandler.CursorStyle.STONE;
+                break;
+            default:
+                cursorHandler.CurrentStyle = CursorHandler.CursorStyle.DEFAULT;
+                break;
+        }
+    }
+
     public void ReturnToMenu()
     {
         SceneManager.LoadScene("MainMenu");
@@ -164,7 +197,9 @@ public class SceneHandler : MonoBehaviour
     {
         if(!isSceneChangeActive)
             StartCoroutine(Fade());
-        
+
+        if (AudioManager.instance != null)
+            AudioManager.instance.FadeOut(sceneData.ambientAudioName);
 
         IEnumerator Fade()
         {

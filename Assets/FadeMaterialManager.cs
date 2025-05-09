@@ -33,7 +33,7 @@ public class FadeMaterialManager : MonoBehaviour
     public IEnumerator FadeIn(float delayTime)
     {
         yield return new WaitForSeconds(delayTime);
-        
+        AudioManager.instance.PlayAudioClip("TransitionOut");
         for (float i = 0f; i <= 1f; i += updateSpeed)
         {
             _renderMat.SetFloat("_Alpha", i);
@@ -44,6 +44,7 @@ public class FadeMaterialManager : MonoBehaviour
     
     public IEnumerator FadeOut()
     {
+        AudioManager.instance.PlayAudioClip("TransitionIn");
         for (float i = 1f; i >= 0f; i -= updateSpeed)
         {
             _renderMat.SetFloat("_Alpha", i);

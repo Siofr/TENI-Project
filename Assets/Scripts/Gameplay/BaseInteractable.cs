@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 
 [RequireComponent(typeof(Collider2D))]
+[RequireComponent(typeof(UIHoverable))]
 public abstract class BaseInteractable : MonoBehaviour
 {
     public VignetteBase minigameManager;
@@ -37,6 +38,8 @@ public abstract class BaseInteractable : MonoBehaviour
 
     public void DropHead()
     {
+        if (AudioManager.instance != null)
+            AudioManager.instance.PlayAudioClip("CorrectClick");
         var newRb = gameObject.AddComponent<Rigidbody2D>();
         newRb.AddForce(new Vector2(Random.Range(-1f, 1f), 1f) * 100);
     }
