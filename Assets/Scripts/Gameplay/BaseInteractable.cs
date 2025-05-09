@@ -38,7 +38,8 @@ public abstract class BaseInteractable : MonoBehaviour
 
     public void DropHead()
     {
-        AudioManager.instance.PlayAudioClip("CorrectClick");
+        if (AudioManager.instance != null)
+            AudioManager.instance.PlayAudioClip("CorrectClick");
         var newRb = gameObject.AddComponent<Rigidbody2D>();
         newRb.AddForce(new Vector2(Random.Range(-1f, 1f), 1f) * 100);
     }

@@ -27,6 +27,7 @@ public class ButcherInteractable : BaseInteractable
             vignetteButcher.ShowNextItem();
             return;
         }
-        AudioManager.instance.PlayAudioClip("BadClick");
+        if (AudioManager.instance != null)
+            AudioManager.instance.PlayAudioClip("BadClick");
     }
 }
