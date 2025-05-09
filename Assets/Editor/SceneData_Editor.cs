@@ -5,6 +5,7 @@ using UnityEditor;
 public class SceneData_Editor : Editor
 {
     SerializedProperty currentSceneType;
+    SerializedProperty ambientAudioName;
     SerializedProperty currentVignetteType;
     SerializedProperty scenePrefab;
     SerializedProperty yarnNodeName;
@@ -13,6 +14,7 @@ public class SceneData_Editor : Editor
     private void OnEnable()
     {
         currentSceneType = serializedObject.FindProperty(nameof(SceneData.currentSceneType));
+        ambientAudioName = serializedObject.FindProperty(nameof(SceneData.ambientAudioName));
         currentVignetteType = serializedObject.FindProperty(nameof(SceneData.currentVignetteType));
         scenePrefab = serializedObject.FindProperty(nameof(SceneData.scenePrefab));
         yarnNodeName = serializedObject.FindProperty(nameof(SceneData.yarnNodeName));

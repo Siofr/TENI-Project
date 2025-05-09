@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ButcherDialogue2
   m_EditorClassIdentifier: 
   currentSceneType: 0
+  ambientAudioName: OfficeAmbient
   yarnNodeName: ChapterTwo_Segment_Two
   chapterNumber: 1
   currentVignetteType: 0

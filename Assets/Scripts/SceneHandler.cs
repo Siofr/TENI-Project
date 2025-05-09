@@ -27,6 +27,7 @@ public class SceneHandler : MonoBehaviour
     [SerializeField] private FadeMaterialManager _fadeMaterialManager;
     private bool isSceneChangeActive = false;
     private Transform currentScene;
+    private SceneData sceneData;
 
     private VignetteBase _minigameManager;
 
@@ -52,6 +53,8 @@ public class SceneHandler : MonoBehaviour
         _bubbleView.activeCharacter = sceneDatabase[sceneList[sceneListIndex]].GetComponentInChildren<CharacterBase>();
         _minigameManager = _vignetteContainer.GetComponent<VignetteBase>();
         cursorHandler = GameObject.FindWithTag("UIManager").GetComponent<CursorHandler>();
+        sceneData = sceneList[sceneListIndex];
+        ChangeAmbientAudio(sceneData);
         // _mainCam.transform.position = dialogueCamera.position;
     }
 
@@ -69,8 +72,9 @@ public class SceneHandler : MonoBehaviour
         }
 
         sceneListIndex += 1;
-        SceneData sceneData = sceneList[sceneListIndex];
+        sceneData = sceneList[sceneListIndex];
         ChangeCursorStyle(sceneData);
+        ChangeAmbientAudio(sceneData);
 
         switch (sceneList[sceneListIndex].currentSceneType)
         {
@@ -152,6 +156,12 @@ public class SceneHandler : MonoBehaviour
         }
     }
 
+    public void ChangeAmbientAudio(SceneData sceneData)
+    {
+        if (AudioManager.instance != null)
+            AudioManager.instance.FadeIn(sceneData.ambientAudioName);
+    }
+
     public void ChangeCursorStyle(SceneData currentSceneData)
     {
         if (currentSceneData.currentSceneType != SceneData.SceneType.VIGNETTE)
@@ -187,7 +197,9 @@ public class SceneHandler : MonoBehaviour
     {
         if(!isSceneChangeActive)
             StartCoroutine(Fade());
-        
+
+        if (AudioManager.instance != null)
+            AudioManager.instance.FadeOut(sceneData.ambientAudioName);
 
         IEnumerator Fade()
         {

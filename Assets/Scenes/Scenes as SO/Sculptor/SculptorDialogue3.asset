@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: SculptorDialogue3
   m_EditorClassIdentifier: 
   currentSceneType: 0
+  ambientAudioName: OfficeAmbient
   yarnNodeName: ChapterThree_Segment_One
   chapterNumber: 2
   currentVignetteType: 0

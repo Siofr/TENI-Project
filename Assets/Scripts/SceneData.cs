@@ -19,7 +19,7 @@ public class SceneData : ScriptableObject
     }
 
     public SceneType currentSceneType;
-    
+    public string ambientAudioName;
 
     // If its dialogue
     [HideInInspector] public string yarnNodeName;
