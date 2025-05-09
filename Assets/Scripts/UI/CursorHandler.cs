@@ -84,7 +84,7 @@ public class CursorHandler : MonoBehaviour
     private int currentSprite = 0;
     void Update()
     {
-        DebugFunct();
+        // DebugFunct();
         
         frames += Time.deltaTime;
         if (frames >= animationSpeed)

@@ -21,6 +21,7 @@ public class SculptorInteractable : BaseInteractable
         else
         {
             vignetteSculptor.CurrentHealth -= 1;
+            AudioManager.instance.PlayAudioClip("BadClick");
         }
 
         if (blockHealth <= 0)

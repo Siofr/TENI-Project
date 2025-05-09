@@ -20,4 +20,16 @@ public class UIHoverable : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
     {
         cursorHandler.CurrentState = CursorHandler.CursorState.IDLE;
     }
+
+    void OnMouseOver()
+    {
+        //If your mouse hovers over the GameObject with the script attached, output this message
+        cursorHandler.CurrentState = CursorHandler.CursorState.HOVER;
+    }
+
+    void OnMouseExit()
+    {
+        //The mouse is no longer hovering over the GameObject so output this message each frame
+        cursorHandler.CurrentState = CursorHandler.CursorState.IDLE;
+    }
 }

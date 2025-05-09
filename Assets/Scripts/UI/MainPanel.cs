@@ -45,7 +45,7 @@ public class MainPanel : MonoBehaviour
         FadePanelOut(panel);
     }
 
-    void QuitGame()
+    public void QuitGame()
     {
         Application.Quit();
     }

@@ -13,9 +13,9 @@ public class SceneData : ScriptableObject
 
     public enum VignetteType
     {
-        PLANT,
-        BUTCHER,
-        SCULPTOR
+        PLANT = 1,
+        BUTCHER = 2,
+        SCULPTOR = 3,
     }
 
     public SceneType currentSceneType;

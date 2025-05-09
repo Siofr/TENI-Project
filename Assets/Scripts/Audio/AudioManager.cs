@@ -31,6 +31,8 @@ public class AudioManager : MonoBehaviour
 
     private void Awake()
     {
+        DontDestroyOnLoad(this.gameObject);
+
         if (instance != null && instance != this)
         {
             Destroy(this);
@@ -87,7 +89,27 @@ public class AudioManager : MonoBehaviour
         }
     }
 
-    public IEnumerator FadeInAudio(AudioSource audioSource)
+    public void FadeIn(string audioName)
+    {
+        if (!_audioSourceDict.ContainsKey(audioName))
+        {
+            return;
+        }
+
+        FadeInAudio(_audioSourceDict[audioName]);
+    }
+
+    public void FadeOut(string audioName)
+    {
+        if (!_audioSourceDict.ContainsKey(audioName))
+        {
+            return;
+        }
+
+        FadeOutAudio(_audioSourceDict[audioName]);
+    }
+
+    private IEnumerator FadeInAudio(AudioSource audioSource)
     {
         for (float i = 0f; i <= 1f; i += _fadeRate)
         {
@@ -97,7 +119,7 @@ public class AudioManager : MonoBehaviour
         audioSource.volume = 1;
     }
 
-    public IEnumerator FadeOutAudio(AudioSource audioSource)
+    private IEnumerator FadeOutAudio(AudioSource audioSource)
     {
         for (float i = 1f; i >= 0f; i -= _fadeRate)
         {

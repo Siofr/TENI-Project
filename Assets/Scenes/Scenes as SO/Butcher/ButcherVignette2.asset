@@ -15,5 +15,5 @@ MonoBehaviour:
   currentSceneType: 1
   yarnNodeName: 
   chapterNumber: 0
-  currentVignetteType: 1
+  currentVignetteType: 2
   scenePrefab: {fileID: 2718852428947000606, guid: 09ccb39860fff9748876611b4769cce9, type: 3}

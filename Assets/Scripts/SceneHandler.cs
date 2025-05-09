@@ -70,12 +70,12 @@ public class SceneHandler : MonoBehaviour
 
         sceneListIndex += 1;
         SceneData sceneData = sceneList[sceneListIndex];
-        
+        ChangeCursorStyle(sceneData);
+
         switch (sceneList[sceneListIndex].currentSceneType)
         {
             case SceneData.SceneType.DIALOGUE:
                 currentGameState = GameState.DIALOGUE;
-
                 _dialogueUI.SetActive(true);
                 _vignetteContainer.transform.GetChild(minigameIndex).gameObject.SetActive(false);
                 _dialogueRunner.StartDialogue(sceneList[sceneListIndex].yarnNodeName);
@@ -88,7 +88,6 @@ public class SceneHandler : MonoBehaviour
                 break;
             case SceneData.SceneType.VIGNETTE:
                 currentGameState = GameState.VIGNETTE;
-
                 ClearDialogue();
                 _dialogueUI.SetActive(false);
                 _mainCam.transform.position = vignetteCamera.position;
@@ -97,7 +96,6 @@ public class SceneHandler : MonoBehaviour
                 break;
             case SceneData.SceneType.EXTRA:
                 currentGameState = GameState.EXTRA;
-
                 ClearDialogue();
                 currentScene.gameObject.SetActive(false);
                 _dialogueUI.SetActive(false);
@@ -151,6 +149,31 @@ public class SceneHandler : MonoBehaviour
                     break;
 
             }
+        }
+    }
+
+    public void ChangeCursorStyle(SceneData currentSceneData)
+    {
+        if (currentSceneData.currentSceneType != SceneData.SceneType.VIGNETTE)
+        {
+            cursorHandler.CurrentStyle = CursorHandler.CursorStyle.DEFAULT;
+            return;
+        }
+
+        switch (currentSceneData.currentVignetteType)
+        {
+            case SceneData.VignetteType.PLANT:
+                cursorHandler.CurrentStyle = CursorHandler.CursorStyle.PLANT;
+                break;
+            case SceneData.VignetteType.BUTCHER:
+                cursorHandler.CurrentStyle = CursorHandler.CursorStyle.MEAT;
+                break;
+            case SceneData.VignetteType.SCULPTOR:
+                cursorHandler.CurrentStyle = CursorHandler.CursorStyle.STONE;
+                break;
+            default:
+                cursorHandler.CurrentStyle = CursorHandler.CursorStyle.DEFAULT;
+                break;
         }
     }
 
