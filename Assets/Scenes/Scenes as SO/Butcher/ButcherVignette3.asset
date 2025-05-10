@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ButcherVignette3
   m_EditorClassIdentifier: 
   currentSceneType: 1
+  ambientAudioName: ButcherAmbient3
   yarnNodeName: 
   chapterNumber: 0
   currentVignetteType: 2

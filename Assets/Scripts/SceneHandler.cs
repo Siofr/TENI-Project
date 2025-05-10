@@ -111,6 +111,7 @@ public class SceneHandler : MonoBehaviour
 
                 ClearDialogue();
                 _dialogueUI.SetActive(false);
+                currentScene.gameObject.SetActive(false);
                 currentScene = sceneDatabase[sceneList[sceneListIndex]].transform;
                 currentScene.gameObject.SetActive(true);
                 _mainCam.transform.position = _cutsceneContainer.transform.position;

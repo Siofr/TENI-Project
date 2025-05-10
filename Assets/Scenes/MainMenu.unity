@@ -2370,6 +2370,22 @@ MonoBehaviour:
     audioClip: {fileID: 8300000, guid: d2a654a46b9cc004c9dd7c90bf1dad55, type: 3}
     audioMixerGroup: {fileID: 6661409031639633961, guid: 1a3c7f6f6ca00f042a9e0c6b267a364e, type: 2}
     isLooping: 1
+  - audioName: ButcherAmbient1
+    audioClip: {fileID: 8300000, guid: 4e80b757f6290294ba9048b3b769247c, type: 3}
+    audioMixerGroup: {fileID: 6661409031639633961, guid: 1a3c7f6f6ca00f042a9e0c6b267a364e, type: 2}
+    isLooping: 1
+  - audioName: ButcherAmbient2
+    audioClip: {fileID: 8300000, guid: a27282652b0253844aac2c4e4cce8854, type: 3}
+    audioMixerGroup: {fileID: 6661409031639633961, guid: 1a3c7f6f6ca00f042a9e0c6b267a364e, type: 2}
+    isLooping: 1
+  - audioName: ButcherAmbient3
+    audioClip: {fileID: 8300000, guid: 93b94fe18f8fdd34cadeba674a93e86b, type: 3}
+    audioMixerGroup: {fileID: 6661409031639633961, guid: 1a3c7f6f6ca00f042a9e0c6b267a364e, type: 2}
+    isLooping: 1
+  - audioName: PlantAmbient1
+    audioClip: {fileID: 8300000, guid: bf682e917d0d5ad4280ef827b72abba0, type: 3}
+    audioMixerGroup: {fileID: 6661409031639633961, guid: 1a3c7f6f6ca00f042a9e0c6b267a364e, type: 2}
+    isLooping: 1
   audioMixer: {fileID: 24100000, guid: 1a3c7f6f6ca00f042a9e0c6b267a364e, type: 2}
 --- !u!4 &1720924378
 Transform:
