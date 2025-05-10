@@ -260,7 +260,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Distortions_0002_0: -7849035189176330276
+      Distortions_0002_1: -5565173240680595135
+      Distortions_0002_2: 1057622889531293493
+      Distortions_0002_3: 1064350498346880183
+      Distortions_0002_4: -6582299520285657298
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
