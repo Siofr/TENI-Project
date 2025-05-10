@@ -6,9 +6,7 @@ Rosin:Hello
 <<play_animation BubbleWindow idle>>
 Doctor:What can I do for you?
 Roisin:I've decided I want to medically transition.
-Roisin:Did you get my referal letter from the GP?
 <<play_animation BubbleWindow blink>>
-Doctor:Yes, I did get the referral letter. Thank you for that.
 Doctor:Have we met before, or is this your first visit to the Gender Clinic?
 Roisin:This is my first time here.
 Doctor:Okay… 

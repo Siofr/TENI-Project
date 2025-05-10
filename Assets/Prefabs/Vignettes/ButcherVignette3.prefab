@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8651949295394131239}
   - component: {fileID: 4089797804873186556}
   - component: {fileID: 8703627854302005342}
+  - component: {fileID: 5112802024232017465}
   m_Layer: 0
   m_Name: Meat_2_full_Right_0000_0
   m_TagString: Objective
@@ -183,6 +184,18 @@ MonoBehaviour:
   minigameManager: {fileID: 0}
   col: {fileID: 0}
   vignetteButcher: {fileID: 8086888826622593066}
+--- !u!114 &5112802024232017465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 617490128617984853}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 456feca3aa1de9445b90a10f47387e5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &889255299254736705
 GameObject:
   m_ObjectHideFlags: 0
@@ -195,6 +208,7 @@ GameObject:
   - component: {fileID: 3450504156495667677}
   - component: {fileID: 7673670939103725261}
   - component: {fileID: 2770827107087744059}
+  - component: {fileID: 6836985122451860654}
   m_Layer: 0
   m_Name: Meat_1_full_right_0000_0
   m_TagString: Objective
@@ -367,6 +381,18 @@ MonoBehaviour:
   minigameManager: {fileID: 0}
   col: {fileID: 0}
   vignetteButcher: {fileID: 8086888826622593066}
+--- !u!114 &6836985122451860654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 889255299254736705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 456feca3aa1de9445b90a10f47387e5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1992310186208649956
 GameObject:
   m_ObjectHideFlags: 0
@@ -393,7 +419,7 @@ Transform:
   m_GameObject: {fileID: 1992310186208649956}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.353, y: 0.186, z: 0}
+  m_LocalPosition: {x: 0.052, y: -0.021, z: 0}
   m_LocalScale: {x: 0.2465, y: 0.2465, z: 0.2465}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -444,7 +470,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 305
   m_Sprite: {fileID: 4289936233079533661, guid: db172c380023dc741a2de95cd2d19fe0, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Color: {r: 0.06666667, g: 0.06666667, b: 0.06666667, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -575,6 +601,7 @@ GameObject:
   - component: {fileID: 5721840397692248286}
   - component: {fileID: 1427067576504287361}
   - component: {fileID: 373755200301132124}
+  - component: {fileID: 8607160563311316971}
   m_Layer: 0
   m_Name: Meat_1_full_top_0000_0
   m_TagString: Objective
@@ -773,6 +800,18 @@ MonoBehaviour:
   minigameManager: {fileID: 0}
   col: {fileID: 0}
   vignetteButcher: {fileID: 8086888826622593066}
+--- !u!114 &8607160563311316971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3519227399741432308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 456feca3aa1de9445b90a10f47387e5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3898787134451747966
 GameObject:
   m_ObjectHideFlags: 0
@@ -785,6 +824,7 @@ GameObject:
   - component: {fileID: 8908439554282057317}
   - component: {fileID: 2724255220321461097}
   - component: {fileID: 4828482624626591835}
+  - component: {fileID: 2282438538951985857}
   m_Layer: 0
   m_Name: Meat_3_full_right_0000_0
   m_TagString: Objective
@@ -959,6 +999,18 @@ MonoBehaviour:
   minigameManager: {fileID: 0}
   col: {fileID: 0}
   vignetteButcher: {fileID: 8086888826622593066}
+--- !u!114 &2282438538951985857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3898787134451747966}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 456feca3aa1de9445b90a10f47387e5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4198903653549093936
 GameObject:
   m_ObjectHideFlags: 0
@@ -1145,6 +1197,7 @@ GameObject:
   - component: {fileID: 5797494318684520339}
   - component: {fileID: 6114471721758811568}
   - component: {fileID: 3759995587758527040}
+  - component: {fileID: 8544282412484187027}
   m_Layer: 0
   m_Name: Meat_2_full_left_0000_0
   m_TagString: Objective
@@ -1324,6 +1377,18 @@ MonoBehaviour:
   minigameManager: {fileID: 0}
   col: {fileID: 0}
   vignetteButcher: {fileID: 8086888826622593066}
+--- !u!114 &8544282412484187027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4808715498348315346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 456feca3aa1de9445b90a10f47387e5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6183777395284419386
 GameObject:
   m_ObjectHideFlags: 0
@@ -1336,6 +1401,7 @@ GameObject:
   - component: {fileID: 7446336148915802597}
   - component: {fileID: 206392087318703607}
   - component: {fileID: 6805364471578218117}
+  - component: {fileID: 1747714678446648251}
   m_Layer: 0
   m_Name: Meat_3_full_left_0000_0
   m_TagString: Objective
@@ -1524,6 +1590,18 @@ MonoBehaviour:
   minigameManager: {fileID: 0}
   col: {fileID: 0}
   vignetteButcher: {fileID: 8086888826622593066}
+--- !u!114 &1747714678446648251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6183777395284419386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 456feca3aa1de9445b90a10f47387e5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6504543443867309081
 GameObject:
   m_ObjectHideFlags: 0
@@ -1536,6 +1614,7 @@ GameObject:
   - component: {fileID: 1376672034200083405}
   - component: {fileID: 8699417009174632985}
   - component: {fileID: 7136448350327989384}
+  - component: {fileID: 1132513272840420761}
   m_Layer: 0
   m_Name: Meat_2_full_top_0000_0
   m_TagString: Objective
@@ -1708,6 +1787,18 @@ MonoBehaviour:
   minigameManager: {fileID: 0}
   col: {fileID: 0}
   vignetteButcher: {fileID: 8086888826622593066}
+--- !u!114 &1132513272840420761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6504543443867309081}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 456feca3aa1de9445b90a10f47387e5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8130572124593104659
 GameObject:
   m_ObjectHideFlags: 0
@@ -1908,6 +1999,7 @@ GameObject:
   - component: {fileID: 1773687968181891425}
   - component: {fileID: 1030687693506137808}
   - component: {fileID: 961651266107455120}
+  - component: {fileID: 9007980866923289875}
   m_Layer: 0
   m_Name: Meat_1_full_left_0000_0
   m_TagString: Objective
@@ -2096,6 +2188,18 @@ MonoBehaviour:
   minigameManager: {fileID: 0}
   col: {fileID: 0}
   vignetteButcher: {fileID: 8086888826622593066}
+--- !u!114 &9007980866923289875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8976725212177002725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 456feca3aa1de9445b90a10f47387e5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &9000542076554411226
 GameObject:
   m_ObjectHideFlags: 0
@@ -2108,6 +2212,7 @@ GameObject:
   - component: {fileID: 7567029705349517626}
   - component: {fileID: 5892950135510609408}
   - component: {fileID: 3834490614838410257}
+  - component: {fileID: 4532628065781476132}
   m_Layer: 0
   m_Name: MEat_full_top_0000_0
   m_TagString: Objective
@@ -2299,3 +2404,15 @@ MonoBehaviour:
   minigameManager: {fileID: 0}
   col: {fileID: 0}
   vignetteButcher: {fileID: 8086888826622593066}
+--- !u!114 &4532628065781476132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9000542076554411226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 456feca3aa1de9445b90a10f47387e5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
