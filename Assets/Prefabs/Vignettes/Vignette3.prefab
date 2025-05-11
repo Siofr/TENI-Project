@@ -99,6 +99,7 @@ GameObject:
   - component: {fileID: 18290872058587193}
   - component: {fileID: 2381577874620501100}
   - component: {fileID: 8229126318871525974}
+  - component: {fileID: 4545341505761706563}
   m_Layer: 0
   m_Name: Objective (5)
   m_TagString: Objective
@@ -166,7 +167,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 150
   m_Sprite: {fileID: 6871357406516429902, guid: a241ad0af1edbc24a9980cf311b9b21e, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.7058824, g: 0.6627451, b: 0.8117647, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -334,6 +335,18 @@ PolygonCollider2D:
       - {x: 0.145, y: 0.765}
       - {x: -0.035, y: 0.675}
   m_UseDelaunayMesh: 0
+--- !u!114 &4545341505761706563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1214454084150712317}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 456feca3aa1de9445b90a10f47387e5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1968356178131020834
 GameObject:
   m_ObjectHideFlags: 0
@@ -346,6 +359,7 @@ GameObject:
   - component: {fileID: 4635508158346806984}
   - component: {fileID: 3218844492344305881}
   - component: {fileID: 1033981245829550894}
+  - component: {fileID: 2105638212924393099}
   m_Layer: 0
   m_Name: Objective (1)
   m_TagString: Objective
@@ -413,7 +427,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 120
   m_Sprite: {fileID: 8991317032240315586, guid: db172c380023dc741a2de95cd2d19fe0, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.7058824, g: 0.6627451, b: 0.8117647, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -644,6 +658,18 @@ PolygonCollider2D:
       - {x: 0.074999996, y: -2.095}
       - {x: 0.235, y: -2.0349998}
   m_UseDelaunayMesh: 0
+--- !u!114 &2105638212924393099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1968356178131020834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 456feca3aa1de9445b90a10f47387e5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2090085957860903363
 GameObject:
   m_ObjectHideFlags: 0
@@ -907,6 +933,7 @@ GameObject:
   - component: {fileID: 6394892961996989387}
   - component: {fileID: 4605561706451756661}
   - component: {fileID: 3706567797611927252}
+  - component: {fileID: 6992642327986161131}
   m_Layer: 0
   m_Name: Objective (2)
   m_TagString: Objective
@@ -974,7 +1001,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 150
   m_Sprite: {fileID: 4289936233079533661, guid: db172c380023dc741a2de95cd2d19fe0, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.7058824, g: 0.6627451, b: 0.8117647, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1159,6 +1186,18 @@ PolygonCollider2D:
       - {x: -0.71, y: -2.01}
       - {x: -0.71, y: -2}
   m_UseDelaunayMesh: 0
+--- !u!114 &6992642327986161131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3219570203160676263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 456feca3aa1de9445b90a10f47387e5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4316850480979171742
 GameObject:
   m_ObjectHideFlags: 0
@@ -1345,6 +1384,7 @@ GameObject:
   - component: {fileID: 5850800186027405185}
   - component: {fileID: 4331615919349404255}
   - component: {fileID: 6893785158527996133}
+  - component: {fileID: 2294142953327207347}
   m_Layer: 0
   m_Name: Objective
   m_TagString: Objective
@@ -1412,7 +1452,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 150
   m_Sprite: {fileID: -6386680598653846513, guid: db172c380023dc741a2de95cd2d19fe0, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.7058824, g: 0.6627451, b: 0.8117647, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1962,6 +2002,18 @@ PolygonCollider2D:
       - {x: 0.475, y: 1.0699999}
       - {x: 0.475, y: 1.0799999}
   m_UseDelaunayMesh: 0
+--- !u!114 &2294142953327207347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8454235453509069075}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 456feca3aa1de9445b90a10f47387e5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8667978013125424048
 GameObject:
   m_ObjectHideFlags: 0
@@ -1974,6 +2026,7 @@ GameObject:
   - component: {fileID: 3210385454242206621}
   - component: {fileID: 2617825653692644762}
   - component: {fileID: 3218074207723501442}
+  - component: {fileID: 4458945402987730445}
   m_Layer: 0
   m_Name: Objective (4)
   m_TagString: Objective
@@ -2041,7 +2094,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 150
   m_Sprite: {fileID: -2339954884577195725, guid: a241ad0af1edbc24a9980cf311b9b21e, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.7058824, g: 0.6627451, b: 0.8117647, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2199,6 +2252,18 @@ PolygonCollider2D:
       - {x: 0.225, y: 1.23}
       - {x: 0.24499999, y: 1.2099999}
   m_UseDelaunayMesh: 0
+--- !u!114 &4458945402987730445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8667978013125424048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 456feca3aa1de9445b90a10f47387e5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8764887619098420278
 GameObject:
   m_ObjectHideFlags: 0
@@ -2271,6 +2336,7 @@ GameObject:
   - component: {fileID: 4359620474443971950}
   - component: {fileID: 7102107748394863764}
   - component: {fileID: 7260622741710701521}
+  - component: {fileID: 9019739725759006299}
   m_Layer: 0
   m_Name: Objective (3)
   m_TagString: Objective
@@ -2338,7 +2404,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 150
   m_Sprite: {fileID: 6206676301817558165, guid: a241ad0af1edbc24a9980cf311b9b21e, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.7058824, g: 0.6627451, b: 0.8117647, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2493,3 +2559,15 @@ PolygonCollider2D:
       - {x: 0.39999998, y: 1.12}
       - {x: 0.38, y: 1.1}
   m_UseDelaunayMesh: 0
+--- !u!114 &9019739725759006299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9138881076100627420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 456feca3aa1de9445b90a10f47387e5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

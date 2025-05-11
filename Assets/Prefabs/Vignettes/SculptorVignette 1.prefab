@@ -198,6 +198,9 @@ MonoBehaviour:
   maxHealth: 2
   statueContainer: {fileID: 2282290667353907912, guid: 80521a0947197a04ca1981a44f3d8382, type: 3}
   statueSpawner: {fileID: 8979052961559785502}
+  maxCursorDistance: 10
+  shakeAmount: 0.01
+  shakeSpeed: 10
   statueAnimator: {fileID: 0}
   sculptorBlocks: []
   currentIndex: 0
