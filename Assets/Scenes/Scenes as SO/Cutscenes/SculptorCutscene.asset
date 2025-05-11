@@ -10,9 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4bbbd975b9fcd0f42b2106552e53658a, type: 3}
-  m_Name: Cutscene0
+  m_Name: SculptorCutscene
   m_EditorClassIdentifier: 
   currentSceneType: 3
+  ambientAudioName: 
   yarnNodeName: 
   chapterNumber: 0
-  scenePrefab: {fileID: 2965743067534108142, guid: 4621578dd66d2d54c8b88d6d137fe861, type: 3}
+  currentVignetteType: 0
+  scenePrefab: {fileID: 2965743067534108142, guid: 0e05738517c7aa54e8cc59cd1e4fc4c5, type: 3}

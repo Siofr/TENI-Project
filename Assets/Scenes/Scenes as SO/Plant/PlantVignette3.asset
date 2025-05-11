@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: PlantVignette3
   m_EditorClassIdentifier: 
   currentSceneType: 1
+  ambientAudioName: PlantAmbient1
   yarnNodeName: 
   chapterNumber: 0
   currentVignetteType: 1
