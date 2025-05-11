@@ -5,7 +5,7 @@ public class SculptorInteractable : BaseInteractable
 {
     public Sprite[] spriteList;
     public bool isOutside;
-    private int blockHealth = 2;
+    private int blockHealth = 1;
 
     public VignetteSculptor vignetteSculptor;
 
