@@ -178,3 +178,115 @@ CharacterName: If I do decide that I want to have kids, what are my options?
 Doctor: Great! If you're ready to get started, let's get a blood test and look at precription options. 
 
 ===
+// CHAPTER TWO END 
+
+// CHAOPTER THREE START
+
+title:ChapterThree_Segment_One
+position: 0,0
+---	
+Doctor: Hello Name, how are you today?
+CharacterName: I'm okay, a little nervous maybe.
+Doctor: What are you feeling nervous about?
+CharacterName: I think I'm about ready to start my transition, finally.
+CharacterName: But uh, it looks like I'm the only one at home that's happy about it. 
+Doctor: What do you mean by that?
+CharacterName: Ah, it's just my wife, this whole thing has been hard on her...
+CharacterName: Thankfully the kids aren't really old enough to understand it yet. 
+Doctor: So you've spoken with her about transitioning?
+CharacterName: Well, she knows how I feel, but I didn't tell her I'd be coming here today.
+Doctor: Why not?
+CharacterName: She's worried about what people will think of our family. 
+Doctor: Well, your transition would be a big shock for everyone involved, don't you think? 
+CharacterName: I know, but I don't know what else I'm supposed to do.
+Doctor: How old are your children?
+CharacterName: Three and seven. They keep us busy, but they're great kids.
+Doctor: So they're quite young. Your seven year old will be going back to school in a few weeks, right?
+CharacterName: Yes, and that's part of it, too. She says that the other parents will start to talk about us. 
+CharacterName: Maybe even tell their children to avoid our boys. 
+Doctor: Hmm, unfortunately that's not an unreasonable assumption to make. 
+Doctor: It sounds like your wife's just trying to protect her family. 
+
+// CUT TO VIGNETTE ONE
+<<change_scene Managers>>
+===
+
+title: ChapterThree_Segment_Two
+position: 0,0
+---
+CharacterName: I want to protect my family too, but I think it's important to be honest about how I feel, you know?
+Doctor: Of course. Has your wife asked you to reconsider transitioning?
+CharacterName: Yes, and she doesn't want me to come out to the kids yet either.
+Doctor: How does that make you feel?
+CharacterName: Honestly? Angry. She doesn't understand that I can't keep feeling like this. Like I'm in a pressure cooker. 
+Doctor: Can you postpone making this decision until the kids get a little older?
+CharacterName: What? No.
+CharacterName: She's suggesting I wait until they finish school. That's years away!
+Doctor: But there's no need to rush into a decision, it's okay to find the right time. 
+CharacterName: There's never a "right time"! I've gone my whole life hiding who I am just so everyone else can be comfortable.
+Doctor: What do you mean by that?
+CharacterName: My parents told me they'd never accept me if I came out, so I kept it a secret for years because I didn't want to hurt them.
+CharacterName: Now they're gone, and my wife wants me to do the same thing for her and the kids.
+CharacterName: I love them, but I can't keep pretending. 
+Doctor: Do you have any other family that you can talk to about this?
+CharacterName: No. My brother and I don't talk anymore.
+Doctor: That's a pity. You know, you really need a support system if you're going to go through with this.
+//CUT TO VIGNETTE TWO
+
+<<change_scene Managers>>
+===
+title: ChapterThree_Segment_Three
+position: 0,0
+---
+CharacterName: Hang on, you said this is my decision, right?
+Doctor: Yes, but I want you to be sure that you're making the right decision for you.
+CharacterName: But I am sure. That's why I came here. 
+Doctor: Listen, I know that you're upset about your wife's reaction, but I think you need to give her time to process this.
+CharacterName: I don't want to give anyone else more time.
+CharacterName: This is about my life, not anyone else's.
+Doctor: Please, be reasonable. It's going to be very difficult for you to go through this alone.
+CharacterName: I'm not alone. I have my kids, and my wife and I will work through this ourselves. 
+Doctor: But is that realistic?
+Doctor: You've said you don't have any other family, your wife isn't ready to support you, and your kids are too young to make sense of it.
+Doctor: I'm just not confident that you won't feel isolated.
+CharacterName: But I do feel isolated. Everyone else wants me to keep on being a "good husband" and "good father" instead of being myself."
+CharacterName: I'm done waiting for permission, so why can't you just help me?
+Doctor: Well, you're putting me in a difficult position, for one. I've got a duty of care to you and your family.
+CharacterName: I can't believe this. I know I said that my wife doesn't approve but this is not her decision. 
+CharacterName: If anything you have a duty of care to me. I'm the one who needs help! 
+Doctor: Listen, that's enough. I think you need to go home, take some time and space, and talk this through with your wife.
+
+//CUT TO INFORMATION BREAK
+<<change_scene Managers>>
+===
+title: ChapterThree_Segment_Four
+position: 0,0
+---
+Doctor: Hello, how are you today?
+CharacterName: I'm okay, a little nervous maybe. 
+Doctor: What are you feeling nervous about?
+CharacterName: I think I'm about ready to start my transition, finally.
+CharacterName: But I've been talking to my wife about it, and she's not exactly thrilled.
+Doctor: I see. How did she react?
+CharacterName: She got upset.  I think she feels like I'm abandoning her and the kids.
+CharacterName: But that couldn't be further from the truth. I love them so much, and I want to do this for them, too.
+Doctor: That's understandable. It sounds like you're in a difficult position.
+CharacterName: A little bit. She's also worried that people will treat me differently, and that it will affect our kids at school.
+Doctor: I see, that's a common concern. What do you think about that?
+CharacterName: I know it's going to be a big change for all of us, but I think it's going to be better in the long run.
+Doctor: You've got a good outlook. That's important. 
+Doctor: Do you have any other family that you can talk to about this?
+CharacterName: No. My brother and I don't talk anymore.
+Doctor: I'm sorry to hear that. It can be really helpful to have a support system in place when you're starting your transition. 
+Doctor: Have you thought about joining a support group? I can provide you with some resources if you're interested.
+CharacterName: I think that would be really helpful.
+Doctor: You might also consider talking to a therapist about your feelings, or even a family therapist to help you and your wife work through this together.
+CharacterName: I hadn't considered that, but I think that might be a good idea.
+Doctor: I know that it's not a nice thought, but will you still want to go through with your transition if your wife doesn't support you?
+CharacterName: I've been thinking about that, and yes, I think I will.
+CharacterName: I've spent a long time hiding who I am, and I don't want to do that anymore.
+Doctor: That's a brave decision.I think it's important to be true to yourself, even if it means making difficult choices.
+CharacterName: Thank you. I really appreciate your support.
+// CUT TO VIGNETTE FOUR
+<<change_scene Managers>>
+===
