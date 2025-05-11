@@ -1,9 +1,7 @@
 title: Start
 position: 0,0
 ---
-<<play_animation BubbleWindow talk>>
 Rosin:Hello
-<<play_animation BubbleWindow idle>>
 Doctor:What can I do for you?
 Roisin:I've decided I want to medically transition.
 <<play_animation BubbleWindow blink>>
@@ -24,6 +22,7 @@ Roisin:…um I don't really want to talk about that.
 Doctor:Okay,We’ll come back to that one. 
 Doctor:Can you describe your dysphoria? How does it make you feel?
 Roisin:It feels horrible. I don't like to focus on it, but it’s always there.
+<<set_emotion_state BubbleWindow uncomfortable>>
 Doctor:Can you be more specific? I need to understand how badly it affects you.
 //CUT TO VIGNETTE ONE
 <<change_scene Managers>>
@@ -36,11 +35,13 @@ Doctor:And how is your mental health? Do you take any medication for that?
 Roisin:No, I'm doing okay.
 Doctor:Do you think hormones would help your mental health?
 Roisin:...um, well...I'm not sure.
+<<set_emotion_state BubbleWindow neutral>>
 Roisin:I think it would help with my dysphoria, I don't know if it would help with my mental health.
 Doctor:Hormones will likely affect your libido. 
 Doctor:Do you think that would be a problem for you? 
 Roisin:...I don't know. I guess it depends on how much it changes me.
 Doctor:How does your dysphoria affect you during intimacy? 
+<<set_emotion_state BubbleWindow uncomfortable>>
 Roisin:It's hard to be intimate with anybody when I feel like this.
 Doctor:Okay, so you don't feel comfortable being intimate with anyone?
 Roisin:Sometimes, but not all the time. It's hard to explain.

@@ -32,7 +32,7 @@ public class BubbleView : DialogueViewBase
             if (AudioManager.instance != null)
                 AudioManager.instance.PlayAudioClip("SpeechPopup1");
 
-            activeCharacter.gameObject.GetComponent<Animator>().SetTrigger("talk");
+            activeCharacter.gameObject.GetComponent<Animator>().SetBool("talk", true);
         }
 
         if (dialogueLine.CharacterName == "Doctor")
@@ -41,7 +41,8 @@ public class BubbleView : DialogueViewBase
                 AudioManager.instance.PlayAudioClip("SpeechPopup2");
 
             _bubbleSprite = newBubble.GetComponent<Image>();
-            activeCharacter.gameObject.GetComponent<Animator>().SetTrigger("idle");
+            //activeCharacter.gameObject.GetComponent<Animator>().SetTrigger("idle");
+            activeCharacter.gameObject.GetComponent<Animator>().SetBool("talk", false);
             FlipSpeechBubble(_bubbleSprite, _newBubbleScript.bubbleText);
         }
 
@@ -57,7 +58,8 @@ public class BubbleView : DialogueViewBase
 
         if (dialogueLine.CharacterName != "Doctor")
         {
-            activeCharacter.gameObject.GetComponent<Animator>().SetTrigger("idle");
+            //activeCharacter.gameObject.GetComponent<Animator>().SetTrigger("idle");
+            activeCharacter.gameObject.GetComponent<Animator>().SetBool("talk", false);
         }
 
         onDialogueLineFinished();
