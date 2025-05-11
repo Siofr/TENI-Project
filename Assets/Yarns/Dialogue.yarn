@@ -14,7 +14,7 @@ Roisin:Roisin.
 Doctor:Roisin... That’s nice, is it your birth name?
 Roisin:No.
 Doctor:What's your birth name?
-Roisin:...Glenn.
+Roisin:...████. It should be on the referal...
 Doctor:Okay, do you go by Roisin at home? What is your home life like?
 Roisin:Yeah, and it’s okay. My parents don’t mind.
 Doctor:How did they react to you coming out?
@@ -103,10 +103,10 @@ CharacterName: I've been told I need to see you again before I can transition.
 Doctor: Yes, are you ready to start the assessment?
 CharacterName: I suppose I am. I don't really have a choice do I?
 Doctor: Well, let's begin. What is your name?
-CharacterName:  Name.
+CharacterName:  Dáithí.
 Doctor: Is that your birth name? 
 CharacterName: It's my name. 
-Doctor: I've got "deadname" on your records. 
+Doctor: I've got "████" on your records. 
 <<set_emotion_state BubbleWindow uncomfortable>>
 CharacterName: I don't use that anymore.
 Doctor: This is just a formality for the paperwork.
@@ -187,7 +187,7 @@ Doctor: Great! If you're ready to get started, let's get a blood test and look a
 title:ChapterThree_Segment_One
 position: 0,0
 ---	
-Doctor: Hello Name, how are you today?
+Doctor: Hello Fiadh, how are you today?
 CharacterName: I'm okay, a little nervous maybe.
 Doctor: What are you feeling nervous about?
 CharacterName: I think I'm about ready to start my transition, finally.
