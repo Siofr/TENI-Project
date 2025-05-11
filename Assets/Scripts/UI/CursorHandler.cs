@@ -17,6 +17,10 @@ public class CursorHandler : MonoBehaviour
         MEAT,
         STONE
     }
+    
+    public bool isDebug = false;
+    
+    private Vector2 _hotspot;
 
     private CursorState _currentState;
     public CursorState CurrentState 
@@ -26,10 +30,12 @@ public class CursorHandler : MonoBehaviour
             _currentState = value;
             if (_currentState == CursorState.IDLE)
             {
+                _hotspot = _currentCursorAnimation.cursorHotspotIdle;
                 _cursorSprites = _currentCursorAnimation.cursorTexturesIdle;
             }
             else if (_currentState == CursorState.HOVER)
             {
+                _hotspot = _currentCursorAnimation.cursorHotspotHover;
                 _cursorSprites = _currentCursorAnimation.cursorTexturesHover;
             }
         }
@@ -84,7 +90,7 @@ public class CursorHandler : MonoBehaviour
     private int currentSprite = 0;
     void Update()
     {
-        // DebugFunct();
+        if(isDebug && Application.isEditor) DebugFunct();
         
         frames += Time.deltaTime;
         if (frames >= animationSpeed)
@@ -96,8 +102,8 @@ public class CursorHandler : MonoBehaviour
             {
                 currentSprite = 0;
             }
-            
-            Cursor.SetCursor(_cursorSprites[currentSprite].texture, Vector2.zero, CursorMode.Auto);
+
+            Cursor.SetCursor(_cursorSprites[currentSprite].texture, _hotspot, CursorMode.Auto);
         }
         
     }
@@ -145,5 +151,8 @@ public class CursorHandler : MonoBehaviour
         public CursorStyle cursorStyle;
         public Sprite[] cursorTexturesIdle;
         public Sprite[] cursorTexturesHover;
+
+        public Vector2 cursorHotspotIdle = new Vector2(0, 0);
+        public Vector2 cursorHotspotHover = new Vector2(0, 0);
     }
 }
