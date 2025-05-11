@@ -34,6 +34,7 @@ public class VignetteSculptor : VignetteBase
     public float shakeSpeed = 10f;
 
     private Transform activeBlock;
+    private SpriteRenderer activeBlockSprite;
     public Animator statueAnimator;
 
     public List<SculptorInteractable> sculptorBlocks = new List<SculptorInteractable>();
@@ -57,6 +58,8 @@ public class VignetteSculptor : VignetteBase
         statueScript = currentStatue.GetComponent<Sculpture>();
         sculptorBlocks = statueScript.sculptureOrder;
         activeBlock = sculptorBlocks[0].transform;
+        activeBlockSprite = activeBlock.GetComponent<SpriteRenderer>();
+        DarkenSprite(activeBlockSprite);
         objectiveInteractables = this.transform.GetComponentsInChildren<BaseInteractable>();
         CurrentHealth = maxHealth;
 
@@ -105,7 +108,11 @@ public class VignetteSculptor : VignetteBase
         currentIndex += 1;
 
         if (currentIndex < sculptorBlocks.Count)
+        {
             activeBlock = sculptorBlocks[currentIndex].transform;
+            activeBlockSprite = activeBlock.GetComponent<SpriteRenderer>();
+            DarkenSprite(activeBlockSprite);
+        }
     }
 
     public void UpdateBlockSprite()
@@ -125,5 +132,10 @@ public class VignetteSculptor : VignetteBase
     {
         Destroy(currentStatue);
         StartMinigame();
+    }
+
+    public void DarkenSprite(SpriteRenderer spriteRenderer)
+    {
+        spriteRenderer.color = new Color(0.8f, 0.8f, 0.8f);
     }
 }
