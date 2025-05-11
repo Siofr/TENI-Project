@@ -15,6 +15,8 @@ public class BubbleView : DialogueViewBase
     public CharacterBase activeCharacter;
     private BubbleObject _newBubbleScript;
 
+    private bool _lastItem = false;
+
     public void Start()
     {
         uiManager = GameObject.FindWithTag("UIManager").GetComponent<UIManager>();
@@ -77,10 +79,17 @@ public class BubbleView : DialogueViewBase
         activeCharacter.SetEmotionState(stateName);
     }
 
+    [YarnCommand("mark_last_item")]
+    public void MarkLastItem()
+    {
+        _lastItem = true;
+    }
+
     private void FlipSpeechBubble(Image speechBubble, TextMeshProUGUI text)
     {
         // make doctor bubble darker
-        speechBubble.color = new Color(0.863f, 0.898f, 0.922f);
+        speechBubble.color = (!_lastItem)? new Color(0.863f, 0.898f, 0.922f) : new Color(0.871f, 0.796f, 0.776f);
+        _lastItem = false;
         speechBubble.rectTransform.localScale = new Vector3(speechBubble.rectTransform.localScale.x * -1, speechBubble.rectTransform.localScale.y, speechBubble.rectTransform.localScale.y);
         text.rectTransform.localScale = new Vector3(text.rectTransform.localScale.x * -1, text.rectTransform.localScale.y, text.rectTransform.localScale.z);
     }

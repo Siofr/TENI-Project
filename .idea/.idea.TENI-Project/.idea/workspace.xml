@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2810c339-f8fc-40a9-bc37-b1f77b0a4750" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Dialogue/ch2/Character.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Animations/Dialogue/ch2/Character.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TENI-Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TENI-Project/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Transitions/TransitionMat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Animations/Transitions/TransitionMat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Fonts/BungeeHairline-Regular SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Fonts/BungeeHairline-Regular SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dialogue/BubbleObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dialogue/BubbleObject.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dialogue/BubbleView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dialogue/BubbleView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yarns/Dialogue.yarn" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Yarns/Dialogue.yarn" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +117,7 @@
       <workItem from="1743428046477" duration="1114000" />
       <workItem from="1744561103110" duration="2780000" />
       <workItem from="1746623783495" duration="5593000" />
-      <workItem from="1746995723965" duration="4266000" />
+      <workItem from="1746995723965" duration="6333000" />
     </task>
     <servers />
   </component>
