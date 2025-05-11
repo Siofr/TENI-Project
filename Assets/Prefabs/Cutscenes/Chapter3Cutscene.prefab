@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7519039126800771252}
   - component: {fileID: 8463086691119519897}
   m_Layer: 0
-  m_Name: Chapter2Cutscene
+  m_Name: Chapter3Cutscene
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -44,7 +44,7 @@ PlayableDirector:
   m_GameObject: {fileID: 2965743067534108142}
   m_Enabled: 1
   serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: 2a43e56eda87f8244a45025a46c8b6fd, type: 2}
+  m_PlayableAsset: {fileID: 11400000, guid: 2cc14d292b7900b43b030f06e5e8c99c, type: 2}
   m_InitialState: 1
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
@@ -54,10 +54,10 @@ PlayableDirector:
     value: {fileID: 8463086691119519897}
   - key: {fileID: -2302934511304493257, guid: cd476aeac99c489439109c537b6a6d8a, type: 2}
     value: {fileID: 4748205331072593210}
-  - key: {fileID: -7925567434969771305, guid: 2a43e56eda87f8244a45025a46c8b6fd, type: 2}
-    value: {fileID: 8463086691119519897}
-  - key: {fileID: 7327176687620148856, guid: 2a43e56eda87f8244a45025a46c8b6fd, type: 2}
+  - key: {fileID: 1390762341144210764, guid: 2cc14d292b7900b43b030f06e5e8c99c, type: 2}
     value: {fileID: 4748205331072593210}
+  - key: {fileID: 7289887839171299570, guid: 2cc14d292b7900b43b030f06e5e8c99c, type: 2}
+    value: {fileID: 8463086691119519897}
   m_ExposedReferences:
     m_References: []
 --- !u!114 &7519039126800771252
@@ -179,7 +179,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 8604693780845684536, guid: b6b85379eed3a2a42bda34ce53086a53, type: 3}
+  m_Sprite: {fileID: -5637955245219837646, guid: 0ef817349e2063a42b2547c1b670b020, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -200,7 +200,7 @@ Animator:
   m_GameObject: {fileID: 4036744039511197292}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 1b1e17232e254a84f8a60c1eabc92098, type: 2}
+  m_Controller: {fileID: 9100000, guid: bf65fdd56c451d746a6eda2a28330e07, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
