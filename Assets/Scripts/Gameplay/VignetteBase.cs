@@ -7,6 +7,7 @@ public abstract class VignetteBase : MonoBehaviour
     public int vignetteCount;
     public BaseInteractable[] objectiveInteractables;
     public int objectiveInteractableIndex;
+    public bool changeSceneTrigger = false;
 
     public int ObjectiveCount
     {
@@ -37,6 +38,14 @@ public abstract class VignetteBase : MonoBehaviour
         sceneHandler = GameObject.FindGameObjectWithTag("Manager").GetComponent<SceneHandler>();
     }
 
+    public void Update()
+    {
+        if (changeSceneTrigger)
+        {
+            sceneHandler.SwapSceneAnimation();
+        }
+    }
+
     public virtual void StartMinigame()
     {
         // _currentMinigame = sceneHandler.sceneDatabase[minigameData];
@@ -53,6 +62,7 @@ public abstract class VignetteBase : MonoBehaviour
     public void ObjectiveComplete()
     {
         sceneHandler.minigameIndex += 1;
+        changeSceneTrigger = true;
         sceneHandler.SwapSceneAnimation();
     }
 }

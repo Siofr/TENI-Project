@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8651949295394131239}
   - component: {fileID: 4089797804873186556}
   - component: {fileID: 8703627854302005342}
+  - component: {fileID: 5112802024232017465}
   m_Layer: 0
   m_Name: Meat_2_full_Right_0000_0
   m_TagString: Objective
@@ -183,6 +184,18 @@ MonoBehaviour:
   minigameManager: {fileID: 0}
   col: {fileID: 0}
   vignetteButcher: {fileID: 8086888826622593066}
+--- !u!114 &5112802024232017465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 617490128617984853}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 456feca3aa1de9445b90a10f47387e5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &889255299254736705
 GameObject:
   m_ObjectHideFlags: 0
@@ -193,11 +206,9 @@ GameObject:
   m_Component:
   - component: {fileID: 8965074896684341356}
   - component: {fileID: 3450504156495667677}
-  - component: {fileID: 7673670939103725261}
-  - component: {fileID: 2770827107087744059}
   m_Layer: 0
   m_Name: Meat_1_full_right_0000_0
-  m_TagString: Objective
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -272,101 +283,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!60 &7673670939103725261
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 889255299254736705}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.42, y: 2.3}
-    newSize: {x: 1.42, y: 2.3}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: 0.71, y: -0.19}
-      - {x: 0.71, y: 0.28}
-      - {x: 0.69, y: 0.29999998}
-      - {x: 0.7, y: 0.53999996}
-      - {x: 0.66999996, y: 0.66999996}
-      - {x: 0.64, y: 0.71}
-      - {x: 0.57, y: 0.83}
-      - {x: 0.55, y: 1.03}
-      - {x: 0.64, y: 1.0699999}
-      - {x: 0.65999997, y: 1.11}
-      - {x: 0.65, y: 1.15}
-      - {x: 0.34, y: 1.15}
-      - {x: 0.14999999, y: 1.03}
-      - {x: -0.02, y: 0.94}
-      - {x: -0.16, y: 0.83}
-      - {x: -0.29, y: 0.7}
-      - {x: -0.45999998, y: 0.48}
-      - {x: -0.55, y: 0.34}
-      - {x: -0.69, y: 0.13}
-      - {x: -0.71, y: 0.07}
-      - {x: -0.71, y: 0.03}
-      - {x: -0.64, y: -0.08}
-      - {x: -0.53, y: -0.28}
-      - {x: -0.39999998, y: -0.55}
-      - {x: -0.25, y: -0.76}
-      - {x: -0.06, y: -0.96}
-      - {x: 0.08, y: -1.05}
-      - {x: 0.21, y: -1.15}
-      - {x: 0.26999998, y: -1.15}
-      - {x: 0.29999998, y: -1.14}
-      - {x: 0.45999998, y: -0.84999996}
-      - {x: 0.52, y: -0.71}
-      - {x: 0.68, y: -0.37}
-  m_UseDelaunayMesh: 0
---- !u!114 &2770827107087744059
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 889255299254736705}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f7566c99144ab6f4b87b6d1cbe9dfefb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  minigameManager: {fileID: 0}
-  col: {fileID: 0}
-  vignetteButcher: {fileID: 8086888826622593066}
 --- !u!1 &1992310186208649956
 GameObject:
   m_ObjectHideFlags: 0
@@ -463,7 +379,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6719173893295936299}
-  - component: {fileID: 4579699181001029285}
   m_Layer: 0
   m_Name: Background
   m_TagString: Untagged
@@ -487,28 +402,6 @@ Transform:
   - {fileID: 579701824228885166}
   m_Father: {fileID: 5815261237922556593}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &4579699181001029285
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2090085957860903363}
-  m_Enabled: 0
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 1923b5df7218ccf479d49edbd8f63fd3, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &2718852428947000606
 GameObject:
   m_ObjectHideFlags: 0
@@ -575,6 +468,7 @@ GameObject:
   - component: {fileID: 5721840397692248286}
   - component: {fileID: 1427067576504287361}
   - component: {fileID: 373755200301132124}
+  - component: {fileID: 8607160563311316971}
   m_Layer: 0
   m_Name: Meat_1_full_top_0000_0
   m_TagString: Objective
@@ -773,6 +667,18 @@ MonoBehaviour:
   minigameManager: {fileID: 0}
   col: {fileID: 0}
   vignetteButcher: {fileID: 8086888826622593066}
+--- !u!114 &8607160563311316971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3519227399741432308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 456feca3aa1de9445b90a10f47387e5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3898787134451747966
 GameObject:
   m_ObjectHideFlags: 0
@@ -785,6 +691,7 @@ GameObject:
   - component: {fileID: 8908439554282057317}
   - component: {fileID: 2724255220321461097}
   - component: {fileID: 4828482624626591835}
+  - component: {fileID: 2282438538951985857}
   m_Layer: 0
   m_Name: Meat_3_full_right_0000_0
   m_TagString: Objective
@@ -959,6 +866,18 @@ MonoBehaviour:
   minigameManager: {fileID: 0}
   col: {fileID: 0}
   vignetteButcher: {fileID: 8086888826622593066}
+--- !u!114 &2282438538951985857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3898787134451747966}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 456feca3aa1de9445b90a10f47387e5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4198903653549093936
 GameObject:
   m_ObjectHideFlags: 0
@@ -1143,11 +1062,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4089636537358635891}
   - component: {fileID: 5797494318684520339}
-  - component: {fileID: 6114471721758811568}
-  - component: {fileID: 3759995587758527040}
   m_Layer: 0
   m_Name: Meat_2_full_left_0000_0
-  m_TagString: Objective
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1222,108 +1139,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!60 &6114471721758811568
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4808715498348315346}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.02, y: 2.68}
-    newSize: {x: 2.02, y: 2.68}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: 0.21, y: -0.62}
-      - {x: 0.34, y: -0.47}
-      - {x: 0.55, y: -0.22999999}
-      - {x: 0.68, y: -0.13}
-      - {x: 0.9, y: -0.02}
-      - {x: 1.01, y: 0.03}
-      - {x: 1.01, y: 0.06}
-      - {x: 0.96, y: 0.14999999}
-      - {x: 0.84, y: 0.32}
-      - {x: 0.7, y: 0.47}
-      - {x: 0.55, y: 0.64}
-      - {x: 0.42, y: 0.75}
-      - {x: 0.29999998, y: 0.84}
-      - {x: 0.22999999, y: 0.88}
-      - {x: 0.04, y: 1.01}
-      - {x: -0.48999998, y: 1.29}
-      - {x: -0.63, y: 1.3299999}
-      - {x: -0.71999997, y: 1.3399999}
-      - {x: -0.78999996, y: 1.3399999}
-      - {x: -0.83, y: 1.29}
-      - {x: -0.93, y: 0.95}
-      - {x: -1.01, y: 0.52}
-      - {x: -1.01, y: 0.19999999}
-      - {x: -1, y: 0.13}
-      - {x: -1.01, y: -0.06}
-      - {x: -1, y: -0.17}
-      - {x: -0.96, y: -0.45}
-      - {x: -0.93, y: -0.61}
-      - {x: -0.90999997, y: -0.68}
-      - {x: -0.87, y: -0.78}
-      - {x: -0.81, y: -0.89}
-      - {x: -0.74, y: -0.97999996}
-      - {x: -0.63, y: -1.12}
-      - {x: -0.48, y: -1.23}
-      - {x: -0.35, y: -1.3399999}
-      - {x: -0.31, y: -1.3399999}
-      - {x: -0.28, y: -1.3299999}
-      - {x: -0.19999999, y: -1.17}
-      - {x: -0.17, y: -1.1}
-      - {x: 0, y: -0.9}
-  m_UseDelaunayMesh: 0
---- !u!114 &3759995587758527040
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4808715498348315346}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f7566c99144ab6f4b87b6d1cbe9dfefb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  minigameManager: {fileID: 0}
-  col: {fileID: 0}
-  vignetteButcher: {fileID: 8086888826622593066}
 --- !u!1 &6183777395284419386
 GameObject:
   m_ObjectHideFlags: 0
@@ -1336,6 +1151,7 @@ GameObject:
   - component: {fileID: 7446336148915802597}
   - component: {fileID: 206392087318703607}
   - component: {fileID: 6805364471578218117}
+  - component: {fileID: 1747714678446648251}
   m_Layer: 0
   m_Name: Meat_3_full_left_0000_0
   m_TagString: Objective
@@ -1524,6 +1340,18 @@ MonoBehaviour:
   minigameManager: {fileID: 0}
   col: {fileID: 0}
   vignetteButcher: {fileID: 8086888826622593066}
+--- !u!114 &1747714678446648251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6183777395284419386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 456feca3aa1de9445b90a10f47387e5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6504543443867309081
 GameObject:
   m_ObjectHideFlags: 0
@@ -1534,11 +1362,9 @@ GameObject:
   m_Component:
   - component: {fileID: 7801459801126087539}
   - component: {fileID: 1376672034200083405}
-  - component: {fileID: 8699417009174632985}
-  - component: {fileID: 7136448350327989384}
   m_Layer: 0
   m_Name: Meat_2_full_top_0000_0
-  m_TagString: Objective
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1613,101 +1439,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!60 &8699417009174632985
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6504543443867309081}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.98, y: 1.82}
-    newSize: {x: 1.98, y: 1.82}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: 0.89, y: -0.01}
-      - {x: 0.84, y: 0.16}
-      - {x: 0.78, y: 0.39999998}
-      - {x: 0.76, y: 0.63}
-      - {x: 0.72999996, y: 0.72999996}
-      - {x: 0.71, y: 0.77}
-      - {x: 0.68, y: 0.78}
-      - {x: 0.24, y: 0.78999996}
-      - {x: 0.14999999, y: 0.81}
-      - {x: -0.17999999, y: 0.79999995}
-      - {x: -0.34, y: 0.78999996}
-      - {x: -0.63, y: 0.88}
-      - {x: -0.7, y: 0.90999997}
-      - {x: -0.77, y: 0.90999997}
-      - {x: -0.84999996, y: 0.77}
-      - {x: -0.95, y: 0.5}
-      - {x: -0.98999995, y: 0.42999998}
-      - {x: -0.98999995, y: 0.34}
-      - {x: -0.82, y: 0.31}
-      - {x: -0.66999996, y: 0.26}
-      - {x: -0.5, y: 0.17999999}
-      - {x: -0.26999998, y: 0.049999997}
-      - {x: 0.049999997, y: -0.14}
-      - {x: 0.17, y: -0.22999999}
-      - {x: 0.32, y: -0.35999998}
-      - {x: 0.47, y: -0.52}
-      - {x: 0.56, y: -0.62}
-      - {x: 0.74, y: -0.85999995}
-      - {x: 0.78999996, y: -0.90999997}
-      - {x: 0.83, y: -0.90999997}
-      - {x: 0.98999995, y: -0.82}
-      - {x: 0.98999995, y: -0.66999996}
-      - {x: 0.97999996, y: -0.52}
-  m_UseDelaunayMesh: 0
---- !u!114 &7136448350327989384
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6504543443867309081}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f7566c99144ab6f4b87b6d1cbe9dfefb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  minigameManager: {fileID: 0}
-  col: {fileID: 0}
-  vignetteButcher: {fileID: 8086888826622593066}
 --- !u!1 &8130572124593104659
 GameObject:
   m_ObjectHideFlags: 0
@@ -1906,11 +1637,9 @@ GameObject:
   m_Component:
   - component: {fileID: 5147775340760768367}
   - component: {fileID: 1773687968181891425}
-  - component: {fileID: 1030687693506137808}
-  - component: {fileID: 961651266107455120}
   m_Layer: 0
   m_Name: Meat_1_full_left_0000_0
-  m_TagString: Objective
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1985,117 +1714,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!60 &1030687693506137808
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8976725212177002725}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.91, y: 3.04}
-    newSize: {x: 1.91, y: 3.04}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: 0.295, y: -1.1999999}
-      - {x: 0.355, y: -1.24}
-      - {x: 0.415, y: -1.23}
-      - {x: 0.48499998, y: -1.12}
-      - {x: 0.555, y: -1.02}
-      - {x: 0.66499996, y: -0.82}
-      - {x: 0.755, y: -0.7}
-      - {x: 0.895, y: -0.53}
-      - {x: 0.945, y: -0.45999998}
-      - {x: 0.945, y: -0.42}
-      - {x: 0.805, y: -0.31}
-      - {x: 0.73499995, y: -0.28}
-      - {x: 0.53499997, y: -0.099999994}
-      - {x: 0.465, y: -0.04}
-      - {x: 0.345, y: 0.13}
-      - {x: 0.205, y: 0.42}
-      - {x: 0.114999995, y: 0.59}
-      - {x: -0.044999998, y: 0.84999996}
-      - {x: -0.21499999, y: 1.04}
-      - {x: -0.385, y: 1.1999999}
-      - {x: -0.45499998, y: 1.26}
-      - {x: -0.78499997, y: 1.51}
-      - {x: -0.835, y: 1.51}
-      - {x: -0.905, y: 1.4699999}
-      - {x: -0.895, y: 1.41}
-      - {x: -0.84499997, y: 1.3199999}
-      - {x: -0.91499996, y: 1.15}
-      - {x: -0.945, y: 1.01}
-      - {x: -0.955, y: 0.97999996}
-      - {x: -0.955, y: 0.66999996}
-      - {x: -0.935, y: 0.55}
-      - {x: -0.905, y: 0.42999998}
-      - {x: -0.825, y: 0.37}
-      - {x: -0.755, y: 0.17999999}
-      - {x: -0.66499996, y: -0.24}
-      - {x: -0.575, y: -0.52}
-      - {x: -0.53499997, y: -0.68}
-      - {x: -0.49499997, y: -0.76}
-      - {x: -0.475, y: -0.91999996}
-      - {x: -0.465, y: -1.04}
-      - {x: -0.435, y: -1.22}
-      - {x: -0.39499998, y: -1.38}
-      - {x: -0.305, y: -1.4499999}
-      - {x: -0.285, y: -1.51}
-      - {x: -0.225, y: -1.52}
-      - {x: -0.105, y: -1.52}
-      - {x: -0.065, y: -1.5}
-      - {x: 0.024999999, y: -1.4599999}
-      - {x: 0.125, y: -1.39}
-  m_UseDelaunayMesh: 0
---- !u!114 &961651266107455120
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8976725212177002725}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f7566c99144ab6f4b87b6d1cbe9dfefb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  minigameManager: {fileID: 0}
-  col: {fileID: 0}
-  vignetteButcher: {fileID: 8086888826622593066}
 --- !u!1 &9000542076554411226
 GameObject:
   m_ObjectHideFlags: 0
@@ -2108,6 +1726,7 @@ GameObject:
   - component: {fileID: 7567029705349517626}
   - component: {fileID: 5892950135510609408}
   - component: {fileID: 3834490614838410257}
+  - component: {fileID: 4532628065781476132}
   m_Layer: 0
   m_Name: MEat_full_top_0000_0
   m_TagString: Objective
@@ -2299,3 +1918,15 @@ MonoBehaviour:
   minigameManager: {fileID: 0}
   col: {fileID: 0}
   vignetteButcher: {fileID: 8086888826622593066}
+--- !u!114 &4532628065781476132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9000542076554411226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 456feca3aa1de9445b90a10f47387e5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

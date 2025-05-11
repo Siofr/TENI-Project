@@ -6,14 +6,14 @@ using UnityEngine.SceneManagement;
 
 public class SceneHandler : MonoBehaviour
 {
-    public GameState currentGameState = GameState.DIALOGUE;
+    public GameState currentGameState = GameState.CUTSCENE;
     public Dictionary<SceneData, GameObject> sceneDatabase = new Dictionary<SceneData, GameObject>();
     public GameObject[] officeScenes;
     private CursorHandler cursorHandler;
 
     [Header("Scene Scriptable Object List")]
     [SerializeField] private SceneData[] sceneList;
-    private int sceneListIndex;
+    private int sceneListIndex = -1;
     public int minigameIndex;
 
     [Header("UI Variables")]
@@ -50,11 +50,12 @@ public class SceneHandler : MonoBehaviour
     {
         InstantiateAssets();
         _mainCam = Camera.main;
-        _bubbleView.activeCharacter = sceneDatabase[sceneList[sceneListIndex]].GetComponentInChildren<CharacterBase>();
+        _bubbleView.activeCharacter = sceneDatabase[sceneList[sceneListIndex + 2]].GetComponentInChildren<CharacterBase>();
         _minigameManager = _vignetteContainer.GetComponent<VignetteBase>();
         cursorHandler = GameObject.FindWithTag("UIManager").GetComponent<CursorHandler>();
-        sceneData = sceneList[sceneListIndex];
-        ChangeAmbientAudio(sceneData);
+        // sceneData = sceneList[sceneListIndex];
+        ChangeScene();
+        // ChangeAmbientAudio(sceneData);
         // _mainCam.transform.position = dialogueCamera.position;
     }
 
@@ -82,7 +83,8 @@ public class SceneHandler : MonoBehaviour
                 currentGameState = GameState.DIALOGUE;
                 _dialogueUI.SetActive(true);
                 _vignetteContainer.transform.GetChild(minigameIndex).gameObject.SetActive(false);
-                _dialogueRunner.StartDialogue(sceneList[sceneListIndex].yarnNodeName);
+                if (sceneList[sceneListIndex].yarnNodeName != null)
+                    _dialogueRunner.StartDialogue(sceneList[sceneListIndex].yarnNodeName);
                 currentScene.gameObject.SetActive(false);
                 _bubbleView.activeCharacter = sceneDatabase[sceneList[sceneListIndex]].GetComponentInChildren<CharacterBase>();
 
@@ -111,6 +113,10 @@ public class SceneHandler : MonoBehaviour
 
                 ClearDialogue();
                 _dialogueUI.SetActive(false);
+
+                if (currentScene)
+                    currentScene.gameObject.SetActive(false);
+
                 currentScene = sceneDatabase[sceneList[sceneListIndex]].transform;
                 currentScene.gameObject.SetActive(true);
                 _mainCam.transform.position = _cutsceneContainer.transform.position;

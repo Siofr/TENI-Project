@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentSceneType: 0
   ambientAudioName: OfficeAmbient
-  yarnNodeName: Start
+  yarnNodeName: 
   chapterNumber: 0
   currentVignetteType: 0
   scenePrefab: {fileID: 0}

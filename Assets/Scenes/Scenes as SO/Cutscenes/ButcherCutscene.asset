@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: ButcherCutscene
   m_EditorClassIdentifier: 
   currentSceneType: 3
+  ambientAudioName: 
   yarnNodeName: 
   chapterNumber: 0
   currentVignetteType: 0
-  scenePrefab: {fileID: 2965743067534108142, guid: 1f50e13f5e03f294f838d193603c22b0, type: 3}
+  scenePrefab: {fileID: 2965743067534108142, guid: 92841684d1893524fad5260cc8052118, type: 3}

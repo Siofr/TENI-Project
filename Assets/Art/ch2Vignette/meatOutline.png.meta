@@ -1,0 +1,1183 @@
+fileFormatVersion: 2
+guid: 6c5246ed3d8d2eb4daab07d615baa1ea
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5220144633249153831
+    second: meatOutline_0
+  - first:
+      213: 2940125412719087331
+    second: meatOutline_1
+  - first:
+      213: -6326703420398692123
+    second: meatOutline_2
+  - first:
+      213: 5985530091008276973
+    second: meatOutline_3
+  - first:
+      213: 2507750047968623864
+    second: meatOutline_4
+  - first:
+      213: -8611049936523491952
+    second: meatOutline_5
+  - first:
+      213: -4832012824092723118
+    second: meatOutline_6
+  - first:
+      213: -629851489045587452
+    second: meatOutline_7
+  - first:
+      213: 5448948566325364070
+    second: meatOutline_8
+  - first:
+      213: 8037501522218356124
+    second: meatOutline_9
+  - first:
+      213: 4131243876755698728
+    second: meatOutline_10
+  - first:
+      213: -8020520625182531356
+    second: meatOutline_11
+  - first:
+      213: 5561514744930425067
+    second: meatOutline_12
+  - first:
+      213: -6691974461108744133
+    second: meatOutline_13
+  - first:
+      213: -4113725787985521689
+    second: meatOutline_14
+  - first:
+      213: 827281714106443235
+    second: meatOutline_15
+  - first:
+      213: 7459777487623220412
+    second: meatOutline_16
+  - first:
+      213: -7501769880533784449
+    second: meatOutline_17
+  - first:
+      213: 2378936377164764697
+    second: meatOutline_18
+  - first:
+      213: 3026201625474460775
+    second: meatOutline_19
+  - first:
+      213: -1378464522730048169
+    second: meatOutline_20
+  - first:
+      213: -4415903645632925426
+    second: meatOutline_21
+  - first:
+      213: 5789809448913039061
+    second: meatOutline_22
+  - first:
+      213: 3265357614664844028
+    second: meatOutline_23
+  - first:
+      213: 7228492009201062294
+    second: meatOutline_24
+  - first:
+      213: 5853943685228934919
+    second: meatOutline_25
+  - first:
+      213: -6167526282442693821
+    second: meatOutline_26
+  - first:
+      213: -309904653170767887
+    second: meatOutline_27
+  - first:
+      213: 8771674671292461972
+    second: meatOutline_28
+  - first:
+      213: 5451231750169652569
+    second: meatOutline_29
+  - first:
+      213: -1024026748236359009
+    second: meatOutline_30
+  - first:
+      213: 851891668195789245
+    second: meatOutline_31
+  - first:
+      213: 5228418370053251449
+    second: meatOutline_32
+  - first:
+      213: -2597029596799222161
+    second: meatOutline_33
+  - first:
+      213: -9213833690518794993
+    second: meatOutline_34
+  - first:
+      213: 3867961117835107792
+    second: meatOutline_35
+  - first:
+      213: 6789786075424748158
+    second: meatOutline_36
+  - first:
+      213: -1350027486471122111
+    second: meatOutline_37
+  - first:
+      213: 9157833556406742938
+    second: meatOutline_38
+  - first:
+      213: 9080665848975240316
+    second: meatOutline_39
+  - first:
+      213: 3678718943124712935
+    second: meatOutline_40
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: meatOutline_0
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 991
+        width: 39
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dcb5031d125e87b0800000000000000
+      internalID: -5220144633249153831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meatOutline_1
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 991
+        width: 79
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ee48344c7c6dc820800000000000000
+      internalID: 2940125412719087331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meatOutline_2
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 995
+        width: 45
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e813eb62c80338a0800000000000000
+      internalID: -6326703420398692123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meatOutline_3
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 950
+        width: 86
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de9b5f2b7efd01350800000000000000
+      internalID: 5985530091008276973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meatOutline_4
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 905
+        width: 41
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fc73aac1615dc220800000000000000
+      internalID: 2507750047968623864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meatOutline_5
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 858
+        width: 45
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0950e5eb4b76f7880800000000000000
+      internalID: -8611049936523491952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meatOutline_6
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 828
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25832d500fd31fcb0800000000000000
+      internalID: -4832012824092723118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meatOutline_7
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 867
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40adf2668615247f0800000000000000
+      internalID: -629851489045587452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meatOutline_8
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 848
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 665823fe9dd8e9b40800000000000000
+      internalID: 5448948566325364070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meatOutline_9
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 780
+        width: 13
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9d8c79cc01fa8f60800000000000000
+      internalID: 8037501522218356124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meatOutline_10
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 808
+        width: 62
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 824f78aea60255930800000000000000
+      internalID: 4131243876755698728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meatOutline_11
+      rect:
+        serializedVersion: 2
+        x: 1313
+        y: 809
+        width: 30
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e02d466cf261b090800000000000000
+      internalID: -8020520625182531356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meatOutline_12
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 744
+        width: 25
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be8dca0c1387e2d40800000000000000
+      internalID: 5561514744930425067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meatOutline_13
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 744
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3090a7eea45123a0800000000000000
+      internalID: -6691974461108744133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meatOutline_14
+      rect:
+        serializedVersion: 2
+        x: 1298
+        y: 743
+        width: 16
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e352c7f03c19e6c0800000000000000
+      internalID: -4113725787985521689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meatOutline_15
+      rect:
+        serializedVersion: 2
+        x: 1348
+        y: 766
+        width: 21
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e5ad7af5581b7b00800000000000000
+      internalID: 827281714106443235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meatOutline_16
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 699
+        width: 13
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbcec35f914768760800000000000000
+      internalID: 7459777487623220412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meatOutline_17
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 693
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f782f0c2a0c54e790800000000000000
+      internalID: -7501769880533784449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meatOutline_18
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 676
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9161928e70ea30120800000000000000
+      internalID: 2378936377164764697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meatOutline_19
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 717
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76c6d19485a3ff920800000000000000
+      internalID: 3026201625474460775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meatOutline_20
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 648
+        width: 23
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 755723be1d5bedce0800000000000000
+      internalID: -1378464522730048169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meatOutline_21
+      rect:
+        serializedVersion: 2
+        x: 1406
+        y: 683
+        width: 35
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0172bfd70f87b2c0800000000000000
+      internalID: -4415903645632925426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meatOutline_22
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 620
+        width: 64
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5de69af9409895050800000000000000
+      internalID: 5789809448913039061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meatOutline_23
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 609
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf207be2371e05d20800000000000000
+      internalID: 3265357614664844028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meatOutline_24
+      rect:
+        serializedVersion: 2
+        x: 1438
+        y: 637
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 691dd262f23c05460800000000000000
+      internalID: 7228492009201062294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meatOutline_25
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 583
+        width: 38
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 707363524c26d3150800000000000000
+      internalID: 5853943685228934919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meatOutline_26
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 579
+        width: 33
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3432e18e58b886aa0800000000000000
+      internalID: -6167526282442693821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meatOutline_27
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 576
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f704812c5ff2bbf0800000000000000
+      internalID: -309904653170767887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meatOutline_28
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 530
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 493bda3a3af3bb970800000000000000
+      internalID: 8771674671292461972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meatOutline_29
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 552
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95d6139156aa6ab40800000000000000
+      internalID: 5451231750169652569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meatOutline_30
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 560
+        width: 46
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9a9fd6191de9c1f0800000000000000
+      internalID: -1024026748236359009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meatOutline_31
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 542
+        width: 47
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db9cced65f682db00800000000000000
+      internalID: 851891668195789245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meatOutline_32
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 525
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 971a6246ec21f8840800000000000000
+      internalID: 5228418370053251449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meatOutline_33
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 528
+        width: 42
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6e3b93675f75fbd0800000000000000
+      internalID: -2597029596799222161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meatOutline_34
+      rect:
+        serializedVersion: 2
+        x: 1367
+        y: 524
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0dc9115313e12080800000000000000
+      internalID: -9213833690518794993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meatOutline_35
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 452
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dd9591b422cda530800000000000000
+      internalID: 3867961117835107792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meatOutline_36
+      rect:
+        serializedVersion: 2
+        x: 1353
+        y: 464
+        width: 11
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e72f596367a2a3e50800000000000000
+      internalID: 6789786075424748158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meatOutline_37
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 414
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14310ef572db34de0800000000000000
+      internalID: -1350027486471122111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meatOutline_38
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 401
+        width: 8
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9fa6c96919271f70800000000000000
+      internalID: 9157833556406742938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meatOutline_39
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 388
+        width: 35
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7ca03c6a71050e70800000000000000
+      internalID: 9080665848975240316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meatOutline_40
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 356
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ede279536f6d0330800000000000000
+      internalID: 3678718943124712935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      meatOutline_0: -5220144633249153831
+      meatOutline_1: 2940125412719087331
+      meatOutline_10: 4131243876755698728
+      meatOutline_11: -8020520625182531356
+      meatOutline_12: 5561514744930425067
+      meatOutline_13: -6691974461108744133
+      meatOutline_14: -4113725787985521689
+      meatOutline_15: 827281714106443235
+      meatOutline_16: 7459777487623220412
+      meatOutline_17: -7501769880533784449
+      meatOutline_18: 2378936377164764697
+      meatOutline_19: 3026201625474460775
+      meatOutline_2: -6326703420398692123
+      meatOutline_20: -1378464522730048169
+      meatOutline_21: -4415903645632925426
+      meatOutline_22: 5789809448913039061
+      meatOutline_23: 3265357614664844028
+      meatOutline_24: 7228492009201062294
+      meatOutline_25: 5853943685228934919
+      meatOutline_26: -6167526282442693821
+      meatOutline_27: -309904653170767887
+      meatOutline_28: 8771674671292461972
+      meatOutline_29: 5451231750169652569
+      meatOutline_3: 5985530091008276973
+      meatOutline_30: -1024026748236359009
+      meatOutline_31: 851891668195789245
+      meatOutline_32: 5228418370053251449
+      meatOutline_33: -2597029596799222161
+      meatOutline_34: -9213833690518794993
+      meatOutline_35: 3867961117835107792
+      meatOutline_36: 6789786075424748158
+      meatOutline_37: -1350027486471122111
+      meatOutline_38: 9157833556406742938
+      meatOutline_39: 9080665848975240316
+      meatOutline_4: 2507750047968623864
+      meatOutline_40: 3678718943124712935
+      meatOutline_5: -8611049936523491952
+      meatOutline_6: -4832012824092723118
+      meatOutline_7: -629851489045587452
+      meatOutline_8: 5448948566325364070
+      meatOutline_9: 8037501522218356124
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
