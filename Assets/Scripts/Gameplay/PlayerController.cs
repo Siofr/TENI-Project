@@ -10,6 +10,7 @@ public class PlayerController : MonoBehaviour
 
     private InputSystem_Actions _inputActions;
     private InputAction _interact;
+    private InfoBreakProgression info;
 
     private void Start()
     {
@@ -49,7 +50,7 @@ public class PlayerController : MonoBehaviour
                 }
                 break;
             case SceneHandler.GameState.EXTRA:
-                _sceneHandler.SwapSceneAnimation();
+                // _sceneHandler.SwapSceneAnimation();
                 break;
         }
     }

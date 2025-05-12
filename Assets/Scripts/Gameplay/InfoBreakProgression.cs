@@ -7,10 +7,16 @@ public class InfoBreakProgression : MonoBehaviour
 {
     [SerializeField] private List<GameObject> Textpanels; 
     private int currentIndex = -1;
+    private SceneHandler sceneHandler;
 
     void Start()
     {
         HideAllPanels();
+    }
+
+    private void Awake()
+    {
+        sceneHandler = GameObject.FindWithTag("Manager").GetComponent<SceneHandler>();
     }
 
     void Update()
@@ -21,19 +27,20 @@ public class InfoBreakProgression : MonoBehaviour
         }
     }
 
-    void AdvancePanel()
+    public void AdvancePanel()
     {
         currentIndex++;
 
         HideAllPanels();
 
-        if (currentIndex < Textpanels.Count)
+        if (currentIndex > Textpanels.Count)
         {
-            Textpanels[currentIndex].SetActive(true);
+            sceneHandler.SwapSceneAnimation();
         }
-        else
+        else if(Textpanels.Count > currentIndex)
         {
-            Debug.Log("Reached the end of info break progression.");
+            
+            Textpanels[currentIndex].SetActive(true);
         }
     }
 
