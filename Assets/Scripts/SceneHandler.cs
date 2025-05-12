@@ -37,6 +37,7 @@ public class SceneHandler : MonoBehaviour
     // public Transform dialogueCamera;
     public Transform vignetteCamera;
     public Transform cutsceneCamera;
+    private int sceneChangeQueue = 0;
 
     public enum GameState
     {
@@ -44,6 +45,14 @@ public class SceneHandler : MonoBehaviour
         VIGNETTE,
         EXTRA,
         CUTSCENE
+    }
+
+    public void Update()
+    {
+        if (sceneChangeQueue > 0)
+        {
+            PlaySwap();
+        }
     }
 
 
@@ -202,23 +211,40 @@ public class SceneHandler : MonoBehaviour
     [YarnCommand("change_scene")]
     public void SwapSceneAnimation()
     {
-        if(!isSceneChangeActive)
-            StartCoroutine(Fade());
+        if (currentGameState != GameState.EXTRA)
+        {
+            sceneChangeQueue += 1;
+        }
+        else
+        {
+            sceneChangeQueue = 1;
+        }
+    }
 
-        if (AudioManager.instance != null)
-            AudioManager.instance.FadeOut(sceneData.ambientAudioName);
+    public void PlaySwap()
+    {
+        if (!isSceneChangeActive)
+            StartCoroutine(Fade());
 
         IEnumerator Fade()
         {
+            Debug.Log("Fade Start");
             isSceneChangeActive = true;
+
+            if (AudioManager.instance != null)
+                AudioManager.instance.FadeOut(sceneData.ambientAudioName);
+
             yield return _fadeMaterialManager.StartCoroutine(_fadeMaterialManager.FadeIn(0.5f));
 
             yield return new WaitForSeconds(1.5f);
 
             ChangeScene();
+            Debug.Log("Change Scene");
 
             yield return _fadeMaterialManager.StartCoroutine(_fadeMaterialManager.FadeOut());
             isSceneChangeActive = false;
+            sceneChangeQueue -= 1;
+            Debug.Log("Fade End");
         }
     }
 
