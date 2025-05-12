@@ -141,17 +141,20 @@ Doctor: Are you sure? You know there's still time, and there's a lot of options 
 title: ChapterTwo_Segment_Two
 position: -2,143
 ---
-<<set_emotion_state BubbleWindow uncomfortable>>
+<<set_emotion_state BubbleWindow neutral>>
 CharacterName: I said I don't plan to have kids. I know what my options are.
 Doctor: Have you considered freezing your eggs, in case you change your mind in the future?
+<<set_emotion_state BubbleWindow uncomfortable>>
 CharacterName: What makes you think I'll change my mind in the future? I came here for a reason. 
 Doctor: A lot of women express regret later in life for not having children. 
 <<set_emotion_state BubbleWindow angry>>
 CharacterName: I'm not "a lot of women". I'm not a woman. 
 Doctor: Hmm...Do you feel dysphoric when you think of motherhood and what that entails?
+<<set_emotion_state BubbleWindow neutral>>
 CharacterName: Sure. But I don't want to have children. That's all there is to it. 
 <<mark_last_item BubbleWindow>>
 Doctor: Many of my patients say that children are a blessing. Here, let me show you a photo of my family...
+<<set_emotion_state BubbleWindow angry>>
 //CUT TO VIGNETTE TWO
 <<change_scene Managers>>
 ===
