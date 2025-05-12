@@ -989,6 +989,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 9165a0399cb530d48824f211b7a33cc1, type: 2}
   - {fileID: 11400000, guid: ae23bdcafc565a449a48861045798011, type: 2}
   - {fileID: 11400000, guid: 1066b908d6d58c941abbbac1ce3fb1df, type: 2}
+  - {fileID: 11400000, guid: cd211874287e84c44a72fce7a86f889a, type: 2}
   minigameIndex: 0
   _dialogueRunner: {fileID: 1213451956}
   _vignetteContainer: {fileID: 1220084247}

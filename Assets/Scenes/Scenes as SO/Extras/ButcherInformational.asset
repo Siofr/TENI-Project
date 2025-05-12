@@ -13,5 +13,8 @@ MonoBehaviour:
   m_Name: ButcherInformational
   m_EditorClassIdentifier: 
   currentSceneType: 2
+  ambientAudioName: 
   yarnNodeName: 
-  scenePrefab: {fileID: 6686380885594115232, guid: f7629a86c8eb1c94694c5b4a50af0865, type: 3}
+  chapterNumber: 0
+  currentVignetteType: 0
+  scenePrefab: {fileID: 6686380885594115232, guid: 97cbbe18a46a8024f9745816fbde830d, type: 3}

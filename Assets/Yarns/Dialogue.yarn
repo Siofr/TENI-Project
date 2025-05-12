@@ -1,9 +1,7 @@
 title: Start
 position: 0,0
 ---
-<<play_animation BubbleWindow talk>>
 Rosin:Hello
-<<play_animation BubbleWindow idle>>
 Doctor:What can I do for you?
 Roisin:I've decided I want to medically transition.
 <<play_animation BubbleWindow blink>>
@@ -16,21 +14,26 @@ Roisin:Roisin.
 Doctor:Roisin... That’s nice, is it your birth name?
 Roisin:No.
 Doctor:What's your birth name?
-Roisin:...Glenn.
+<<set_emotion_state BubbleWindow uncomfortable>>
+Roisin:...████. It should be on the referal...
 Doctor:Okay, do you go by Roisin at home? What is your home life like?
 Roisin:Yeah, and it’s okay. My parents don’t mind.
+<<set_emotion_state BubbleWindow neutral>>
 Doctor:How did they react to you coming out?
 Roisin:…um I don't really want to talk about that.
 Doctor:Okay,We’ll come back to that one. 
 Doctor:Can you describe your dysphoria? How does it make you feel?
 Roisin:It feels horrible. I don't like to focus on it, but it’s always there.
+<<mark_last_item BubbleWindow>>
 Doctor:Can you be more specific? I need to understand how badly it affects you.
+<<set_emotion_state BubbleWindow uncomfortable>>
 //CUT TO VIGNETTE ONE
 <<change_scene Managers>>
 ===
 title: ChapterOne_Segment_Two
 position: -2,143
 ---
+<<set_emotion_state BubbleWindow neutral>>
 Doctor:I see...
 Doctor:And how is your mental health? Do you take any medication for that?
 Roisin:No, I'm doing okay.
@@ -39,12 +42,16 @@ Roisin:...um, well...I'm not sure.
 Roisin:I think it would help with my dysphoria, I don't know if it would help with my mental health.
 Doctor:Hormones will likely affect your libido. 
 Doctor:Do you think that would be a problem for you? 
+<<set_emotion_state BubbleWindow uncomfortable>>
 Roisin:...I don't know. I guess it depends on how much it changes me.
 Doctor:How does your dysphoria affect you during intimacy? 
 Roisin:It's hard to be intimate with anybody when I feel like this.
 Doctor:Okay, so you don't feel comfortable being intimate with anyone?
+<<set_emotion_state BubbleWindow neutral>>
 Roisin:Sometimes, but not all the time. It's hard to explain.
+<<mark_last_item BubbleWindow>>
 Doctor:Well, are you sexually active now? Do you watch pornography?
+<<set_emotion_state BubbleWindow uncomfortable>>
 
 //CUT TO VIGNETTE TWO
 <<change_scene Managers>>
@@ -52,16 +59,21 @@ Doctor:Well, are you sexually active now? Do you watch pornography?
 title: ChapterOne_Segment_Three
 position: -1,280
 ---
+<<set_emotion_state BubbleWindow neutral>>
 Doctor:Okay...and what about kids? Do you want to have children?
 Roisin:I don't think I want to have children.
 Doctor:Are you sure? Do you plan on having surgery? Don't you want to preserve your fertility? 
 Roisin:I'm still deciding on the surgery, but I dont think I want to have kids. 
 Doctor:It sounds like you're not sure what you want.
+<<set_emotion_state BubbleWindow uncomfortable>>
 Roisin:But I am sure what I want. I just didn't know I had to have the answers to all these questions before I came here.
 Roisin:And I don't know what any of this has to do with starting my transition.
+<<set_emotion_state BubbleWindow neutral>>
 Doctor:I'm just not comfortable prescribing you this medication today.
 Roisin:Why not?
+<<mark_last_item BubbleWindow>>
 Doctor:Because I'm not satisfied that there's enough evidence of gender dysphoria to justify the treatment.
+<<set_emotion_state BubbleWindow uncomfortable>>
 Roisin:But why don't you believe me? 
 //CUT TO VIGNETTE THREE
 <<change_scene Managers>>
@@ -69,15 +81,18 @@ Roisin:But why don't you believe me?
 title: ChapterOne_Segment_Four
 position: 2,421
 ---
+<<set_emotion_state BubbleWindow neutral>>
 Roisin:Hello.
 Doctor:Hello Roisin, is this your first visit? 
 Roisin:Yes.
+<<set_emotion_state BubbleWindow uncomfortable>>
 Doctor:Excellent, so what can I do for you?
 Roisin:I've decided I want to medically transition.
 Doctor:Okay...let's get a blood test done and talk about your options. 
 Doctor:Are you aware of the potential side effects of the hormones?
 Roisin:Yes, and I'm happy to proceed.
 Doctor:Okay that's great. Do you have any questions about this treatment?
+<<set_emotion_state BubbleWindow neutral>>
 Roisin:Yes, how long will it take for the hormones to take effect?
 Doctor:It can take up to three months to start seeing results, but it varies from person to person.
 Doctor:If you're worried about any of the effects of the medication, please let me know.
@@ -102,10 +117,10 @@ CharacterName: I've been told I need to see you again before I can transition.
 Doctor: Yes, are you ready to start the assessment?
 CharacterName: I suppose I am. I don't really have a choice do I?
 Doctor: Well, let's begin. What is your name?
-CharacterName:  Name.
+CharacterName:  Dáithí.
 Doctor: Is that your birth name? 
 CharacterName: It's my name. 
-Doctor: I've got "deadname" on your records. 
+Doctor: I've got "████" on your records. 
 <<set_emotion_state BubbleWindow uncomfortable>>
 CharacterName: I don't use that anymore.
 Doctor: This is just a formality for the paperwork.
@@ -118,7 +133,8 @@ CharacterName: Nope.
 Doctor: Do you plan on having any?
 CharacterName: Nope.
 <<set_emotion_state BubbleWindow uncomfortable>>
-Doctor: Are you sure? You know there's still time, and there's a lot of options for single wom-
+<<mark_last_item BubbleWindow>>
+Doctor: Are you sure? You know there's still time, and there's a lot of options for single women...
 //CUT TO VIGNETTE ONE
 <<change_scene Managers>>
 ===
@@ -134,6 +150,7 @@ Doctor: A lot of women express regret later in life for not having children.
 CharacterName: I'm not "a lot of women". I'm not a woman. 
 Doctor: Hmm...Do you feel dysphoric when you think of motherhood and what that entails?
 CharacterName: Sure. But I don't want to have children. That's all there is to it. 
+<<mark_last_item BubbleWindow>>
 Doctor: Many of my patients say that children are a blessing. Here, let me show you a photo of my family...
 //CUT TO VIGNETTE TWO
 <<change_scene Managers>>
@@ -153,7 +170,9 @@ CharacterName: I've considered this, over and over. Give me a break.
 Doctor: Do you have a partner? 
 CharacterName: No. 
 Doctor: What if you meet someone, fall in love, and they want children? 
+<<mark_last_item BubbleWindow>>
 Doctor: You need to really think about what transitioning means for your fertility, for your future.
+<<set_emotion_state BubbleWindow angry>>
 
 //CUT TO VIGNETTE THREE
 <<change_scene Managers>>
@@ -161,6 +180,7 @@ Doctor: You need to really think about what transitioning means for your fertili
 title: ChapterTwo_Segment_Four
 position: -2,143
 ---
+<<set_emotion_state BubbleWindow neutral>>
 Doctor: Hello again. 
 CharacterName: Hi there.
 Doctor: How is the job going?
@@ -186,10 +206,12 @@ Doctor: Great! If you're ready to get started, let's get a blood test and look a
 title:ChapterThree_Segment_One
 position: 0,0
 ---	
-Doctor: Hello Name, how are you today?
+<<set_emotion_state BubbleWindow neutral>>
+Doctor: Hello Fiadh, how are you today?
 CharacterName: I'm okay, a little nervous maybe.
 Doctor: What are you feeling nervous about?
 CharacterName: I think I'm about ready to start my transition, finally.
+<<set_emotion_state BubbleWindow uncomfortable>>
 CharacterName: But uh, it looks like I'm the only one at home that's happy about it. 
 Doctor: What do you mean by that?
 CharacterName: Ah, it's just my wife, this whole thing has been hard on her...
@@ -201,12 +223,15 @@ CharacterName: She's worried about what people will think of our family.
 Doctor: Well, your transition would be a big shock for everyone involved, don't you think? 
 CharacterName: I know, but I don't know what else I'm supposed to do.
 Doctor: How old are your children?
+<<set_emotion_state BubbleWindow neutral>>
 CharacterName: Three and seven. They keep us busy, but they're great kids.
 Doctor: So they're quite young. Your seven year old will be going back to school in a few weeks, right?
 CharacterName: Yes, and that's part of it, too. She says that the other parents will start to talk about us. 
 CharacterName: Maybe even tell their children to avoid our boys. 
+<<set_emotion_state BubbleWindow uncomfortable>>
 Doctor: Hmm, unfortunately that's not an unreasonable assumption to make. 
-Doctor: It sounds like your wife's just trying to protect her family. 
+<<mark_last_item BubbleWindow>>
+Doctor: It sounds like your wife's just trying to protect her family, don't you think?
 
 // CUT TO VIGNETTE ONE
 <<change_scene Managers>>
@@ -224,14 +249,18 @@ Doctor: Can you postpone making this decision until the kids get a little older?
 CharacterName: What? No.
 CharacterName: She's suggesting I wait until they finish school. That's years away!
 Doctor: But there's no need to rush into a decision, it's okay to find the right time. 
+<<set_emotion_state BubbleWindow uncomfortable>>
 CharacterName: There's never a "right time"! I've gone my whole life hiding who I am just so everyone else can be comfortable.
 Doctor: What do you mean by that?
 CharacterName: My parents told me they'd never accept me if I came out, so I kept it a secret for years because I didn't want to hurt them.
 CharacterName: Now they're gone, and my wife wants me to do the same thing for her and the kids.
+<<set_emotion_state BubbleWindow neutral>>
 CharacterName: I love them, but I can't keep pretending. 
 Doctor: Do you have any other family that you can talk to about this?
 CharacterName: No. My brother and I don't talk anymore.
+<<mark_last_item BubbleWindow>>
 Doctor: That's a pity. You know, you really need a support system if you're going to go through with this.
+<<set_emotion_state BubbleWindow uncomfortable>>
 //CUT TO VIGNETTE TWO
 
 <<change_scene Managers>>
@@ -239,23 +268,30 @@ Doctor: That's a pity. You know, you really need a support system if you're goin
 title: ChapterThree_Segment_Three
 position: 0,0
 ---
+<<set_emotion_state BubbleWindow neutral>>
 CharacterName: Hang on, you said this is my decision, right?
 Doctor: Yes, but I want you to be sure that you're making the right decision for you.
 CharacterName: But I am sure. That's why I came here. 
 Doctor: Listen, I know that you're upset about your wife's reaction, but I think you need to give her time to process this.
+<<set_emotion_state BubbleWindow uncomfortable>>
 CharacterName: I don't want to give anyone else more time.
 CharacterName: This is about my life, not anyone else's.
 Doctor: Please, be reasonable. It's going to be very difficult for you to go through this alone.
+<<set_emotion_state BubbleWindow neutral>>
 CharacterName: I'm not alone. I have my kids, and my wife and I will work through this ourselves. 
 Doctor: But is that realistic?
 Doctor: You've said you don't have any other family, your wife isn't ready to support you, and your kids are too young to make sense of it.
 Doctor: I'm just not confident that you won't feel isolated.
-CharacterName: But I do feel isolated. Everyone else wants me to keep on being a "good husband" and "good father" instead of being myself."
+<<set_emotion_state BubbleWindow uncomfortable>>
+CharacterName: I feel isolated every day! Everyone else wants me to keep on being a "good husband" and "good father" instead of being myself."
 CharacterName: I'm done waiting for permission, so why can't you just help me?
+<<set_emotion_state BubbleWindow neutral>>
 Doctor: Well, you're putting me in a difficult position, for one. I've got a duty of care to you and your family.
-CharacterName: I can't believe this. I know I said that my wife doesn't approve but this is not her decision. 
+CharacterName: Unbelievable. I know that my wife doesn't approve but it's not her decision to make.
 CharacterName: If anything you have a duty of care to me. I'm the one who needs help! 
+<<mark_last_item BubbleWindow>>
 Doctor: Listen, that's enough. I think you need to go home, take some time and space, and talk this through with your wife.
+<<set_emotion_state BubbleWindow uncomfortable>>
 
 //CUT TO INFORMATION BREAK
 <<change_scene Managers>>
@@ -263,6 +299,7 @@ Doctor: Listen, that's enough. I think you need to go home, take some time and s
 title: ChapterThree_Segment_Four
 position: 0,0
 ---
+<<set_emotion_state BubbleWindow neutral>>
 Doctor: Hello, how are you today?
 CharacterName: I'm okay, a little nervous maybe. 
 Doctor: What are you feeling nervous about?

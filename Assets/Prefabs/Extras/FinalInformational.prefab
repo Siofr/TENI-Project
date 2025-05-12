@@ -168,21 +168,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Patients attending the National Gender Services are often subjected to
-    incredibly invasive psychiatric-led assessments.
-
-
-    This is not necessary.
-
-
-    The
-    HSE already operates an informed consent model across sexual health and primary
-    care services. Non-trans people are readily prescribed Hormone Replacement Treatment
-    without the need for these assessments.
-
-
-    Informed Consent honors the rights
-    of trans people to make decisions about their own bodies.'
+  m_text: "Ireland ranks worst in the EU for trans-healthcare, with many trans people
+    facing years-long waits to access gender-affirming care or being forced to self-medicate.
+    \n\nInformed consent is how we prescribe most medications. Gender-affirming healthcare
+    for  transgender people is no different to HRT and other gender care for cisgender
+    people.\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fa112df044555124d800ee6b5ef1632f, type: 2}
   m_sharedMaterial: {fileID: -2897107165107739865, guid: fa112df044555124d800ee6b5ef1632f, type: 2}
@@ -275,7 +265,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1086346750501520172}
   m_Layer: 0
-  m_Name: Chapter1Informational
+  m_Name: FinalInformational
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
