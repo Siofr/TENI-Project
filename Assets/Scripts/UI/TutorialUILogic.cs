@@ -71,7 +71,7 @@ public class TutorialUILogic : MonoBehaviour
         
         InteractionCheck();
 
-        if ((!hasInteracted || !hasShown) && SceneCheck())
+        if ((!hasInteracted || !hasShown) && (isMinigame || SceneCheck()))
         {
             timer += Time.deltaTime;
             if (timer >= timeToPopup)

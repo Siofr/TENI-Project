@@ -361,7 +361,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7123777063697862858, guid: 9241e9c31f6701f47a17a0c8d0fd812a, type: 3}
       propertyPath: timeToPopup
-      value: 30
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7388398394868435882, guid: 9241e9c31f6701f47a17a0c8d0fd812a, type: 3}
       propertyPath: m_text
