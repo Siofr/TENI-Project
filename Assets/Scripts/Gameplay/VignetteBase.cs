@@ -62,7 +62,7 @@ public abstract class VignetteBase : MonoBehaviour
     public void ObjectiveComplete()
     {
         sceneHandler.minigameIndex += 1;
-        changeSceneTrigger = true;
+        // changeSceneTrigger = true;
         sceneHandler.SwapSceneAnimation();
     }
 }
