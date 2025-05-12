@@ -16,6 +16,10 @@ public class TutorialUILogic : MonoBehaviour
     public bool isMinigame = false;
     public bool isSculpture = false;
 
+    public SceneData sceneDataTrigger;
+    
+    private SceneHandler _sceneHandler;
+
     private CanvasGroup _canvasGroup;
     
     private VignetteBase _vignette;
@@ -24,6 +28,8 @@ public class TutorialUILogic : MonoBehaviour
     private void Start()
     {
         _canvasGroup = GetComponent<CanvasGroup>();
+        
+        _sceneHandler = FindObjectOfType<SceneHandler>().GetComponent<SceneHandler>();
 
         if (isMinigame)
         {
