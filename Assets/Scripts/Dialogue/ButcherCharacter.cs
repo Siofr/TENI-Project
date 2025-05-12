@@ -18,7 +18,8 @@ public class ButcherCharacter : CharacterBase
         if (!CheckAnimationParameter(stateName))
         {
             Debug.Log(string.Format("{0} is not a valid state!", stateName));
-            return;
+            stateName = "neutral";
+            //return;
         }
 
         // Set all emotionstates that are NOT the currently requested state to false, and set

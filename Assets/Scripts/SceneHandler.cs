@@ -26,7 +26,7 @@ public class SceneHandler : MonoBehaviour
     [SerializeField] private BubbleView _bubbleView;
     [SerializeField] private FadeMaterialManager _fadeMaterialManager;
     private bool isSceneChangeActive = false;
-    private Transform currentScene;
+    public Transform currentScene;
     private SceneData sceneData;
 
     private VignetteBase _minigameManager;

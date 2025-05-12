@@ -25,7 +25,7 @@ public class BubbleObject : MonoBehaviour
             tempText = tempText.Insert(Mathf.Max(i -2, 0), "<alpha=#66>");
 
             bubbleText.text = tempText;
-            yield return new WaitForSeconds(0.05f);
+            yield return new WaitForSeconds(0.035f);
         }
         bubbleText.text = textToShow;
         yield return null;

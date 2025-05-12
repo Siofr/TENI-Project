@@ -168,20 +168,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'During National Gender Service appointments patients are subjected to
-    invasive, personal and sexual questioning.
-
-
-    Patients are asked the role
-    they take in sexual relationships.
-
-
-    This is NOT necessary.
-
-
-    If patients
-    fail to meet the stereotypes assigned to their gender, care is refused and patients
-    are removed from the service.'
+  m_text: "\nResearch by TENI in 2013 found that 78% of trans people had considered
+    suicide. \n\nAfter receiving gender-affirming care, this dropped to 4%. \n\nAccess
+    to gender-affirming care saves lives. \n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fa112df044555124d800ee6b5ef1632f, type: 2}
   m_sharedMaterial: {fileID: -2897107165107739865, guid: fa112df044555124d800ee6b5ef1632f, type: 2}
