@@ -68,9 +68,10 @@ public class TutorialUILogic : MonoBehaviour
     private bool hasInteracted = false;
     void Update()
     {
+        
         InteractionCheck();
 
-        if (!hasInteracted || !hasShown)
+        if ((!hasInteracted || !hasShown) && SceneCheck())
         {
             timer += Time.deltaTime;
             if (timer >= timeToPopup)
@@ -88,9 +89,21 @@ public class TutorialUILogic : MonoBehaviour
         }
     }
 
+    private bool SceneCheck()
+    {
+        if (_sceneHandler.sceneData != sceneDataTrigger)
+        {
+            return false;
+        }
+        else
+        {
+            return true;
+        }
+    }
+
     private void InteractionCheck()
     {
-        if (!isMinigame)
+        if (!isMinigame && SceneCheck())
         {
             if (Input.GetMouseButtonDown(0))
             {
