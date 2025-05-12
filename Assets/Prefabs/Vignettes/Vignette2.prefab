@@ -517,6 +517,7 @@ MonoBehaviour:
   vignetteCount: 0
   objectiveInteractables: []
   objectiveInteractableIndex: 0
+  changeSceneTrigger: 0
 --- !u!1 &2740799270168600050
 GameObject:
   m_ObjectHideFlags: 0

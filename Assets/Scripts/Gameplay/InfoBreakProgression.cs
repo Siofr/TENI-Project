@@ -11,7 +11,7 @@ public class InfoBreakProgression : MonoBehaviour
 
     void Start()
     {
-        HideAllPanels();
+        AdvancePanel();
     }
 
     private void Awake()
@@ -33,11 +33,11 @@ public class InfoBreakProgression : MonoBehaviour
 
         HideAllPanels();
 
-        if (currentIndex > Textpanels.Count)
+        if (currentIndex >= Textpanels.Count)
         {
             sceneHandler.SwapSceneAnimation();
         }
-        else if(Textpanels.Count > currentIndex)
+        else if(Textpanels.Count >= currentIndex)
         {
             
             Textpanels[currentIndex].SetActive(true);
