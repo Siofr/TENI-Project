@@ -168,20 +168,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'During National Gender Service appointments patients are subjected to
-    invasive, personal and sexual questioning.
-
-
-    Patients are asked the role
-    they take in sexual relationships.
-
-
-    This is NOT necessary.
-
-
-    If patients
-    fail to meet the stereotypes assigned to their gender, care is refused and patients
-    are removed from the service.'
+  m_text: "The World Health Organisation (WHO) no longer recommends psychiatric screening
+    or  diagnosis for individuals seeking gender-affirming care.\n\nMany countries,
+    including Australia, New Zealand, Spain and Malta, have integrated trans healthcare
+    into primary care, leading to: \n\n- Shorter waiting lists.\n- Better overall
+    healthcare for trans patients.\n- More trust and security for patients and doctors.
+    \n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fa112df044555124d800ee6b5ef1632f, type: 2}
   m_sharedMaterial: {fileID: -2897107165107739865, guid: fa112df044555124d800ee6b5ef1632f, type: 2}
