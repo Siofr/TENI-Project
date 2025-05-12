@@ -2,6 +2,7 @@ using UnityEngine;
 using Yarn.Unity;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine.SceneManagement;
 
 public class SceneHandler : MonoBehaviour
@@ -26,8 +27,8 @@ public class SceneHandler : MonoBehaviour
     [SerializeField] private BubbleView _bubbleView;
     [SerializeField] private FadeMaterialManager _fadeMaterialManager;
     private bool isSceneChangeActive = false;
-    public Transform currentScene;
-    private SceneData sceneData;
+    private Transform currentScene;
+    [DoNotSerialize] public SceneData sceneData;
 
     private VignetteBase _minigameManager;
 
