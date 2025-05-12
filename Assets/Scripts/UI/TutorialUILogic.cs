@@ -110,7 +110,7 @@ public class TutorialUILogic : MonoBehaviour
                 hasInteracted = true;
             }
         }
-        else
+        else if (isMinigame)
         {
             if (isSculpture && _vignetteSculpture.currentIndex != _startVignetteVal)
             {
